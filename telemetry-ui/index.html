@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>آفرینش سیستم‌های پویا | تله‌متری و کنترل از راه دور</title>
+  <meta name="description" content="واحد تله‌متری و کنترل از راه دور گروه مهندسی آفرینش سیستم‌های پویا — راهکارهای SCADA، RTU، رادیومودم و سامانه‌های هشدار." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700&family=Vazirmatn:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/telemetry.css" />
+</head>
+<body>
+  <div class="noise" aria-hidden="true"></div>
+  <a class="skip" href="#solutions">رفتن به محتوا</a>
+
+  <div class="topbar">
+    <div class="wrap topbar__inner">
+      <div class="topbar__meta">
+        <a href="mailto:info@afarineshsystem.com">info@afarineshsystem.com</a>
+        <span class="dot" aria-hidden="true"></span>
+        <a href="tel:+985135095117" dir="ltr">051-35095117</a>
+        <span class="dot" aria-hidden="true"></span>
+        <a href="tel:+985135095790" dir="ltr">051-35095790</a>
+      </div>
+      <div class="topbar__actions">
+        <a href="https://www.instagram.com/afarinesh_system/" target="_blank" rel="noopener">Instagram</a>
+        <a class="pill" href="http://telemetry.afarineshsystem.com/profile/login/">ورود / ثبت‌نام</a>
+      </div>
+    </div>
+  </div>
+
+  <header class="site-header" data-header>
+    <div class="wrap site-header__inner">
+      <a class="brand" href="#top" id="top">
+        <span class="brand__mark">
+          <img src="images/logo.png" alt="" width="52" height="52" />
+        </span>
+        <span class="brand__text">
+          <strong>آفرینش سیستم‌های پویا</strong>
+          <small>واحد تله‌متری و کنترل از راه دور</small>
+        </span>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="main-nav">
+        <span></span><span></span>
+      </button>
+
+      <nav class="main-nav" id="main-nav" aria-label="منوی اصلی">
+        <a href="#top">صفحه اصلی</a>
+        <div class="nav-group">
+          <button type="button" class="nav-group__btn">دپارتمان‌ها</button>
+          <div class="nav-group__panel">
+            <a href="http://rfid.afarineshsystem.com/" target="_blank" rel="noopener"><em>01</em><span>واحد RFID</span></a>
+            <a href="http://telemetry.afarineshsystem.com/"><em>02</em><span>واحد تله‌متری</span></a>
+            <a href="http://afarineshshop.com/" target="_blank" rel="noopener"><em>03</em><span>فروشگاه</span></a>
+          </div>
+        </div>
+        <a href="#solutions">راه‌کارها</a>
+        <a href="#products">محصولات</a>
+        <a href="#news">اخبار</a>
+        <a href="http://telemetry.afarineshsystem.com/%d8%af%d8%b1%d8%a8%d8%a7%d8%b1%d9%87-%d9%85%d8%a7/">درباره ما</a>
+        <a class="nav-cta" href="http://telemetry.afarineshsystem.com/%d8%aa%d9%85%d8%a7%d8%b3-%d8%a8%d8%a7-%d9%85%d8%a7/">تماس با ما</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="showcase" id="slider" aria-roledescription="carousel" aria-label="اسلایدهای صفحه اصلی">
+    <div class="showcase__frame" data-slider>
+      <div class="showcase__viewport">
+        <article class="showcase__slide is-active" data-slide>
+          <img src="images/slides/slide-1.jpg" alt="RTU AFG960" width="1920" height="627" />
+          <div class="showcase__caption">
+            <span>Slide 01</span>
+            <h2>RTU AFG960</h2>
+            <p>اسلاید اصلی سایت تله‌متری — ترمینال راه دور AFG960</p>
+          </div>
+        </article>
+        <article class="showcase__slide" data-slide>
+          <img src="images/slides/slide-2.jpg" alt="بنر اصلی تله‌متری" width="2194" height="717" />
+          <div class="showcase__caption">
+            <span>Slide 02</span>
+            <h2>بنر اصلی واحد تله‌متری</h2>
+            <p>همان اسلاید دوم نمایش‌داده‌شده در صفحه اول سایت</p>
+          </div>
+        </article>
+        <article class="showcase__slide" data-slide>
+          <img src="images/slides/slide-3.jpg" alt="همیار آب" width="2193" height="717" />
+          <div class="showcase__caption">
+            <span>Slide 03</span>
+            <h2>همیار آب</h2>
+            <p>همان اسلاید سوم نمایش‌داده‌شده در صفحه اول سایت</p>
+          </div>
+        </article>
+      </div>
+
+      <button class="showcase__nav showcase__nav--prev" type="button" data-slider-prev aria-label="اسلاید قبلی">‹</button>
+      <button class="showcase__nav showcase__nav--next" type="button" data-slider-next aria-label="اسلاید بعدی">›</button>
+
+      <div class="showcase__dots" data-slider-dots role="tablist" aria-label="انتخاب اسلاید">
+        <button type="button" class="is-active" aria-label="اسلاید ۱" aria-selected="true"></button>
+        <button type="button" aria-label="اسلاید ۲" aria-selected="false"></button>
+        <button type="button" aria-label="اسلاید ۳" aria-selected="false"></button>
+      </div>
+
+      <div class="showcase__progress" aria-hidden="true"><span data-slider-progress></span></div>
+    </div>
+  </section>
+
+  <section class="hero">
+    <div class="hero__media" aria-hidden="true">
+      <img src="images/hero.jpg" alt="" class="hero__img" />
+      <div class="hero__veil"></div>
+      <div class="hero__orbit"></div>
+      <div class="hero__scan"></div>
+    </div>
+
+    <div class="wrap hero__layout">
+      <div class="hero__copy">
+        <div class="hero__chips reveal">
+          <span>دانش‌بنیان</span>
+          <span>SCADA</span>
+          <span>Remote Control</span>
+        </div>
+        <p class="eyebrow reveal">Telemetry Control Room</p>
+        <h1 class="reveal">
+          تله‌متری و
+          <span>کنترل از راه دور</span>
+        </h1>
+        <p class="lede reveal">
+          راه‌حل‌های فناورانه شرکت دانش‌بنیان آفرینش سیستم برای پایش، کنترل و اسکادا
+          در صنایع نفت و گاز، آب و فاضلاب، کشاورزی و سایر حوزه‌ها — دقیق، پایدار و مقیاس‌پذیر.
+        </p>
+        <div class="cta-row reveal">
+          <a class="btn btn--primary" href="#solutions">
+            <span>مشاهده راه‌کارها</span>
+            <i></i>
+          </a>
+          <a class="btn btn--glass" href="#products">کاتالوگ محصولات</a>
+        </div>
+      </div>
+
+      <aside class="hero__panel reveal" aria-label="دسترسی سریع">
+        <div class="hero__panel-head">
+          <span>Live Network</span>
+          <strong>Afarinesh Telemetry</strong>
+        </div>
+        <ul>
+          <li>
+            <img src="images/oil.jpg" alt="" />
+            <div>
+              <b>نفت و گاز</b>
+              <small>کنترل و اسکادا</small>
+            </div>
+          </li>
+          <li>
+            <img src="images/water.jpg" alt="" />
+            <div>
+              <b>آب و فاضلاب</b>
+              <small>مدیریت بهره‌وری</small>
+            </div>
+          </li>
+          <li>
+            <img src="images/agri.jpg" alt="" />
+            <div>
+              <b>کشاورزی</b>
+              <small>پایش هوشمند</small>
+            </div>
+          </li>
+        </ul>
+        <a class="hero__panel-link" href="#solutions">ورود به راه‌کارها</a>
+      </aside>
+    </div>
+
+    <div class="hero__marquee" aria-hidden="true">
+      <div class="marquee__track">
+        <span>RTU</span><span>SCADA</span><span>Radio Modem</span><span>Data Logger</span>
+        <span>Flood Warning</span><span>OPC Server</span><span>WinCC</span><span>Antenna</span>
+        <span>RTU</span><span>SCADA</span><span>Radio Modem</span><span>Data Logger</span>
+        <span>Flood Warning</span><span>OPC Server</span><span>WinCC</span><span>Antenna</span>
+      </div>
+    </div>
+  </section>
+
+  <main>
+    <section class="trust">
+      <div class="wrap trust__inner">
+        <p>شرکت دانش‌بنیان با تمرکز بر سامانه‌های صنعتی تله‌متری</p>
+        <div class="trust__items">
+          <span>نشان دانش‌بنیان</span>
+          <span>همکاری با شهرداری مشهد</span>
+          <span>جشنواره خواجه نصیرالدین طوسی</span>
+          <span>پروژه‌های آب، نفت و صنعت</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="solutions">
+      <div class="wrap">
+        <div class="section-head section-head--split">
+          <div>
+            <p class="eyebrow">Solutions Matrix</p>
+            <h2>راه‌حل‌های ما</h2>
+          </div>
+          <p class="section-copy">راه‌حل‌های فناورانه شرکت دانش‌بنیان آفرینش سیستم برای صنایع حیاتی کشور.</p>
+        </div>
+
+        <div class="bento">
+          <a class="bento__feature" href="http://telemetry.afarineshsystem.com/services/%d9%86%d9%81%d8%aa-%d9%88-%da%af%d8%a7%d8%b2/">
+            <img src="images/oil.jpg" alt="نفت و گاز" />
+            <div class="bento__content">
+              <span class="tag">Featured</span>
+              <h3>نفت و گاز</h3>
+              <p>ارایه راه‌حل‌ها در زمینه سامانه‌های کنترل و اسکادا و بهینه‌سازی در صنایع نفت و گاز</p>
+              <em>مطالعه راه‌کار</em>
+            </div>
+          </a>
+
+          <a class="bento__card" href="http://telemetry.afarineshsystem.com/services/%d8%a2%d8%a8-%d9%88-%d9%81%d8%a7%d8%b6%d9%84%d8%a7%d8%a8/">
+            <img src="images/water.jpg" alt="آب و فاضلاب" />
+            <div>
+              <h3>آب و فاضلاب</h3>
+              <p>ارایه راه‌حل‌ها در زمینه سامانه‌های اسکادا و مدیریت بهره‌وری در صنایع آب و فاضلاب</p>
+              <em>بیشتر</em>
+            </div>
+          </a>
+
+          <a class="bento__card" href="http://telemetry.afarineshsystem.com/services/%da%a9%d8%b4%d8%a7%d9%88%d8%b1%d8%b2%db%8c/">
+            <img src="images/agri.jpg" alt="کشاورزی" />
+            <div>
+              <h3>کشاورزی</h3>
+              <p>ارایه انواع راه‌حل‌ها در زمینه مدیریت و بهره‌وری در کشاورزی</p>
+              <em>بیشتر</em>
+            </div>
+          </a>
+
+          <a class="bento__wide" href="http://telemetry.afarineshsystem.com/services/%d8%b3%d8%a7%db%8c%d8%b1-%d8%b5%d9%86%d8%a7%db%8c%d8%b9/">
+            <img src="images/industry.jpg" alt="سایر صنایع" />
+            <div>
+              <h3>سایر صنایع</h3>
+              <p>ارایه راه‌حل‌های کاربردی به منظور افزایش بهره‌وری، کاهش هزینه‌ها و افزایش ضریب اطمینان و کیفیت</p>
+              <em>بیشتر</em>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--dark" id="products">
+      <div class="wrap">
+        <div class="section-head section-head--split light">
+          <div>
+            <p class="eyebrow">Product Deck</p>
+            <h2>محصولات ما</h2>
+          </div>
+          <div class="section-actions">
+            <p class="section-copy">برخی از آخرین محصولات و خدمات واحد تله‌متری</p>
+            <a class="btn btn--primary" href="http://telemetry.afarineshsystem.com/%d9%85%d8%ad%d8%b5%d9%88%d9%84%d8%a7%d8%aa/">همه محصولات</a>
+          </div>
+        </div>
+
+        <div class="spotlight">
+          <article class="spotlight__main">
+            <img src="images/p-flood.jpg" alt="سامانه هشدار و تشخیص سیل" />
+            <div>
+              <span class="tag">Highlight</span>
+              <h3>سامانه هشدار و تشخیص سیل</h3>
+              <p>سامانه‌های هشداردهنده برای پایش به‌هنگام و کنترل از راه دور در پروژه‌های شهری و زیرساختی.</p>
+              <a href="http://telemetry.afarineshsystem.com/portfolio-item/%d8%b3%d8%a7%d9%85%d8%a7%d9%86%d9%87-%d8%a8%d9%87-%d9%87%d9%86%da%af%d8%a7%d9%85-%d9%87%d8%b4%d8%af%d8%a7%d8%b1-%d9%88-%d8%aa%d8%b4%d8%ae%db%8c%d8%b5-%d8%b3%db%8c%d9%84/">جزئیات محصول</a>
+            </div>
+          </article>
+          <div class="spotlight__rail">
+            <a href="http://telemetry.afarineshsystem.com/portfolio-item/ifix-scada/">
+              <img src="images/p-ifix.jpg" alt="" /><span>IFIX Scada</span>
+            </a>
+            <a href="http://telemetry.afarineshsystem.com/portfolio-item/asd500/">
+              <img src="images/p-asd.jpg" alt="" /><span>ASD500</span>
+            </a>
+            <a href="http://telemetry.afarineshsystem.com/portfolio-item/siemens-simatic-wincc/">
+              <img src="images/p-wincc.jpg" alt="" /><span>WinCC</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="products">
+          <a class="product" href="http://telemetry.afarineshsystem.com/portfolio-item/%d9%85%d8%a8%d8%af%d9%84-%d8%b3%d8%b1%db%8c%d8%a7%d9%84-%d8%a8%d9%87-%d8%b4%d8%a8%da%a9%d9%87-ezl-400s/">
+            <div class="product__media"><img src="images/p-ezl.jpg" alt="مبدل سریال به شبکه EZL-400s" /></div>
+            <div class="product__body">
+              <span>متفرقه</span>
+              <h3>مبدل سریال به شبکه EZL-400s</h3>
+            </div>
+          </a>
+          <a class="product" href="http://telemetry.afarineshsystem.com/portfolio-item/yagi-antenna/">
+            <div class="product__media"><img src="images/p-yagi.jpg" alt="آنتن یاگی یودا" /></div>
+            <div class="product__body">
+              <span>آنتن‌های مخابراتی</span>
+              <h3>آنتن یاگی یودا</h3>
+            </div>
+          </a>
+          <a class="product" href="http://telemetry.afarineshsystem.com/portfolio-item/%d8%a7%d8%b3%da%a9%d8%a7%d8%af%d8%a7%d9%be%da%a9/">
+            <div class="product__media"><img src="images/p-scadapack.jpg" alt="RTU – SCADA PACK" /></div>
+            <div class="product__body">
+              <span>آرتی‌یو</span>
+              <h3>RTU – SCADA PACK</h3>
+            </div>
+          </a>
+          <a class="product" href="http://telemetry.afarineshsystem.com/portfolio-item/trio-radio-modem/">
+            <div class="product__media"><img src="images/p-trio.jpg" alt="TRIO – Radio modem" /></div>
+            <div class="product__body">
+              <span>رادیومودم</span>
+              <h3>TRIO – Radio modem</h3>
+            </div>
+          </a>
+          <a class="product" href="http://telemetry.afarineshsystem.com/portfolio-item/opc-server/">
+            <div class="product__media"><img src="images/p-opc.jpg" alt="OPC Server" /></div>
+            <div class="product__body">
+              <span>نرم‌افزار</span>
+              <h3>OPC Server</h3>
+            </div>
+          </a>
+          <a class="product" href="http://telemetry.afarineshsystem.com/portfolio-item/citect-scada/">
+            <div class="product__media"><img src="images/p-citect.jpg" alt="Citect SCADA" /></div>
+            <div class="product__body">
+              <span>نرم‌افزار</span>
+              <h3>Citect SCADA</h3>
+            </div>
+          </a>
+          <a class="product" href="http://telemetry.afarineshsystem.com/portfolio-item/tecomat-foxtrot/">
+            <div class="product__media"><img src="images/p-foxtrot.jpg" alt="Tecomat Foxtrot" /></div>
+            <div class="product__body">
+              <span>آرتی‌یو</span>
+              <h3>Tecomat Foxtrot</h3>
+            </div>
+          </a>
+          <a class="product" href="http://telemetry.afarineshsystem.com/portfolio-item/friendcom-fc301d/">
+            <div class="product__media"><img src="images/p-friendcom.jpg" alt="Friendcom-FC301/D" /></div>
+            <div class="product__body">
+              <span>رادیومودم</span>
+              <h3>Friendcom-FC301/D</h3>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="news">
+      <div class="wrap">
+        <div class="section-head section-head--split">
+          <div>
+            <p class="eyebrow">Signal Feed</p>
+            <h2>آخرین خبرها</h2>
+          </div>
+          <p class="section-copy">جدیدترین اخبار و رویدادهای شرکت آفرینش سیستم‌های پویا</p>
+        </div>
+
+        <div class="news-layout">
+          <article class="news-feature">
+            <img src="images/news1.jpg" alt="" />
+            <div>
+              <time>۷ می ۲۰۱۸</time>
+              <h3><a href="http://telemetry.afarineshsystem.com/%d8%a7%d8%b9%d8%b7%d8%a7%db%8c-%d8%b5%d9%84%d8%a7%d8%ad%db%8c%d8%aa-%d9%86%d8%b4%d8%a7%d9%86-%d8%af%d8%a7%d9%86%d8%b4-%d8%a8%d9%86%db%8c%d8%a7%d9%86-%d8%a8%d9%87-%d8%b4%d8%b1%da%a9%d8%aa-%d8%a2%d9%81/">دریافت صلاحیت نشان دانش‌بنیان از سوی معاونت علمی و فناوری ریاست جمهوری</a></h3>
+              <p>پذیرفته شدن چندین محصول فناورانه شرکت آفرینش سیستم به عنوان کالاهای دانش‌بنیان و اخذ صلاحیت نشان دانش‌بنیان تولیدی-صنعتی...</p>
+            </div>
+          </article>
+
+          <div class="news-stack">
+            <article>
+              <img src="images/news2.jpg" alt="" />
+              <div>
+                <time>۳۰ ژانویه ۲۰۱۸</time>
+                <h3><a href="http://telemetry.afarineshsystem.com/%d9%86%d8%b1%d9%85-%d8%a7%d9%81%d8%b2%d8%a7%d8%b1-simatic-wincc-v7-4/">نرم‌افزار SIMATIC WINCC V7.4</a></h3>
+              </div>
+            </article>
+            <article>
+              <img src="images/news3.jpg" alt="" />
+              <div>
+                <time>۶ مارس ۲۰۱۷</time>
+                <h3><a href="http://telemetry.afarineshsystem.com/%d8%aa%d8%b4%d8%b1%db%8c%d8%ad-%d8%b3%d8%a7%d9%85%d8%a7%d9%86%d9%87-%d8%a8%d9%87-%d9%87%d9%86%da%af%d8%a7%d9%85-%d8%aa%d9%84%d9%87-%d9%85%d8%aa%d8%b1%db%8c-%d9%88-%da%a9%d9%86%d8%aa%d8%b1%d9%84-%d8%a7/">تشریح سامانه هشداردهنده شهرداری مشهد</a></h3>
+              </div>
+            </article>
+            <article>
+              <img src="images/news4.jpg" alt="" />
+              <div>
+                <time>۲۶ فوریه ۲۰۱۷</time>
+                <h3><a href="http://telemetry.afarineshsystem.com/%d8%b9%d9%82%d8%af-%d8%aa%d9%81%d8%a7%d9%87%d9%85-%d9%86%d8%a7%d9%85%d9%87-%d9%87%d9%85%da%a9%d8%a7%d8%b1%db%8c-%d8%a8%d8%a7-%d8%b4%d9%87%d8%b1%d8%af%d8%a7%d8%b1%db%8c-%d9%85%d8%b4%d9%87%d8%af/">عقد تفاهم‌نامه همکاری با شهرداری مشهد</a></h3>
+              </div>
+            </article>
+            <article>
+              <img src="images/news5.jpg" alt="" />
+              <div>
+                <time>۲۶ آوریل ۲۰۱۶</time>
+                <h3><a href="http://telemetry.afarineshsystem.com/%da%a9%d8%b3%d8%a8-%d8%b1%d8%aa%d8%a8%d9%87-%d8%a8%d8%b1%d8%aa%d8%b1-%d8%ac%d8%b4%d9%86%d9%88%d8%a7%d8%b1%d9%87-%d8%ae%d9%88%d8%a7%d8%ac%d9%87-%d9%86%d8%b5%db%8c%d8%b1%d8%a7%d9%84%d8%af%db%8c%d9%86/">کسب رتبه برتر جشنواره خواجه نصیرالدین طوسی</a></h3>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact" id="contact">
+      <div class="wrap contact__shell">
+        <div class="contact__glow" aria-hidden="true"></div>
+        <div class="contact__grid">
+          <div>
+            <p class="eyebrow">Control Desk</p>
+            <h2>آفرینش سیستم‌های پویا</h2>
+            <p class="muted">واحد تله‌متری و کنترل از راه دور</p>
+            <p>آدرس: مشهد، بولوار وکیل‌آباد — نبش فارغ‌التحصیلان ۱۵ — پلاک ۱۰۵ — طبقه ۳ — واحد ۵</p>
+            <div class="contact__cta">
+              <a class="btn btn--primary" href="http://telemetry.afarineshsystem.com/%d8%aa%d9%85%d8%a7%d8%b3-%d8%a8%d8%a7-%d9%85%d8%a7/">صفحه تماس</a>
+              <a class="btn btn--ghost-dark" href="mailto:info@afarineshsystem.com">ارسال ایمیل</a>
+            </div>
+          </div>
+          <ul class="contact__list">
+            <li><span>تلفن</span><a href="tel:+985135095790" dir="ltr">051-35095790</a></li>
+            <li><span>تلفن</span><a href="tel:+985135095117" dir="ltr">051-35095117</a></li>
+            <li><span>ایمیل</span><a href="mailto:info@afarineshsystem.com">info@afarineshsystem.com</a></li>
+            <li><span>اینستاگرام</span><a href="https://www.instagram.com/afarinesh_system/" target="_blank" rel="noopener">@afarinesh_system</a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer__grid">
+      <div>
+        <div class="brand brand--footer">
+          <span class="brand__mark"><img src="images/logo.png" alt="" /></span>
+          <span class="brand__text">
+            <strong>آفرینش سیستم‌های پویا</strong>
+            <small>تله‌متری و کنترل از راه دور</small>
+          </span>
+        </div>
+        <p>کلیه حقوق مادی و معنوی این سایت متعلق است به شرکت آفرینش سیستم‌های پویا و هرگونه سوءاستفاده از محتوا پیگرد قانونی دارد.</p>
+      </div>
+      <div>
+        <h4>دسترسی سریع</h4>
+        <a href="#solutions">راه‌کارها</a>
+        <a href="#products">محصولات</a>
+        <a href="#news">اخبار</a>
+        <a href="http://telemetry.afarineshsystem.com/%d8%af%d8%b1%d8%a8%d8%a7%d8%b1%d9%87-%d9%85%d8%a7/">درباره ما</a>
+      </div>
+      <div>
+        <h4>دپارتمان‌ها</h4>
+        <a href="http://rfid.afarineshsystem.com/">RFID</a>
+        <a href="http://telemetry.afarineshsystem.com/">تله‌متری</a>
+        <a href="http://afarineshshop.com/">فروشگاه</a>
+      </div>
+    </div>
+    <div class="wrap footer__bottom">
+      <p dir="ltr">Copyright © 2004 – <span id="year"></span> Afarineshsystem.com</p>
+      <p class="preview-note">پیش‌نمایش لوکال UI غنی‌شده — هنوز روی هاست اعمال نشده است.</p>
+    </div>
+  </footer>
+
+  <script src="assets/js/telemetry.js"></script>
+</body>
+</html>
