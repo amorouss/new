@@ -156,8 +156,8 @@ a { color: inherit; text-decoration: none; }
   position: absolute;
   inset: 0;
   background:
-    linear-gradient(105deg, rgba(7, 21, 28, 0.88) 12%, rgba(7, 21, 28, 0.55) 52%, rgba(7, 21, 28, 0.72) 100%),
-    linear-gradient(to top, rgba(7, 21, 28, 0.92), transparent 45%);
+    linear-gradient(105deg, rgba(7, 21, 28, 0.72) 10%, rgba(7, 21, 28, 0.38) 55%, rgba(7, 21, 28, 0.55) 100%),
+    linear-gradient(to top, rgba(7, 21, 28, 0.82), transparent 48%);
 }
 .hero__content {
   position: relative;
