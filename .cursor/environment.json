@@ -1,0 +1,11 @@
+{
+  "name": "afarines cPanel backup restore",
+  "install": "bash .cursor/install.sh",
+  "start": "bash .cursor/start.sh",
+  "ports": [
+    {
+      "name": "http",
+      "port": 80
+    }
+  ]
+}
