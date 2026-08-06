@@ -26,4 +26,72 @@
       group.classList.toggle("is-open");
     });
   });
+
+  const root = document.querySelector("[data-slider]");
+  if (!root) return;
+
+  const slides = Array.from(root.querySelectorAll("[data-slide]"));
+  const dots = Array.from(root.querySelectorAll("[data-slider-dots] button"));
+  const prev = root.querySelector("[data-slider-prev]");
+  const next = root.querySelector("[data-slider-next]");
+  const progress = root.querySelector("[data-slider-progress]");
+  let index = slides.findIndex((s) => s.classList.contains("is-active"));
+  if (index < 0) index = 0;
+  let timer = null;
+  const DURATION = 5500;
+
+  const setActive = (nextIndex) => {
+    index = (nextIndex + slides.length) % slides.length;
+    slides.forEach((slide, i) => {
+      slide.classList.toggle("is-active", i === index);
+    });
+    dots.forEach((dot, i) => {
+      const on = i === index;
+      dot.classList.toggle("is-active", on);
+      dot.setAttribute("aria-selected", on ? "true" : "false");
+    });
+    if (progress) {
+      progress.style.transition = "none";
+      progress.style.width = "0%";
+      requestAnimationFrame(() => {
+        requestAnimationFrame(() => {
+          progress.style.transition = `width ${DURATION}ms linear`;
+          progress.style.width = "100%";
+        });
+      });
+    }
+  };
+
+  const play = () => {
+    stop();
+    timer = window.setInterval(() => setActive(index + 1), DURATION);
+    setActive(index);
+  };
+
+  const stop = () => {
+    if (timer) window.clearInterval(timer);
+    timer = null;
+  };
+
+  prev?.addEventListener("click", () => {
+    setActive(index - 1);
+    play();
+  });
+  next?.addEventListener("click", () => {
+    setActive(index + 1);
+    play();
+  });
+  dots.forEach((dot, i) => {
+    dot.addEventListener("click", () => {
+      setActive(i);
+      play();
+    });
+  });
+
+  root.addEventListener("mouseenter", stop);
+  root.addEventListener("mouseleave", play);
+  root.addEventListener("focusin", stop);
+  root.addEventListener("focusout", play);
+
+  play();
 })();

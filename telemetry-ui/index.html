@@ -65,6 +65,48 @@
     </div>
   </header>
 
+  <section class="showcase" id="slider" aria-roledescription="carousel" aria-label="اسلایدهای صفحه اصلی">
+    <div class="showcase__frame" data-slider>
+      <div class="showcase__viewport">
+        <article class="showcase__slide is-active" data-slide>
+          <img src="images/slides/slide-1.jpg" alt="RTU AFG960" width="1920" height="627" />
+          <div class="showcase__caption">
+            <span>Slide 01</span>
+            <h2>RTU AFG960</h2>
+            <p>اسلاید اصلی سایت تله‌متری — ترمینال راه دور AFG960</p>
+          </div>
+        </article>
+        <article class="showcase__slide" data-slide>
+          <img src="images/slides/slide-2.jpg" alt="بنر اصلی تله‌متری" width="2194" height="717" />
+          <div class="showcase__caption">
+            <span>Slide 02</span>
+            <h2>بنر اصلی واحد تله‌متری</h2>
+            <p>همان اسلاید دوم نمایش‌داده‌شده در صفحه اول سایت</p>
+          </div>
+        </article>
+        <article class="showcase__slide" data-slide>
+          <img src="images/slides/slide-3.jpg" alt="همیار آب" width="2193" height="717" />
+          <div class="showcase__caption">
+            <span>Slide 03</span>
+            <h2>همیار آب</h2>
+            <p>همان اسلاید سوم نمایش‌داده‌شده در صفحه اول سایت</p>
+          </div>
+        </article>
+      </div>
+
+      <button class="showcase__nav showcase__nav--prev" type="button" data-slider-prev aria-label="اسلاید قبلی">‹</button>
+      <button class="showcase__nav showcase__nav--next" type="button" data-slider-next aria-label="اسلاید بعدی">›</button>
+
+      <div class="showcase__dots" data-slider-dots role="tablist" aria-label="انتخاب اسلاید">
+        <button type="button" class="is-active" aria-label="اسلاید ۱" aria-selected="true"></button>
+        <button type="button" aria-label="اسلاید ۲" aria-selected="false"></button>
+        <button type="button" aria-label="اسلاید ۳" aria-selected="false"></button>
+      </div>
+
+      <div class="showcase__progress" aria-hidden="true"><span data-slider-progress></span></div>
+    </div>
+  </section>
+
   <section class="hero">
     <div class="hero__media" aria-hidden="true">
       <img src="images/hero.jpg" alt="" class="hero__img" />
