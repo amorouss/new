@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 700" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="s" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#e8eaf3"/>
+      <stop offset="100%" stop-color="#d5c4bc"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="700" fill="url(#s)"/>
+  <rect x="250" y="140" width="400" height="400" fill="none" stroke="#1c2152" stroke-opacity="0.35" stroke-width="2"/>
+  <path d="M340 420c40-95 75-155 115-155 22 0 35 18 35 44 0 58-45 120-108 174" fill="none" stroke="#1c2152" stroke-width="8" stroke-linecap="round"/>
+  <path d="M430 180v260" fill="none" stroke="#1c2152" stroke-width="8" stroke-linecap="round"/>
+  <path d="M360 300h180" fill="none" stroke="#1c2152" stroke-width="7" stroke-linecap="round" transform="rotate(-18 450 300)"/>
+  <text x="450" y="590" text-anchor="middle" fill="#1c2152" font-family="Georgia, serif" font-size="34" letter-spacing="8">SOHA TEB</text>
+</svg>
