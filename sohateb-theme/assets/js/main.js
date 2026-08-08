@@ -28,25 +28,75 @@
   }
 
   const nodes = Array.from(document.querySelectorAll("[data-reveal]"));
-  if (!nodes.length) return;
-
-  if (reduceMotion || !("IntersectionObserver" in window)) {
-    nodes.forEach((el) => el.classList.add("is-in"));
-    return;
+  if (nodes.length) {
+    if (reduceMotion || !("IntersectionObserver" in window)) {
+      nodes.forEach((el) => el.classList.add("is-in"));
+    } else {
+      const io = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
+            if (!entry.isIntersecting) return;
+            const el = entry.target;
+            const delay = Number(el.getAttribute("data-reveal-delay") || 0);
+            window.setTimeout(() => el.classList.add("is-in"), delay);
+            io.unobserve(el);
+          });
+        },
+        { threshold: 0.16, rootMargin: "0px 0px -8% 0px" }
+      );
+      nodes.forEach((el) => io.observe(el));
+    }
   }
 
-  const io = new IntersectionObserver(
-    (entries) => {
-      entries.forEach((entry) => {
-        if (!entry.isIntersecting) return;
-        const el = entry.target;
-        const delay = Number(el.getAttribute("data-reveal-delay") || 0);
-        window.setTimeout(() => el.classList.add("is-in"), delay);
-        io.unobserve(el);
-      });
-    },
-    { threshold: 0.16, rootMargin: "0px 0px -8% 0px" }
-  );
+  // Drag-to-scroll for mobile product rails
+  document.querySelectorAll("[data-product-rail] .products, .st-shop ul.products").forEach((scroller) => {
+    let active = false;
+    let startX = 0;
+    let scrollStart = 0;
+    let moved = false;
 
-  nodes.forEach((el) => io.observe(el));
+    const isTouchPrimary = window.matchMedia("(hover: none), (max-width: 760px)").matches;
+    if (!isTouchPrimary) return;
+
+    scroller.addEventListener("pointerdown", (event) => {
+      if (event.pointerType === "mouse" && event.button !== 0) return;
+      active = true;
+      moved = false;
+      startX = event.clientX;
+      scrollStart = scroller.scrollLeft;
+      scroller.classList.add("is-dragging");
+      scroller.setPointerCapture?.(event.pointerId);
+    });
+
+    scroller.addEventListener("pointermove", (event) => {
+      if (!active) return;
+      const dx = event.clientX - startX;
+      if (Math.abs(dx) > 4) moved = true;
+      scroller.scrollLeft = scrollStart - dx;
+    });
+
+    const endDrag = (event) => {
+      if (!active) return;
+      active = false;
+      scroller.classList.remove("is-dragging");
+      try {
+        scroller.releasePointerCapture?.(event.pointerId);
+      } catch (_) {
+        /* ignore */
+      }
+    };
+
+    scroller.addEventListener("pointerup", endDrag);
+    scroller.addEventListener("pointercancel", endDrag);
+
+    scroller.addEventListener(
+      "click",
+      (event) => {
+        if (!moved) return;
+        event.preventDefault();
+        event.stopPropagation();
+      },
+      true
+    );
+  });
 })();

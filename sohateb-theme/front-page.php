@@ -28,6 +28,15 @@ $pro_url      = $cat_url('professional');
 	<section class="st-hero">
 		<div class="st-hero__media" aria-hidden="true">
 			<div class="st-hero__glow"></div>
+			<div class="st-hero__glow st-hero__glow--alt"></div>
+			<div class="st-hero__orb"></div>
+			<img
+				class="st-hero__mark"
+				src="<?php echo esc_url(SOHATEB_URI . '/assets/images/brand-logo-white.png'); ?>"
+				alt=""
+				width="280"
+				height="280"
+			>
 			<div class="st-hero__grain"></div>
 		</div>
 		<div class="st-container st-hero__content">
@@ -49,6 +58,13 @@ $pro_url      = $cat_url('professional');
 		</div>
 		<div class="st-hero__scroll" aria-hidden="true" data-reveal data-reveal-delay="280"></div>
 	</section>
+
+	<div class="st-ticker" aria-hidden="true">
+		<div class="st-ticker__track">
+			<span>Eclado</span><span>Eclat Du Teint</span><span>Isabelle Lancray</span><span>DSV-LINE</span><span>V&amp;V</span><span>Dr. Rimpler</span>
+			<span>Eclado</span><span>Eclat Du Teint</span><span>Isabelle Lancray</span><span>DSV-LINE</span><span>V&amp;V</span><span>Dr. Rimpler</span>
+		</div>
+	</div>
 
 	<section class="st-categories" id="brands" aria-labelledby="st-cat-title">
 		<div class="st-container">
@@ -106,8 +122,9 @@ $pro_url      = $cat_url('professional');
 				<h2 id="st-feat-title"><?php esc_html_e('محصولات منتخب', 'sohateb'); ?></h2>
 				<p><?php esc_html_e('اولویت با محصولات Eclado و Eclat Du Teint.', 'sohateb'); ?></p>
 			</header>
+			<p class="st-rail-hint" data-reveal><?php esc_html_e('برای دیدن محصولات بیشتر بکشید', 'sohateb'); ?></p>
 
-			<div class="st-product-grid">
+			<div class="st-product-grid st-product-grid--rail" data-product-rail>
 				<?php
 				if (class_exists('WooCommerce')) {
 					$priority_ids = [];
