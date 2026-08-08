@@ -940,6 +940,76 @@
       "category": "professional",
       "description_fa": "براش سیلیکونی برند اکلادو برای اعمال محصولات در درمان‌های حرفه‌ای پوست.",
       "featured": false
+    },
+    {
+      "line": "Serum / Ampoule",
+      "name_en": "Hyaluronic Acid 97% Ampoule",
+      "name_fa": "هیالورونیک اسید ۹۷٪",
+      "sku": "ECLADO-HA-97-AMPOULE",
+      "volume": "5ml x 5ea",
+      "category": "serum",
+      "description_fa": "آمپول هیالورونیک اسید با غلظت بالا برای آبرسانی عمیق حرفه‌ای.",
+      "featured": false
+    },
+    {
+      "line": "Serum / Ampoule",
+      "name_en": "Vitamin C Booster",
+      "name_fa": "بوستر ویتامین سی",
+      "sku": "ECLADO-VITAMIN-C-BOOSTER",
+      "volume": "100ml",
+      "category": "serum",
+      "description_fa": "بوستر روشن‌کننده ویتامین C برای بهبود تیرگی و درخشش پوست.",
+      "featured": false
+    },
+    {
+      "line": "Moisturizer",
+      "name_en": "Caviar Elastic Cream",
+      "name_fa": "کرم خاویار الاستیک",
+      "sku": "ECLADO-CAVIAR-ELASTIC-CREAM",
+      "volume": "50ml",
+      "category": "cream",
+      "description_fa": "کرم خاویار الاستیک برای تغذیه، ارتجاع و مراقبت ضدپیری پوست.",
+      "featured": false
+    },
+    {
+      "line": "Moisturizer",
+      "name_en": "Ultra Lifting Cream",
+      "name_fa": "کرم اولترا لیفتینگ",
+      "sku": "ECLADO-ULTRA-LIFTING-CREAM",
+      "volume": "50ml",
+      "category": "cream",
+      "description_fa": "کرم اولترا لیفتینگ برای سفت‌سازی و بهبود ظاهر چین‌وچروک.",
+      "featured": false
+    },
+    {
+      "line": "Sunscreen",
+      "name_en": "Extra Sunscreen",
+      "name_fa": "ضد آفتاب اکسترا",
+      "sku": "ECLADO-EXTRA-SUNSCREEN",
+      "volume": "70ml",
+      "category": "sunscreen",
+      "description_fa": "ضدآفتاب اکسترا برای محافظت روزانه در برابر اشعه UV.",
+      "featured": false
+    },
+    {
+      "line": "Mask",
+      "name_en": "Silk Collagen Mask",
+      "name_fa": "ماسک سیلک کلاژن",
+      "sku": "ECLADO-SILK-COLLAGEN-MASK",
+      "volume": "25ml x 10ea",
+      "category": "mask",
+      "description_fa": "ماسک سیلک کلاژن برای تغذیه، آبرسانی و بهبود کشسانی پوست.",
+      "featured": false
+    },
+    {
+      "line": "Professional",
+      "name_en": "Aloe Massage Gel",
+      "name_fa": "ژل ماساژ آلوئه",
+      "sku": "ECLADO-ALOE-MASSAGE-GEL",
+      "volume": "500ml",
+      "category": "professional",
+      "description_fa": "ژل ماساژ آلوئه حرفه‌ای برای لغزندگی، تسکین و رطوبت‌رسانی در حین ماساژ.",
+      "featured": false
     }
   ]
 }
