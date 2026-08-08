@@ -128,7 +128,15 @@ $pro_url      = $cat_url('professional');
 	<section class="st-spotlight" aria-labelledby="st-spot-title">
 		<div class="st-container st-spotlight__grid">
 			<figure class="st-spotlight__visual" data-reveal>
-				<div class="st-spotlight__frame"></div>
+				<div class="st-spotlight__frame">
+					<img
+						class="st-spotlight__logo"
+						src="<?php echo esc_url(SOHATEB_URI . '/assets/images/brand-logo-white.png'); ?>"
+						alt="Soha Teb Beauty School"
+						width="420"
+						height="420"
+					>
+				</div>
 			</figure>
 			<div class="st-spotlight__copy" data-reveal>
 				<p class="st-kicker">SOHA TEB</p>

@@ -32,9 +32,9 @@
 				<?php the_custom_logo(); ?>
 			<?php else : ?>
 				<?php
-				$brand_logo = SOHATEB_DIR . '/assets/images/brand-logo.png';
+				$brand_logo = SOHATEB_DIR . '/assets/images/brand-logo-white.png';
 				$brand_src  = file_exists($brand_logo)
-					? SOHATEB_URI . '/assets/images/brand-logo.png'
+					? SOHATEB_URI . '/assets/images/brand-logo-white.png'
 					: SOHATEB_URI . '/assets/images/logo.svg';
 				?>
 				<img class="st-brand__mark st-brand__mark--logo" src="<?php echo esc_url($brand_src); ?>" alt="Soha Teb Beauty School" width="56" height="56">

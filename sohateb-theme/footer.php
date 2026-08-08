@@ -11,7 +11,7 @@
 		<div class="st-footer__brand">
 			<img
 				class="st-footer__logo"
-				src="<?php echo esc_url(SOHATEB_URI . '/assets/images/brand-logo.png'); ?>"
+				src="<?php echo esc_url(SOHATEB_URI . '/assets/images/brand-logo-white.png'); ?>"
 				alt="Soha Teb Beauty School"
 				width="160"
 				height="160"

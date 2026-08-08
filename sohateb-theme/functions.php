@@ -11,7 +11,7 @@ if (!defined('ABSPATH')) {
 	exit;
 }
 
-define('SOHATEB_VERSION', '1.2.0');
+define('SOHATEB_VERSION', '1.2.1');
 define('SOHATEB_DIR', get_template_directory());
 define('SOHATEB_URI', get_template_directory_uri());
 
