@@ -11,7 +11,7 @@ if (!defined('ABSPATH')) {
 	exit;
 }
 
-define('SOHATEB_VERSION', '1.1.1');
+define('SOHATEB_VERSION', '1.2.0');
 define('SOHATEB_DIR', get_template_directory());
 define('SOHATEB_URI', get_template_directory_uri());
 
@@ -20,3 +20,4 @@ require_once SOHATEB_DIR . '/inc/assets.php';
 require_once SOHATEB_DIR . '/inc/woocommerce.php';
 require_once SOHATEB_DIR . '/inc/demo-content.php';
 require_once SOHATEB_DIR . '/inc/catalog-import.php';
+require_once SOHATEB_DIR . '/inc/product-images-admin.php';

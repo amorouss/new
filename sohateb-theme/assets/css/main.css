@@ -134,6 +134,14 @@ a {
   height: 48px;
 }
 
+.st-brand__mark--logo {
+  width: 52px;
+  height: 52px;
+  object-fit: contain;
+  background: #000;
+  border-radius: 2px;
+}
+
 .st-brand__text {
   display: flex;
   flex-direction: column;
@@ -630,6 +638,15 @@ a {
 
 .st-footer__grid--simple {
   grid-template-columns: 1.6fr 1fr;
+}
+
+.st-footer__logo {
+  width: min(180px, 46vw);
+  height: auto;
+  display: block;
+  margin-bottom: 0.85rem;
+  background: #000;
+  border-radius: 2px;
 }
 
 .st-footer__brand strong {

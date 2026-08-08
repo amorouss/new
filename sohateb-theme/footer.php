@@ -9,8 +9,13 @@
 <footer class="st-footer">
 	<div class="st-container st-footer__grid st-footer__grid--simple">
 		<div class="st-footer__brand">
-			<img src="<?php echo esc_url(SOHATEB_URI . '/assets/images/logo-light.svg'); ?>" alt="Soha Teb" width="64" height="64">
-			<strong>SOHA TEB</strong>
+			<img
+				class="st-footer__logo"
+				src="<?php echo esc_url(SOHATEB_URI . '/assets/images/brand-logo.png'); ?>"
+				alt="Soha Teb Beauty School"
+				width="160"
+				height="160"
+			>
 			<p><?php esc_html_e('Official Representative Of Level 7 Company — Isabelle Lancray & DSV-LINE.', 'sohateb'); ?></p>
 		</div>
 
