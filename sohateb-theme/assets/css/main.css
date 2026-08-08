@@ -536,11 +536,21 @@ a {
 
 .st-product__logo-mark--single {
   top: 0.75rem;
-  inset-inline-end: 0.75rem;
+  /* Opposite corner from magnifier so both stay visible */
+  inset-inline-end: auto;
+  inset-inline-start: 0.75rem;
   z-index: 6;
   width: 4.25rem;
   height: 4.25rem;
   box-shadow: 0 1px 0 rgba(20, 16, 12, 0.06);
+}
+
+/* Magnifier / lightbox trigger → physical left */
+.woocommerce div.product div.images .woocommerce-product-gallery__trigger {
+  right: auto !important;
+  left: 0.75rem !important;
+  top: 0.75rem !important;
+  z-index: 7;
 }
 
 @media (max-width: 640px) {
@@ -548,7 +558,12 @@ a {
     width: 3.5rem;
     height: 3.5rem;
     top: 0.55rem;
-    inset-inline-end: 0.55rem;
+    inset-inline-start: 0.55rem;
+  }
+
+  .woocommerce div.product div.images .woocommerce-product-gallery__trigger {
+    left: 0.55rem !important;
+    top: 0.55rem !important;
   }
 }
 
