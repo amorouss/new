@@ -13,22 +13,24 @@
       "name_en": "Exo Clinica Toner",
       "name_fa": "اکسو کلینیکا تونر",
       "sku": "ECLADO-EXO-TONER",
-      "volume": "",
+      "volume": "500 ml",
       "category": "toner",
       "description_fa": "تونر تقویت‌کننده سد دفاعی با اگزوزوم گیاهی، سنتلا و پروبیوتیک؛ مناسب پوست حساس و مراقبت پس از درمان.",
       "featured": true,
-      "brand": "Eclado"
+      "brand": "Eclado",
+      "price": 3570000
     },
     {
       "line": "Soothing",
       "name_en": "Azulene Cure Solution Ampoule",
       "name_fa": "آزولین کیور سولوشن امپل",
       "sku": "ECLADO-AZULENE-AMPOULE",
-      "volume": "",
+      "volume": "30 ml",
       "category": "serum",
       "description_fa": "آمپول تسکین فوری با ۴۰۰۰ ppm گایازولن برای کاهش قرمزی و حرارت پس از درمان.",
       "featured": true,
-      "brand": "Eclado"
+      "brand": "Eclado",
+      "price": 2430000
     },
     {
       "line": "C.P 50",
@@ -39,7 +41,8 @@
       "category": "serum",
       "description_fa": "آمپول ضدچروک قوی با سلول‌های بنیادی گیاهی، کمپلکس پپتید ۵۰٪، EGF و آدنوزین برای سفت‌سازی و پاک کردن چین‌وچروک‌های ریز.",
       "featured": true,
-      "brand": "Eclado"
+      "brand": "Eclado",
+      "price": 6150000
     },
     {
       "line": "Rescuer",
@@ -50,51 +53,56 @@
       "category": "serum",
       "description_fa": "آمپول حرفه‌ای با کمپلکس DermaBiome cx، طلای ۲۴ عیار، گلوتاتیون و عصاره جلبک دریایی برای بازسازی ساختاری، روشن‌سازی و تعادل میکروبیوم پوست.",
       "featured": true,
-      "brand": "Eclado"
+      "brand": "Eclado",
+      "price": 5880000
     },
     {
       "line": "Exo Clinica",
       "name_en": "Exo Clinica Cream",
       "name_fa": "اکسو کلینیکا کرم بهبود منافذ",
       "sku": "ECLADO-EXO-CREAM",
-      "volume": "",
+      "volume": "50g",
       "category": "cream",
       "description_fa": "کرم بهبود منافذ با اگزوزوم سنتلا، AHA/BHA و هیالورونیک اسید چندگانه.",
       "featured": true,
-      "brand": "Eclado"
+      "brand": "Eclado",
+      "price": 2270000
     },
     {
       "line": "Exo Clinica",
       "name_en": "Exo Clinica Gel",
       "name_fa": "اکسو کلینیکا ژل",
       "sku": "ECLADO-EXO-GEL",
-      "volume": "",
+      "volume": "300 ml",
       "category": "cream",
       "description_fa": "ژل آرام‌بخش کاهش قرمزی و حرارت پوست با اگزوزوم سنتلا و بتاگلوکان.",
       "featured": true,
-      "brand": "Eclado"
+      "brand": "Eclado",
+      "price": 3460000
     },
     {
       "line": "Rescue",
       "name_en": "Rescuer Cica Balm",
       "name_fa": "بالم رکیور سیکا",
       "sku": "ECLADO-RESCUER-CICA",
-      "volume": "",
+      "volume": "50g",
       "category": "cream",
       "description_fa": "بالم ترمیمی سیکا برای تسکین و بازسازی پوست آسیب‌دیده.",
       "featured": true,
-      "brand": "Eclado"
+      "brand": "Eclado",
+      "price": 2460000
     },
     {
       "line": "Exo Clinica",
       "name_en": "Exo Clinica UV Sun Cream SPF50+",
       "name_fa": "ضدآفتاب اکسو کلینیکا یووی SPF50+",
       "sku": "ECLADO-EXO-SUN",
-      "volume": "",
+      "volume": "50g",
       "category": "sunscreen",
       "description_fa": "ضدآفتاب سبک بر پایه اگزوزوم با محافظت ۲۴ ساعته و اثر تسکین‌دهنده.",
       "featured": true,
-      "brand": "Eclado"
+      "brand": "Eclado",
+      "price": 2490000
     },
     {
       "line": "Peeling",
@@ -105,7 +113,8 @@
       "category": "peel",
       "description_fa": "لایه‌بردار مایع ۴٪ AHA میوه‌ای برای شفافیت و نرمی پوست بدون تحریک.",
       "featured": true,
-      "brand": "Eclado"
+      "brand": "Eclado",
+      "price": 2140000
     },
     {
       "line": "Peeling",
@@ -116,7 +125,8 @@
       "category": "peel",
       "description_fa": "لایه‌بردار ملایم PHA مناسب پوست حساس؛ بدون نیاز به شستشو.",
       "featured": true,
-      "brand": "Eclado"
+      "brand": "Eclado",
+      "price": 2570000
     },
     {
       "line": "Eclado",
@@ -127,7 +137,8 @@
       "category": "peel",
       "description_fa": "تراپی لایه‌بردار پیشرفته با ترکیب AHA، BHA و PHA برای درمان آکنه، بهبود بافت و تناژ پوست و پاکسازی منافذ؛ محصول شاخص حرفه‌ای اکلادو.",
       "featured": true,
-      "brand": "Eclado"
+      "brand": "Eclado",
+      "price": 10560000
     },
     {
       "line": "Tinkerbell",
@@ -149,7 +160,8 @@
       "category": "cleanser",
       "description_fa": "فوم شوینده سنتلا برای کنترل چربی و التیام پوست چرب و مستعد آکنه.",
       "featured": false,
-      "brand": "Eclado"
+      "brand": "Eclado",
+      "price": 2040000
     },
     {
       "line": "Cleanser",
@@ -160,7 +172,8 @@
       "category": "cleanser",
       "description_fa": "فوم بسیار ملایم برای انواع پوست حتی حساس؛ بدون بر هم زدن pH و ایجاد سد رطوبتی.",
       "featured": false,
-      "brand": "Eclado"
+      "brand": "Eclado",
+      "price": 4240000
     },
     {
       "line": "Peeling",
@@ -171,18 +184,20 @@
       "category": "cleanser",
       "description_fa": "پودر شوینده آنزیمی گیاهی برای پاکسازی عمقی با بتائین و عصاره پاپایا.",
       "featured": false,
-      "brand": "Eclado"
+      "brand": "Eclado",
+      "price": 2850000
     },
     {
       "line": "Cleanser",
       "name_en": "Flawless Lip & Eye Remover",
       "name_fa": "میکاپ‌ریموور چشم و لب Flawless",
       "sku": "ECLADO-FLAWLESS-REMOVER",
-      "volume": "",
+      "volume": "200 ml",
       "category": "cleanser",
       "description_fa": "ریموور دوفاز فاقد چربی مخصوص چشم و لب.",
       "featured": false,
-      "brand": "Eclado"
+      "brand": "Eclado",
+      "price": 2640000
     },
     {
       "line": "Cleanser",
@@ -200,11 +215,12 @@
       "name_en": "Perfect Smoothie Balm",
       "name_fa": "بالم پاک‌کننده پرفکت اسموتی",
       "sku": "ECLADO-PERFECT-SMOOTHIE",
-      "volume": "",
+      "volume": "200 ml",
       "category": "cleanser",
       "description_fa": "بالم پاک‌کننده کامل آرایش با روغن‌های گیاهی و کره کاکائو؛ مناسب حتی پوست چرب.",
       "featured": false,
-      "brand": "Eclado"
+      "brand": "Eclado",
+      "price": 3730000
     },
     {
       "line": "Cleanser",
@@ -226,7 +242,8 @@
       "category": "cleanser",
       "description_fa": "شیر پاک‌کن گیاهی برای پاکسازی آرایش و ناخالصی‌ها با آبرسانی عمیق.",
       "featured": false,
-      "brand": "Eclado"
+      "brand": "Eclado",
+      "price": 5130000
     },
     {
       "line": "Skin Fundamental",
@@ -248,7 +265,8 @@
       "category": "toner",
       "description_fa": "تونر سبک کنترل‌کننده سبوم با BHA گیاهی و آب لاوندر؛ تعادل چربی و رطوبت و لایه‌برداری ملایم روزانه برای پوست چرب و مستعد آکنه.",
       "featured": false,
-      "brand": "Eclado"
+      "brand": "Eclado",
+      "price": 2760000
     },
     {
       "line": "Toner",
@@ -259,7 +277,8 @@
       "category": "toner",
       "description_fa": "تونر متعادل‌کننده حرفه‌ای و خانگی.",
       "featured": false,
-      "brand": "Eclado"
+      "brand": "Eclado",
+      "price": 3650000
     },
     {
       "line": "Melaser Whitening",
@@ -270,7 +289,8 @@
       "category": "toner",
       "description_fa": "تونر روشن‌کننده با هیالورونیک اسید، کمپلکس Ell-Y White، نیاسینامید و عصاره سیتروس برای آبرسانی و روشن‌سازی و کمک به کنترل ملانین.",
       "featured": false,
-      "brand": "Eclado"
+      "brand": "Eclado",
+      "price": 2690000
     },
     {
       "line": "Toner",
@@ -281,7 +301,8 @@
       "category": "toner",
       "description_fa": "تونر روزانه با چای سبز و کلرلا برای تعادل pH و آبرسانی.",
       "featured": false,
-      "brand": "Eclado"
+      "brand": "Eclado",
+      "price": 5940000
     },
     {
       "line": "Eclado",
@@ -292,7 +313,8 @@
       "category": "toner",
       "description_fa": "تونر اسپری آسان‌مصرف با پاپایا برای بازگرداندن pH پوست به ۵.۵ و حفظ نرمی و آبرسانی پوست.",
       "featured": false,
-      "brand": "Eclado"
+      "brand": "Eclado",
+      "price": 2110000
     },
     {
       "line": "Respiration",
@@ -303,7 +325,8 @@
       "category": "toner",
       "description_fa": "تونر تخمیری و گل رز برای تسکین فوری پوست حساس و آتوپیک.",
       "featured": false,
-      "brand": "Eclado"
+      "brand": "Eclado",
+      "price": 3090000
     },
     {
       "line": "Toner",
@@ -314,7 +337,8 @@
       "category": "toner",
       "description_fa": "تونر پروتئینی با پروتئین برنج، جو، شیر و رویال ژلی برای تقویت سد دفاعی.",
       "featured": false,
-      "brand": "Eclado"
+      "brand": "Eclado",
+      "price": 4260000
     },
     {
       "line": "A.C",
@@ -325,18 +349,20 @@
       "category": "serum",
       "description_fa": "آمپول کنترل آکنه با روغن درخت چای، گوگرد، شیرین‌بیان، پروپولیس، آلوئه‌ورا و BHA طبیعی برای قابض منافذ، پاکسازی سبوم و تسکین پوست چرب.",
       "featured": false,
-      "brand": "Eclado"
+      "brand": "Eclado",
+      "price": 2650000
     },
     {
       "line": "Professional Serum",
       "name_en": "Azulene Hydrating Serum",
       "name_fa": "سرم رطوبت رسان آزولین",
       "sku": "ECLADO-AZULENE-HYDRATING-SERUM",
-      "volume": "",
+      "volume": "100 ml",
       "category": "serum",
       "description_fa": "سرم آبرسان و تسکین‌دهنده با گایازولن بابونه، سرامید NP و ترکیبات تخمیری لاکتوباسیلوس؛ مناسب پوست دهیدراته، قرمز و تحریک‌شده.",
       "featured": false,
-      "brand": "Eclado"
+      "brand": "Eclado",
+      "price": 4040000
     },
     {
       "line": "Cell Phyto",
@@ -347,18 +373,20 @@
       "category": "serum",
       "description_fa": "سرم ضدچروک با آدنوزین، EGF و پپتیدها برای بازسازی، سنتز کلاژن و الاستین و ترمیم سد آسیب‌دیده؛ مناسب پوست حساس و مستعد روزاسه.",
       "featured": false,
-      "brand": "Eclado"
+      "brand": "Eclado",
+      "price": 4260000
     },
     {
       "line": "Professional Serum",
       "name_en": "Collagen 5000 Serum",
       "name_fa": "سرم کلاژن ۵۰۰۰",
       "sku": "ECLADO-COLLAGEN-5000-SERUM",
-      "volume": "",
+      "volume": "100 ml",
       "category": "serum",
       "description_fa": "سرم سفت‌کننده حاوی ۵۰۰۰ppm کلاژن هیدرولیز شده، آدنوزین و پانتنول برای افزایش ارتجاع، ضدچروک و بازسازی سد دفاعی.",
       "featured": false,
-      "brand": "Eclado"
+      "brand": "Eclado",
+      "price": 3860000
     },
     {
       "line": "Serum",
@@ -413,7 +441,8 @@
       "category": "serum",
       "description_fa": "سرم روشن‌کننده با Ell-7 White، بیسابولول و کمپلکس Aqua Radiance (اسکوآلان، بتاگلوکان، هیالورونیک اسید) برای احیا و محافظت پوست.",
       "featured": false,
-      "brand": "Eclado"
+      "brand": "Eclado",
+      "price": 2570000
     },
     {
       "line": "Serum / Ampoule",
@@ -435,7 +464,8 @@
       "category": "serum",
       "description_fa": "آمپول سیکاپور با عصاره سنتلا برای بهبود و کاهش حجم منافذ؛ دارای تاییدیه بالینی موسسه علوم پوست کره.",
       "featured": false,
-      "brand": "Eclado"
+      "brand": "Eclado",
+      "price": 5160000
     },
     {
       "line": "Rescuer",
@@ -446,7 +476,8 @@
       "category": "serum",
       "description_fa": "آمپول رسکیور با کمپلکس Multi-EX BSASM® و ترکیبات گیاهی برای کنترل التهاب، تسکین خارش، تقویت مقاومت پوست و رطوبت‌رسانی؛ انتخاب ویژه اکلادو.",
       "featured": false,
-      "brand": "Eclado"
+      "brand": "Eclado",
+      "price": 5160000
     },
     {
       "line": "Rescuer",
@@ -457,7 +488,8 @@
       "category": "serum",
       "description_fa": "آمپول رسکیور با کمپلکس عسل و هیالورونیک اسید برای آبرسانی و تغذیه پوست.",
       "featured": false,
-      "brand": "Eclado"
+      "brand": "Eclado",
+      "price": 5160000
     },
     {
       "line": "Rescuer",
@@ -468,7 +500,8 @@
       "category": "serum",
       "description_fa": "آمپول رسکیور غنی از کمپلکس مولتی‌ویتامین برای تغذیه و شادابی پوست.",
       "featured": false,
-      "brand": "Eclado"
+      "brand": "Eclado",
+      "price": 5160000
     },
     {
       "line": "Respiration",
@@ -479,7 +512,8 @@
       "category": "serum",
       "description_fa": "آمپول مناسب پوست حساس با ۵ عصاره تخمیری، باکتری لاکتیک، جینسنگ قرمز تخمیری و کلاژن هیدرولیز شده؛ آبرسانی ۱۲ ساعته و تقویت سد دفاعی.",
       "featured": false,
-      "brand": "Eclado"
+      "brand": "Eclado",
+      "price": 3410000
     },
     {
       "line": "Respiration",
@@ -490,7 +524,8 @@
       "category": "serum",
       "description_fa": "سرم تسکین‌دهنده و ضدآلرژی با عصاره‌های رزماری، لاوندر، کالاندولا و کلاژن؛ تقویت ایمنی و سد دفاعی پوست حساس و آلرژیک.",
       "featured": false,
-      "brand": "Eclado"
+      "brand": "Eclado",
+      "price": 4790000
     },
     {
       "line": "Eclado",
@@ -501,7 +536,8 @@
       "category": "serum",
       "description_fa": "سرم احیاکننده با کلاژن و الاستین هیدرولیز شده و سیستم انتقال لیپوزوم برای آبرسانی عمیق، تغذیه و درخشش طبیعی بدون چسبندگی.",
       "featured": false,
-      "brand": "Eclado"
+      "brand": "Eclado",
+      "price": 5080000
     },
     {
       "line": "Brightening",
@@ -512,7 +548,8 @@
       "category": "serum",
       "description_fa": "سرم ویتامین C پایدار در لیپوزوم برای درخشش فوری و بهبود کشسانی پوست.",
       "featured": false,
-      "brand": "Eclado"
+      "brand": "Eclado",
+      "price": 5080000
     },
     {
       "line": "V-Filine",
@@ -523,7 +560,8 @@
       "category": "serum",
       "description_fa": "سرم جوانساز با کمپلکس Wrinkle Zero 7، Volufiline و عصاره نونی برای کاهش عمق چروک، افزایش حجم و پیشگیری از شلی پوست.",
       "featured": false,
-      "brand": "Eclado"
+      "brand": "Eclado",
+      "price": 3290000
     },
     {
       "line": "Professional Serum",
@@ -545,7 +583,8 @@
       "category": "cream",
       "description_fa": "کرم-ژل سبک روزانه با ۷ نوع هیالورونیک اسید؛ جذب سریع و بدون سنگینی، ایده‌آل برای پوست چرب و آقایان.",
       "featured": false,
-      "brand": "Eclado"
+      "brand": "Eclado",
+      "price": 3800000
     },
     {
       "line": "Eclado",
@@ -556,7 +595,8 @@
       "category": "cream",
       "description_fa": "ژل حاوی عصاره برگ آلوئه‌ورا برای تسکین و رطوبت‌رسانی پوست خشک، حساس و آسیب‌دیده؛ قابل استفاده به‌عنوان ماسک خواب یا لایه آبرسان.",
       "featured": false,
-      "brand": "Eclado"
+      "brand": "Eclado",
+      "price": 4270000
     },
     {
       "line": "Moisturizer",
@@ -574,11 +614,12 @@
       "name_en": "Azulene Moist Cream",
       "name_fa": "کرم رطوبت رسان آزولین",
       "sku": "ECLADO-AZULENE-MOIST-CREAM",
-      "volume": "",
+      "volume": "80g",
       "category": "cream",
       "description_fa": "کرم آبرسان عمیق با ۷ نوع هیالورونیک اسید، ۵۰۰۰ppm گایازولن و اسکوالن برای رطوبت‌رسانی طولانی و تسکین قرمزی پوست تحریک‌شده.",
       "featured": false,
-      "brand": "Eclado"
+      "brand": "Eclado",
+      "price": 3040000
     },
     {
       "line": "Moisturizer",
@@ -600,7 +641,8 @@
       "category": "cream",
       "description_fa": "کرم مغذی با بافت پودینگی حاوی EGF و آدنوزین برای ضدچروک و بازسازی سلولی؛ مناسب ترمیم پس از میکرونیدلینگ و لیزر.",
       "featured": false,
-      "brand": "Eclado"
+      "brand": "Eclado",
+      "price": 4430000
     },
     {
       "line": "Moisturizer",
@@ -666,7 +708,8 @@
       "category": "cream",
       "description_fa": "کرم غنی با عصاره خاویار، پروتئین گیاهی و استیل هگزاپپتید-۸ برای تغذیه و شادابی بدون حس چربی؛ مناسب مرطوب‌کننده روز و شب.",
       "featured": false,
-      "brand": "Eclado"
+      "brand": "Eclado",
+      "price": 4450000
     },
     {
       "line": "Eclado",
@@ -677,7 +720,8 @@
       "category": "cream",
       "description_fa": "کرم ماساژ غیرچرب برای پوست حساس و مستعد آکنه با چای سبز، هیالورونیک اسید و بابونه؛ مرطوب‌کننده و روشن‌کننده بدون تحریک.",
       "featured": false,
-      "brand": "Eclado"
+      "brand": "Eclado",
+      "price": 5570000
     },
     {
       "line": "Eclado",
@@ -688,7 +732,8 @@
       "category": "cream",
       "description_fa": "کرم مغذی آبی‌رنگ با هفت مجموعه رطوبت‌رسان و کمپلکس ELL-6-perfect؛ حاوی اسکوالان، روغن ماکادمیا، پاپایا، لسیتین و بتاگلوکان.",
       "featured": false,
-      "brand": "Eclado"
+      "brand": "Eclado",
+      "price": 4810000
     },
     {
       "line": "Snail",
@@ -699,7 +744,8 @@
       "category": "cream",
       "description_fa": "کرم با ۲۰٪ موسین حلزون و آدنوزین برای احیا، افزایش کلاژن و تقویت الاستیسیته؛ مناسب پوست خشک و دارای چین‌وچروک.",
       "featured": false,
-      "brand": "Eclado"
+      "brand": "Eclado",
+      "price": 2810000
     },
     {
       "line": "Moisturizer",
@@ -721,7 +767,8 @@
       "category": "eye",
       "description_fa": "کرم سبک دور چشم و اطراف دهان با EGF، سلول‌های بنیادی گیاهی، پپتید و روغن ماکادمیا برای افزایش کلاژن و کاهش چروک و التهاب.",
       "featured": false,
-      "brand": "Eclado"
+      "brand": "Eclado",
+      "price": 2690000
     },
     {
       "line": "Eye",
@@ -743,7 +790,8 @@
       "category": "eye",
       "description_fa": "کرم دور چشم با ۷ لایه هیالورونیک اسید و پپتید برای آبرسانی عمیق و کاهش چروک؛ تست حساسیت موفق، بدون ایجاد میلیا.",
       "featured": false,
-      "brand": "Eclado"
+      "brand": "Eclado",
+      "price": 1910000
     },
     {
       "line": "Snail",
@@ -754,7 +802,8 @@
       "category": "eye",
       "description_fa": "پچ چشمی با موسین حلزون، آدنوزین، اپلیت و آلانتوئین برای رطوبت، ارتجاع و روشن‌سازی پوست کدر دور چشم.",
       "featured": false,
-      "brand": "Eclado"
+      "brand": "Eclado",
+      "price": 2030000
     },
     {
       "line": "Eclado",
@@ -765,7 +814,8 @@
       "category": "eye",
       "description_fa": "امولسیون سبک دور چشم با نیاسینامید برای روشن‌سازی و رطوبت‌رسانی دور چشم‌های خسته؛ جذب بالا و مناسب استفاده با دستگاه سونیک.",
       "featured": false,
-      "brand": "Eclado"
+      "brand": "Eclado",
+      "price": 2240000
     },
     {
       "line": "Sunscreen",
@@ -809,7 +859,8 @@
       "category": "peel",
       "description_fa": "اسکراب کرمی با دانه گردو و ۴٪ AHA برای حذف سلول‌های مرده.",
       "featured": false,
-      "brand": "Eclado"
+      "brand": "Eclado",
+      "price": 2460000
     },
     {
       "line": "Peeling",
@@ -820,7 +871,8 @@
       "category": "peel",
       "description_fa": "گماژ ژلی بدون دانه برای لایه‌برداری کامل و درخشش پوست.",
       "featured": false,
-      "brand": "Eclado"
+      "brand": "Eclado",
+      "price": 2240000
     },
     {
       "line": "Peeling",
@@ -838,11 +890,12 @@
       "name_en": "Gold Essential Mask",
       "name_fa": "ماسک ژلی گلد اسشنال",
       "sku": "ECLADO-GOLD-ESSENTIAL-MASK",
-      "volume": "",
+      "volume": "1",
       "category": "mask",
       "description_fa": "ماسک ژلی با طلای ۲۴ عیار، آدنوزین و ترکیب Greenol برای روشن‌سازی، احیا و تسکین؛ توصیه‌شده پس از میکرونیدلینگ.",
       "featured": false,
-      "brand": "Eclado"
+      "brand": "Eclado",
+      "price": 500000
     },
     {
       "line": "Mask",
@@ -864,7 +917,8 @@
       "category": "mask",
       "description_fa": "ماسک گچی بابونه تسکین‌دهنده پوست حساس با خواص ضدالتهاب و آنتی‌باکتریال؛ کمک به درمان اگزما، پسوریازیس و آکنه.",
       "featured": false,
-      "brand": "Eclado"
+      "brand": "Eclado",
+      "price": 7040000
     },
     {
       "line": "Modeling Mask",
@@ -875,7 +929,8 @@
       "category": "mask",
       "description_fa": "ماسک گچی لوندر برای کنترل چربی، سم‌زدایی و تسکین پوست حساس؛ کمک به درمان آکنه، اگزما و خشکی.",
       "featured": false,
-      "brand": "Eclado"
+      "brand": "Eclado",
+      "price": 6190000
     },
     {
       "line": "Modeling Mask",
@@ -886,7 +941,8 @@
       "category": "mask",
       "description_fa": "ماسک گچی تغذیه‌رسان رز برای کمک به درمان آکنه و تیرگی، کنترل چربی و احیای پوست خسته.",
       "featured": false,
-      "brand": "Eclado"
+      "brand": "Eclado",
+      "price": 7360000
     },
     {
       "line": "Modeling Mask",
@@ -904,11 +960,12 @@
       "name_en": "Pearl Ultra Velvet Mask",
       "name_fa": "ماسک اولترا ولت مروارید",
       "sku": "ECLADO-PEARL-ULTRA-VELVET-MASK",
-      "volume": "",
+      "volume": "1",
       "category": "mask",
       "description_fa": "ماسک حرفه‌ای دو مرحله‌ای با بافت ژلی و پودر مروارید برای روشن‌سازی و تسکین آنی؛ مخصوص کلینیک پس از لایه‌برداری، لیزر و میکرونیدلینگ.",
       "featured": false,
-      "brand": "Eclado"
+      "brand": "Eclado",
+      "price": 630000
     },
     {
       "line": "Mask",
@@ -930,7 +987,8 @@
       "category": "mask",
       "description_fa": "ماسک کرمی حرفه‌ای برای افزایش ارتجاع پوست خشک و سالخورده؛ مناسب پایه قبل از ماسک گچی با روغن‌های گیاهی و عصاره‌های تخمیری.",
       "featured": false,
-      "brand": "Eclado"
+      "brand": "Eclado",
+      "price": 4140000
     },
     {
       "line": "Mask",
@@ -941,7 +999,8 @@
       "category": "mask",
       "description_fa": "ماسک گیاهی تسکین‌دهنده برای آرام‌سازی پوست تحریک‌شده.",
       "featured": false,
-      "brand": "Eclado"
+      "brand": "Eclado",
+      "price": 6150000
     },
     {
       "line": "Mask",
@@ -963,7 +1022,8 @@
       "category": "mask",
       "description_fa": "ماسک اسفنجی حرفه‌ای برای پاکسازی و روشن‌سازی.",
       "featured": false,
-      "brand": "Eclado"
+      "brand": "Eclado",
+      "price": 220000
     },
     {
       "line": "Peeling",
@@ -981,11 +1041,12 @@
       "name_en": "Vital Lift Pack Gold",
       "name_fa": "پک ویتال لیفت گلد",
       "sku": "ECLADO-VITAL-LIFT-PACK-GOLD",
-      "volume": "",
+      "volume": "10×8g",
       "category": "kit",
       "description_fa": "پک حرفه‌ای لیفتینگ با ۵ پپتید آنتی‌اکسیدان، کلاژن هیدرولیز شده، پلی‌گلوتامیک اسید و آلانتوئین برای سفت‌سازی، کاهش چروک و رطوبت عمیق.",
       "featured": false,
-      "brand": "Eclado"
+      "brand": "Eclado",
+      "price": 7330000
     },
     {
       "line": "Eclado",
@@ -1018,7 +1079,8 @@
       "category": "professional",
       "description_fa": "دستگاه حرفه‌ای میکرونیدلینگ برای جوانسازی و درمان‌های پوستی کلینیکی.",
       "featured": false,
-      "brand": "Eclado"
+      "brand": "Eclado",
+      "price": 52240000
     },
     {
       "line": "Eclado",
@@ -1029,7 +1091,8 @@
       "category": "professional",
       "description_fa": "ابزار گواشا چوب صندل اکلادو برای ماساژ پوست و اسکالپ در مراقبت حرفه‌ای.",
       "featured": false,
-      "brand": "Eclado"
+      "brand": "Eclado",
+      "price": 1870000
     },
     {
       "line": "Eclado",
@@ -1040,7 +1103,8 @@
       "category": "professional",
       "description_fa": "براش سیلیکونی برند اکلادو برای اعمال محصولات در درمان‌های حرفه‌ای پوست.",
       "featured": false,
-      "brand": "Eclado"
+      "brand": "Eclado",
+      "price": 440000
     },
     {
       "brand": "Eclat Du Teint",
@@ -1062,7 +1126,8 @@
       "volume": "40ml",
       "category": "cream",
       "description_fa": "کرم ترمیمی و مرطوب‌کننده با EGF و سنتلا؛ مناسب قبل و بعد از درمان پوست.",
-      "featured": true
+      "featured": true,
+      "price": 3590000
     },
     {
       "brand": "Eclat Du Teint",
@@ -1073,7 +1138,8 @@
       "volume": "50ml",
       "category": "cream",
       "description_fa": "کرم لیفتینگ با کمپلکس پپتاید و آدنوزین برای بهبود منافذ، کشسانی و چین‌وچروک.",
-      "featured": true
+      "featured": true,
+      "price": 2740000
     },
     {
       "brand": "Eclat Du Teint",
@@ -1117,7 +1183,8 @@
       "volume": "5 sets",
       "category": "mask",
       "description_fa": "ماسک مدلینگ حرفه‌ای کلینیکی با سیکا؛ حفظ رطوبت تا ۷۲ ساعت.",
-      "featured": true
+      "featured": true,
+      "price": 770000
     },
     {
       "brand": "Eclat Du Teint",
@@ -1172,7 +1239,8 @@
       "volume": "200ml",
       "category": "toner",
       "description_fa": "تونر صورتی کالامین با ۳۰٬۰۰۰ ppm برای تسکین فوری آکنه، پوست حساس و کنترل چربی.",
-      "featured": true
+      "featured": true,
+      "price": 3460000
     },
     {
       "brand": "Eclat Du Teint",
@@ -1216,7 +1284,8 @@
       "volume": "50ml",
       "category": "cream",
       "description_fa": "کرم پروتئینی با ۵۰٬۰۰۰ ppm آمینواسید برای تقویت سد رطوبتی و چرخه سلولی.",
-      "featured": false
+      "featured": false,
+      "price": 3810000
     },
     {
       "brand": "Eclat Du Teint",
@@ -1249,7 +1318,8 @@
       "volume": "500ml",
       "category": "toner",
       "description_fa": "تونر-اسنس آبرسان با CELLDETOX و هیالورونیک اسید برای ترمیم و بازسازی.",
-      "featured": true
+      "featured": true,
+      "price": 8360000
     },
     {
       "brand": "Eclat Du Teint",
@@ -1268,10 +1338,11 @@
       "name_en": "Biome Black Sugar Gommage Peeling Gel",
       "name_fa": "بایوم بلک شوگر گماژ پیلینگ ژل",
       "sku": "EDT-BLACKSUGAR-GOMMAGE",
-      "volume": "",
+      "volume": "150 ml",
       "category": "peel",
       "description_fa": "ژل پیلینگ گماژ ملایم با شکر سیاه، سلولز و آنزیم پاپائین برای پوست حساس.",
-      "featured": false
+      "featured": false,
+      "price": 3300000
     },
     {
       "brand": "Eclat Du Teint",
@@ -1282,7 +1353,8 @@
       "volume": "100g",
       "category": "mask",
       "description_fa": "ماسک چای سبز و اسپیکول برای جمع‌کردن منافذ، کنترل سبوم و بافت شیشه‌ای پوست.",
-      "featured": true
+      "featured": true,
+      "price": 3280000
     },
     {
       "brand": "Eclat Du Teint",
@@ -1293,7 +1365,8 @@
       "volume": "100ml",
       "category": "peel",
       "description_fa": "پیلینگ حرفه‌ای با ترکیب AHA، BHA و PHA و عصاره‌های گیاهی دریایی.",
-      "featured": true
+      "featured": true,
+      "price": 6880000
     },
     {
       "brand": "Eclat Du Teint",
@@ -1304,7 +1377,8 @@
       "volume": "Booster 10ml×6 + Powder 2g×6",
       "category": "kit",
       "description_fa": "کیت میکرونیدلینگ طبیعی اسپیرولینا برای تحریک کلاژن و الاستین.",
-      "featured": false
+      "featured": false,
+      "price": 5380000
     },
     {
       "brand": "Eclat Du Teint",
@@ -3366,22 +3440,995 @@
       "name_en": "NK-CX Cream",
       "name_fa": "کرم NK_CX",
       "sku": "ECLADO-NK-CX-CREAM",
-      "volume": "",
+      "volume": "2×20g",
       "category": "cream",
       "description_fa": "کرم مراقبتی NK_CX اکلادو با بافت سبک برای تغذیه، ترمیم و تقویت سد دفاعی پوست؛ مناسب روتین روزانه کلینیک و منزل.",
       "featured": true,
-      "brand": "Eclado"
+      "brand": "Eclado",
+      "price": 3880000
     },
     {
       "line": "Advanced",
       "name_en": "Advanced Cream Mask",
       "name_fa": "ماسک کرمی ادونس",
       "sku": "ECLADO-ADVANCED-CREAM-MASK",
-      "volume": "",
+      "volume": "240g",
       "category": "mask",
       "description_fa": "ماسک کرمی ادونس اکلادو برای آبرسانی عمیق، تغذیه و بازسازی پوست خسته؛ بافت کرمی غنی مناسب ماسک حرفه‌ای و مراقبت خانگی.",
       "featured": true,
-      "brand": "Eclado"
+      "brand": "Eclado",
+      "price": 2990000
+    },
+    {
+      "line": "",
+      "name_en": "Oil Free Sunscreen",
+      "name_fa": "کرم ضد آفتاب اویل فیری",
+      "sku": "ECLADO-OIL-FREE-SUNSCREEN-70G",
+      "volume": "70g",
+      "category": "sunscreen",
+      "description_fa": "کرم ضد آفتاب اویل فیری برند Eclado — حجم 70g.",
+      "featured": false,
+      "brand": "Eclado",
+      "price": 2650000
+    },
+    {
+      "line": "",
+      "name_en": "Natural Perfect Sunscreen",
+      "name_fa": "کرم ضد آفتاب نچرال پرفکت",
+      "sku": "ECLADO-NATURAL-PERFECT-SUNSCREEN-70G",
+      "volume": "70g",
+      "category": "sunscreen",
+      "description_fa": "کرم ضد آفتاب نچرال پرفکت برند Eclado — حجم 70g.",
+      "featured": false,
+      "brand": "Eclado",
+      "price": 2820000
+    },
+    {
+      "line": "",
+      "name_en": "BB Cream Blemish",
+      "name_fa": "بی‌بی کرم بلمیش اکلادو",
+      "sku": "ECLADO-BB-CREAM-BLEMISH-50G",
+      "volume": "50g",
+      "category": "sunscreen",
+      "description_fa": "بی‌بی کرم بلمیش اکلادو برند Eclado — حجم 50g.",
+      "featured": false,
+      "brand": "Eclado",
+      "price": 3180000
+    },
+    {
+      "line": "",
+      "name_en": "Vita Radiance Serum",
+      "name_fa": "ویتا رادیانس سرم",
+      "sku": "ECLADO-VITA-RADIANCE-SERUM-100-ML",
+      "volume": "100 ml",
+      "category": "serum",
+      "description_fa": "ویتا رادیانس سرم برند Eclado — حجم 100 ml.",
+      "featured": false,
+      "brand": "Eclado",
+      "price": 3860000
+    },
+    {
+      "line": "",
+      "name_en": "Royal Exo Protein Ampoule",
+      "name_fa": "رویال اکسو پروتئین آمپول",
+      "sku": "ECLADO-ROYAL-EXO-PROTEIN-AMPOULE-50-ML",
+      "volume": "50 ml",
+      "category": "serum",
+      "description_fa": "رویال اکسو پروتئین آمپول برند Eclado — حجم 50 ml.",
+      "featured": false,
+      "brand": "Eclado",
+      "price": 4300000
+    },
+    {
+      "line": "",
+      "name_en": "Herb Massage Cream",
+      "name_fa": "کرم ماساژ هرب",
+      "sku": "ECLADO-HERB-MASSAGE-CREAM-1000G",
+      "volume": "1000g",
+      "category": "cream",
+      "description_fa": "کرم ماساژ هرب برند Eclado — حجم 1000g.",
+      "featured": false,
+      "brand": "Eclado",
+      "price": 4910000
+    },
+    {
+      "line": "",
+      "name_en": "V.C Massage Cream",
+      "name_fa": "کرم ماساژ V.C",
+      "sku": "ECLADO-V-C-MASSAGE-CREAM-300-ML",
+      "volume": "300 ml",
+      "category": "cream",
+      "description_fa": "کرم ماساژ V.C برند Eclado — حجم 300 ml.",
+      "featured": false,
+      "brand": "Eclado",
+      "price": 2990000
+    },
+    {
+      "line": "",
+      "name_en": "Melaser Turn Over Cream",
+      "name_fa": "کرم ملیزر ترن اور",
+      "sku": "ECLADO-MELASER-TURN-OVER-CREAM-50G",
+      "volume": "50g",
+      "category": "cream",
+      "description_fa": "کرم ملیزر ترن اور برند Eclado — حجم 50g.",
+      "featured": false,
+      "brand": "Eclado",
+      "price": 2420000
+    },
+    {
+      "line": "",
+      "name_en": "Acne Pimple Cream",
+      "name_fa": "کرم آکنه پیمپل",
+      "sku": "ECLADO-ACNE-PIMPLE-CREAM-50G",
+      "volume": "50g",
+      "category": "cream",
+      "description_fa": "کرم آکنه پیمپل برند Eclado — حجم 50g.",
+      "featured": false,
+      "brand": "Eclado",
+      "price": 2690000
+    },
+    {
+      "line": "",
+      "name_en": "Antiseptic Spray",
+      "name_fa": "اسپری ضدعفونی کننده آنتی سپتیک",
+      "sku": "ECLADO-ANTISEPTIC-SPRAY-170-ML",
+      "volume": "170 ml",
+      "category": "professional",
+      "description_fa": "اسپری ضدعفونی کننده آنتی سپتیک برند Eclado — حجم 170 ml.",
+      "featured": false,
+      "brand": "Eclado",
+      "price": 1610000
+    },
+    {
+      "line": "",
+      "name_en": "Snow Respiration Cream",
+      "name_fa": "کرم اسنو رسپریشن (پوست حساس)",
+      "sku": "ECLADO-SNOW-RESPIRATION-CREAM-100G",
+      "volume": "100g",
+      "category": "cream",
+      "description_fa": "کرم اسنو رسپریشن (پوست حساس) برند Eclado — حجم 100g.",
+      "featured": false,
+      "brand": "Eclado",
+      "price": 3090000
+    },
+    {
+      "line": "",
+      "name_en": "Alpha Hydra Booster Gel",
+      "name_fa": "ژل بوستر آلفا هایدرا",
+      "sku": "ECLADO-ALPHA-HYDRA-BOOSTER-GEL-500-ML",
+      "volume": "500 ml",
+      "category": "serum",
+      "description_fa": "ژل بوستر آلفا هایدرا برند Eclado — حجم 500 ml.",
+      "featured": false,
+      "brand": "Eclado",
+      "price": 5110000
+    },
+    {
+      "line": "",
+      "name_en": "NK-CX Protein Mist",
+      "name_fa": "میست پروتئین NK-CX",
+      "sku": "ECLADO-NK-CX-PROTEIN-MIST-100-ML",
+      "volume": "100 ml",
+      "category": "toner",
+      "description_fa": "میست پروتئین NK-CX برند Eclado — حجم 100 ml.",
+      "featured": false,
+      "brand": "Eclado",
+      "price": 2860000
+    },
+    {
+      "line": "",
+      "name_en": "Collagen Plus Firming Cream",
+      "name_fa": "کرم سفت کننده کلاژن پلاس",
+      "sku": "ECLADO-COLLAGEN-PLUS-FIRMING-CREAM-80G",
+      "volume": "80g",
+      "category": "cream",
+      "description_fa": "کرم سفت کننده کلاژن پلاس برند Eclado — حجم 80g.",
+      "featured": false,
+      "brand": "Eclado",
+      "price": 2910000
+    },
+    {
+      "line": "",
+      "name_en": "Cell Magic Skin Lotion",
+      "name_fa": "لوسیون پوست سل مجیک",
+      "sku": "ECLADO-CELL-MAGIC-SKIN-LOTION-140-ML",
+      "volume": "140 ml",
+      "category": "toner",
+      "description_fa": "لوسیون پوست سل مجیک برند Eclado — حجم 140 ml.",
+      "featured": false,
+      "brand": "Eclado",
+      "price": 3600000
+    },
+    {
+      "line": "",
+      "name_en": "Stem Cell Cream",
+      "name_fa": "کرم سلول های بنیادی",
+      "sku": "ECLADO-STEM-CELL-CREAM-50G",
+      "volume": "50g",
+      "category": "cream",
+      "description_fa": "کرم سلول های بنیادی برند Eclado — حجم 50g.",
+      "featured": false,
+      "brand": "Eclado",
+      "price": 3260000
+    },
+    {
+      "line": "",
+      "name_en": "Melaser Radiance Cream",
+      "name_fa": "کرم ملیزر رادیانس",
+      "sku": "ECLADO-MELASER-RADIANCE-CREAM-70G",
+      "volume": "70g",
+      "category": "cream",
+      "description_fa": "کرم ملیزر رادیانس برند Eclado — حجم 70g.",
+      "featured": false,
+      "brand": "Eclado",
+      "price": 2750000
+    },
+    {
+      "line": "",
+      "name_en": "Gold Patch",
+      "name_fa": "پچ طلا",
+      "sku": "ECLADO-GOLD-PATCH-50-PCS",
+      "volume": "50 pcs",
+      "category": "kit",
+      "description_fa": "پچ طلا برند Eclado — حجم 50 pcs.",
+      "featured": false,
+      "brand": "Eclado",
+      "price": 21230000
+    },
+    {
+      "line": "",
+      "name_en": "FGF Youth Therapy",
+      "name_fa": "تراپی جوان ساز FGF",
+      "sku": "ECLADO-FGF-YOUTH-THERAPY-ITEM",
+      "volume": "",
+      "category": "kit",
+      "description_fa": "تراپی جوان ساز FGF برند Eclado.",
+      "featured": false,
+      "brand": "Eclado",
+      "price": 10970000
+    },
+    {
+      "line": "",
+      "name_en": "Rejuven Hydra Lifting Therapy",
+      "name_fa": "تراپی آبرسان و لیفتینگ ریجوون",
+      "sku": "ECLADO-REJUVEN-HYDRA-LIFTING-THERAPY-ITEM",
+      "volume": "",
+      "category": "kit",
+      "description_fa": "تراپی آبرسان و لیفتینگ ریجوون برند Eclado.",
+      "featured": false,
+      "brand": "Eclado",
+      "price": 9050000
+    },
+    {
+      "line": "",
+      "name_en": "Vita Crash Brightening Therapy",
+      "name_fa": "تراپی روشن‌کننده ویتا کراش",
+      "sku": "ECLADO-VITA-CRASH-BRIGHTENING-THERAPY-ITEM",
+      "volume": "",
+      "category": "kit",
+      "description_fa": "تراپی روشن‌کننده ویتا کراش برند Eclado.",
+      "featured": false,
+      "brand": "Eclado",
+      "price": 9950000
+    },
+    {
+      "line": "",
+      "name_en": "NK-CX Core Ampoule",
+      "name_fa": "آمپول NK-CX Core",
+      "sku": "ECLADO-NK-CX-CORE-AMPOULE-1-PACK",
+      "volume": "1 pack",
+      "category": "serum",
+      "description_fa": "آمپول NK-CX Core برند Eclado — حجم 1 pack.",
+      "featured": false,
+      "brand": "Eclado",
+      "price": 14090000
+    },
+    {
+      "line": "",
+      "name_en": "One Minute Wine Peel",
+      "name_fa": "وان مینت واین پیل",
+      "sku": "ECLADO-ONE-MINUTE-WINE-PEEL-50-ML",
+      "volume": "50 ml",
+      "category": "peel",
+      "description_fa": "وان مینت واین پیل برند Eclado — حجم 50 ml.",
+      "featured": false,
+      "brand": "Eclado",
+      "price": 3710000
+    },
+    {
+      "line": "",
+      "name_en": "Multi Cure",
+      "name_fa": "مالتی کیور",
+      "sku": "ECLADO-MULTI-CURE-ITEM",
+      "volume": "",
+      "category": "professional",
+      "description_fa": "مالتی کیور برند Eclado.",
+      "featured": false,
+      "brand": "Eclado",
+      "price": 2650000
+    },
+    {
+      "line": "",
+      "name_en": "White Turban",
+      "name_fa": "توربان سفید",
+      "sku": "ECLADO-WHITE-TURBAN-ITEM",
+      "volume": "",
+      "category": "professional",
+      "description_fa": "توربان سفید برند Eclado.",
+      "featured": false,
+      "brand": "Eclado",
+      "price": 750000
+    },
+    {
+      "line": "",
+      "name_en": "Bowl",
+      "name_fa": "کاسه",
+      "sku": "ECLADO-BOWL-ITEM",
+      "volume": "",
+      "category": "professional",
+      "description_fa": "کاسه برند Eclado.",
+      "featured": false,
+      "brand": "Eclado",
+      "price": 480000
+    },
+    {
+      "line": "",
+      "name_en": "Hair Brush",
+      "name_fa": "براش مویی",
+      "sku": "ECLADO-HAIR-BRUSH-ITEM",
+      "volume": "",
+      "category": "professional",
+      "description_fa": "براش مویی برند Eclado.",
+      "featured": false,
+      "brand": "Eclado",
+      "price": 390000
+    },
+    {
+      "line": "",
+      "name_en": "Spatula",
+      "name_fa": "کاردک",
+      "sku": "ECLADO-SPATULA-ITEM",
+      "volume": "",
+      "category": "professional",
+      "description_fa": "کاردک برند Eclado.",
+      "featured": false,
+      "brand": "Eclado",
+      "price": 440000
+    },
+    {
+      "line": "",
+      "name_en": "Foam Bottle",
+      "name_fa": "بطری فوم ساز",
+      "sku": "ECLADO-FOAM-BOTTLE-ITEM",
+      "volume": "",
+      "category": "professional",
+      "description_fa": "بطری فوم ساز برند Eclado.",
+      "featured": false,
+      "brand": "Eclado",
+      "price": 580000
+    },
+    {
+      "line": "",
+      "name_en": "Riva Device",
+      "name_fa": "دستگاه ریوا",
+      "sku": "ECLADO-RIVA-DEVICE-ITEM",
+      "volume": "",
+      "category": "professional",
+      "description_fa": "دستگاه ریوا برند Eclado.",
+      "featured": false,
+      "brand": "Eclado",
+      "price": 28280000
+    },
+    {
+      "line": "",
+      "name_en": "Microneedling Cartridge Pack",
+      "name_fa": "کارتریج میکرونیدلینگ",
+      "sku": "ECLADO-MICRONEEDLING-CARTRIDGE-PACK-30-PCS",
+      "volume": "30 pcs",
+      "category": "professional",
+      "description_fa": "کارتریج میکرونیدلینگ برند Eclado — حجم 30 pcs.",
+      "featured": false,
+      "brand": "Eclado",
+      "price": 23840000
+    },
+    {
+      "line": "",
+      "name_en": "Dermashot Device",
+      "name_fa": "دستگاه درماشات",
+      "sku": "ECLADO-DERMASHOT-DEVICE-1",
+      "volume": "1",
+      "category": "professional",
+      "description_fa": "دستگاه درماشات برند Eclado — حجم 1.",
+      "featured": false,
+      "brand": "Eclado",
+      "price": 200000
+    },
+    {
+      "line": "",
+      "name_en": "Oxygen Bubble Mask",
+      "name_fa": "بابل ماسک اکسیژن",
+      "sku": "ECLADO-OXYGEN-BUBBLE-MASK-120-ML",
+      "volume": "120 ml",
+      "category": "mask",
+      "description_fa": "بابل ماسک اکسیژن برند Eclado — حجم 120 ml.",
+      "featured": false,
+      "brand": "Eclado",
+      "price": 3010000
+    },
+    {
+      "line": "",
+      "name_en": "Hydra Moisturizing Mask",
+      "name_fa": "ماسک رطوبت رسان هایدرا",
+      "sku": "ECLADO-HYDRA-MOISTURIZING-MASK-240G",
+      "volume": "240g",
+      "category": "mask",
+      "description_fa": "ماسک رطوبت رسان هایدرا برند Eclado — حجم 240g.",
+      "featured": false,
+      "brand": "Eclado",
+      "price": 2990000
+    },
+    {
+      "line": "",
+      "name_en": "Aquamarine Mask",
+      "name_fa": "ماسک آکوامارین",
+      "sku": "ECLADO-AQUAMARINE-MASK-240G",
+      "volume": "240g",
+      "category": "mask",
+      "description_fa": "ماسک آکوامارین برند Eclado — حجم 240g.",
+      "featured": false,
+      "brand": "Eclado",
+      "price": 2990000
+    },
+    {
+      "line": "",
+      "name_en": "Centella Acne Mask",
+      "name_fa": "ماسک آکنه سنتلا",
+      "sku": "ECLADO-CENTELLA-ACNE-MASK-200G",
+      "volume": "200g",
+      "category": "mask",
+      "description_fa": "ماسک آکنه سنتلا برند Eclado — حجم 200g.",
+      "featured": false,
+      "brand": "Eclado",
+      "price": 2780000
+    },
+    {
+      "line": "",
+      "name_en": "Anionic Sheet Mask",
+      "name_fa": "شیت ماسک آنیونیک",
+      "sku": "ECLADO-ANIONIC-SHEET-MASK-1",
+      "volume": "1",
+      "category": "mask",
+      "description_fa": "شیت ماسک آنیونیک برند Eclado — حجم 1.",
+      "featured": false,
+      "brand": "Eclado",
+      "price": 350000
+    },
+    {
+      "line": "",
+      "name_en": "Alphabium Brightening Mask",
+      "name_fa": "ماسک روشن کننده آلفابیوم",
+      "sku": "ECLADO-ALPHABIUM-BRIGHTENING-MASK-1",
+      "volume": "1",
+      "category": "mask",
+      "description_fa": "ماسک روشن کننده آلفابیوم برند Eclado — حجم 1.",
+      "featured": false,
+      "brand": "Eclado",
+      "price": 420000
+    },
+    {
+      "line": "",
+      "name_en": "Gold Ultra Velvet Mask",
+      "name_fa": "ماسک اولترا ولوت طلا",
+      "sku": "ECLADO-GOLD-ULTRA-VELVET-MASK-1",
+      "volume": "1",
+      "category": "mask",
+      "description_fa": "ماسک اولترا ولوت طلا برند Eclado — حجم 1.",
+      "featured": false,
+      "brand": "Eclado",
+      "price": 630000
+    },
+    {
+      "line": "",
+      "name_en": "Modeling Mask Azulene",
+      "name_fa": "مادلینگ ماسک آزولین",
+      "sku": "ECLADO-MODELING-MASK-AZULENE-700G",
+      "volume": "700g",
+      "category": "mask",
+      "description_fa": "مادلینگ ماسک آزولین برند Eclado — حجم 700g.",
+      "featured": false,
+      "brand": "Eclado",
+      "price": 7410000
+    },
+    {
+      "line": "",
+      "name_en": "Royal Milk Protein Peel Off Mask",
+      "name_fa": "ماسک پیل آف پروتئین شیر رویال",
+      "sku": "ECLADO-ROYAL-MILK-PROTEIN-PEEL-OFF-MASK-70G",
+      "volume": "70g",
+      "category": "mask",
+      "description_fa": "ماسک پیل آف پروتئین شیر رویال برند Eclado — حجم 70g.",
+      "featured": false,
+      "brand": "Eclado",
+      "price": 2260000
+    },
+    {
+      "line": "",
+      "name_en": "Vita Modeling Mask",
+      "name_fa": "ماسک گچی ویتا",
+      "sku": "ECLADO-VITA-MODELING-MASK-350G",
+      "volume": "350g",
+      "category": "mask",
+      "description_fa": "ماسک گچی ویتا برند Eclado — حجم 350g.",
+      "featured": false,
+      "brand": "Eclado",
+      "price": 1940000
+    },
+    {
+      "line": "",
+      "name_en": "Rich Bubble Cleanser",
+      "name_fa": "کلینزر ریچ بابل",
+      "sku": "EDT-RICH-BUBBLE-CLEANSER-100-ML",
+      "volume": "100 ml",
+      "category": "cleanser",
+      "description_fa": "کلینزر ریچ بابل برند Eclat Du Teint — حجم 100 ml.",
+      "featured": false,
+      "brand": "Eclat Du Teint",
+      "price": 3030000
+    },
+    {
+      "line": "",
+      "name_en": "Foaming Cleanser",
+      "name_fa": "فومینگ کلینزر",
+      "sku": "EDT-FOAMING-CLEANSER-140-ML",
+      "volume": "140 ml",
+      "category": "cleanser",
+      "description_fa": "فومینگ کلینزر برند Eclat Du Teint — حجم 140 ml.",
+      "featured": false,
+      "brand": "Eclat Du Teint",
+      "price": 2460000
+    },
+    {
+      "line": "",
+      "name_en": "Toning Solution",
+      "name_fa": "تونینگ سولوشن",
+      "sku": "EDT-TONING-SOLUTION-500-ML",
+      "volume": "500 ml",
+      "category": "toner",
+      "description_fa": "تونینگ سولوشن برند Eclat Du Teint — حجم 500 ml.",
+      "featured": false,
+      "brand": "Eclat Du Teint",
+      "price": 4640000
+    },
+    {
+      "line": "",
+      "name_en": "Vital Peeling Solution",
+      "name_fa": "سولوشن وایتال پیلینگ",
+      "sku": "EDT-VITAL-PEELING-SOLUTION-5-8ML-5-1G-6",
+      "volume": "5.8ml×5 / 1g×6",
+      "category": "peel",
+      "description_fa": "سولوشن وایتال پیلینگ برند Eclat Du Teint — حجم 5.8ml×5 / 1g×6.",
+      "featured": false,
+      "brand": "Eclat Du Teint",
+      "price": 5380000
+    },
+    {
+      "line": "",
+      "name_en": "Labopeel",
+      "name_fa": "لابوپیل",
+      "sku": "EDT-LABOPEEL-10ML-6-1G-6",
+      "volume": "10ml×6 / 1g×6",
+      "category": "peel",
+      "description_fa": "لابوپیل برند Eclat Du Teint — حجم 10ml×6 / 1g×6.",
+      "featured": false,
+      "brand": "Eclat Du Teint",
+      "price": 9510000
+    },
+    {
+      "line": "",
+      "name_en": "Hydro Lupine Gel",
+      "name_fa": "ژل هایدرو لوپین",
+      "sku": "EDT-HYDRO-LUPINE-GEL-500-ML",
+      "volume": "500 ml",
+      "category": "cream",
+      "description_fa": "ژل هایدرو لوپین برند Eclat Du Teint — حجم 500 ml.",
+      "featured": false,
+      "brand": "Eclat Du Teint",
+      "price": 6120000
+    },
+    {
+      "line": "",
+      "name_en": "Toning Clear Ampoule",
+      "name_fa": "تونینگ کلیر آمپل",
+      "sku": "EDT-TONING-CLEAR-AMPOULE-2ML-20",
+      "volume": "2ml×20",
+      "category": "serum",
+      "description_fa": "تونینگ کلیر آمپل برند Eclat Du Teint — حجم 2ml×20.",
+      "featured": false,
+      "brand": "Eclat Du Teint",
+      "price": 5250000
+    },
+    {
+      "line": "",
+      "name_en": "Hydro Booster 247",
+      "name_fa": "هایدرو بوستر ۲۴۷",
+      "sku": "EDT-HYDRO-BOOSTER-247-7ML-5",
+      "volume": "7ml×5",
+      "category": "serum",
+      "description_fa": "هایدرو بوستر ۲۴۷ برند Eclat Du Teint — حجم 7ml×5.",
+      "featured": false,
+      "brand": "Eclat Du Teint",
+      "price": 8640000
+    },
+    {
+      "line": "",
+      "name_en": "Revitalizing Fluid",
+      "name_fa": "ریوایتلایزینگ فلوئید",
+      "sku": "EDT-REVITALIZING-FLUID-300-ML",
+      "volume": "300 ml",
+      "category": "serum",
+      "description_fa": "ریوایتلایزینگ فلوئید برند Eclat Du Teint — حجم 300 ml.",
+      "featured": false,
+      "brand": "Eclat Du Teint",
+      "price": 4710000
+    },
+    {
+      "line": "",
+      "name_en": "Hydra Intensive Serum",
+      "name_fa": "سرم هایدرا اینتنسیو",
+      "sku": "EDT-HYDRA-INTENSIVE-SERUM-50-ML",
+      "volume": "50 ml",
+      "category": "serum",
+      "description_fa": "سرم هایدرا اینتنسیو برند Eclat Du Teint — حجم 50 ml.",
+      "featured": false,
+      "brand": "Eclat Du Teint"
+    },
+    {
+      "line": "",
+      "name_en": "Vita-C Booster",
+      "name_fa": "بوستر ویتا سی",
+      "sku": "EDT-VITA-C-BOOSTER-50-ML",
+      "volume": "50 ml",
+      "category": "serum",
+      "description_fa": "بوستر ویتا سی برند Eclat Du Teint — حجم 50 ml.",
+      "featured": false,
+      "brand": "Eclat Du Teint",
+      "price": 3140000
+    },
+    {
+      "line": "",
+      "name_en": "Viola Tricolor Waterdrop",
+      "name_fa": "وایولا ترایکالر واتر دراپ",
+      "sku": "EDT-VIOLA-TRICOLOR-WATERDROP-60-ML",
+      "volume": "60 ml",
+      "category": "serum",
+      "description_fa": "وایولا ترایکالر واتر دراپ برند Eclat Du Teint — حجم 60 ml.",
+      "featured": false,
+      "brand": "Eclat Du Teint",
+      "price": 3750000
+    },
+    {
+      "line": "",
+      "name_en": "Concentrated Waterdrop",
+      "name_fa": "کانسنتریتد واتر دراپ",
+      "sku": "EDT-CONCENTRATED-WATERDROP-50-ML",
+      "volume": "50 ml",
+      "category": "serum",
+      "description_fa": "کانسنتریتد واتر دراپ برند Eclat Du Teint — حجم 50 ml.",
+      "featured": false,
+      "brand": "Eclat Du Teint",
+      "price": 2980000
+    },
+    {
+      "line": "",
+      "name_en": "Age Interrupter Cream",
+      "name_fa": "کرم ایج اینتراپتر",
+      "sku": "EDT-AGE-INTERRUPTER-CREAM-50G",
+      "volume": "50g",
+      "category": "cream",
+      "description_fa": "کرم ایج اینتراپتر برند Eclat Du Teint — حجم 50g.",
+      "featured": false,
+      "brand": "Eclat Du Teint",
+      "price": 3520000
+    },
+    {
+      "line": "",
+      "name_en": "Clarifying Kit",
+      "name_fa": "کلریفایینگ کیت",
+      "sku": "EDT-CLARIFYING-KIT-KIT",
+      "volume": "kit",
+      "category": "kit",
+      "description_fa": "کلریفایینگ کیت برند Eclat Du Teint — حجم kit.",
+      "featured": false,
+      "brand": "Eclat Du Teint",
+      "price": 5100000
+    },
+    {
+      "line": "",
+      "name_en": "Shrink Mask",
+      "name_fa": "شرینک ماسک",
+      "sku": "EDT-SHRINK-MASK-120G",
+      "volume": "120g",
+      "category": "mask",
+      "description_fa": "شرینک ماسک برند Eclat Du Teint — حجم 120g.",
+      "featured": false,
+      "brand": "Eclat Du Teint",
+      "price": 6950000
+    },
+    {
+      "line": "",
+      "name_en": "White Clay Mask",
+      "name_fa": "ماسک وایت کلی",
+      "sku": "EDT-WHITE-CLAY-MASK-400G",
+      "volume": "400g",
+      "category": "mask",
+      "description_fa": "ماسک وایت کلی برند Eclat Du Teint — حجم 400g.",
+      "featured": false,
+      "brand": "Eclat Du Teint",
+      "price": 4550000
+    },
+    {
+      "line": "",
+      "name_en": "The True Care Cica-Cotton Mask",
+      "name_fa": "ترو کر سیکا کاتن ماسک",
+      "sku": "EDT-THE-TRUE-CARE-CICA-COTTON-MASK-1",
+      "volume": "1",
+      "category": "mask",
+      "description_fa": "ترو کر سیکا کاتن ماسک برند Eclat Du Teint — حجم 1.",
+      "featured": false,
+      "brand": "Eclat Du Teint",
+      "price": 510000
+    },
+    {
+      "line": "",
+      "name_en": "After Care Sun Cream",
+      "name_fa": "ضد آفتاب افتر کر",
+      "sku": "EDT-AFTER-CARE-SUN-CREAM-50G",
+      "volume": "50g",
+      "category": "sunscreen",
+      "description_fa": "ضد آفتاب افتر کر برند Eclat Du Teint — حجم 50g.",
+      "featured": false,
+      "brand": "Eclat Du Teint",
+      "price": 2980000
+    },
+    {
+      "line": "",
+      "name_en": "Aqua Intensive B.B Cream",
+      "name_fa": "آکوا اینتنسیو بی‌بی کرم",
+      "sku": "EDT-AQUA-INTENSIVE-B-B-CREAM-40G",
+      "volume": "40g",
+      "category": "sunscreen",
+      "description_fa": "آکوا اینتنسیو بی‌بی کرم برند Eclat Du Teint — حجم 40g.",
+      "featured": false,
+      "brand": "Eclat Du Teint",
+      "price": 2980000
+    },
+    {
+      "line": "",
+      "name_en": "Relief Solution",
+      "name_fa": "سولوشن ریلیف",
+      "sku": "EDT-RELIEF-SOLUTION-5ML-6",
+      "volume": "5ml×6",
+      "category": "serum",
+      "description_fa": "سولوشن ریلیف برند Eclat Du Teint — حجم 5ml×6.",
+      "featured": false,
+      "brand": "Eclat Du Teint",
+      "price": 5020000
+    },
+    {
+      "line": "",
+      "name_en": "AC Spot Gel",
+      "name_fa": "ژل ای سی اسپات",
+      "sku": "EDT-AC-SPOT-GEL-15G",
+      "volume": "15g",
+      "category": "cream",
+      "description_fa": "ژل ای سی اسپات برند Eclat Du Teint — حجم 15g.",
+      "featured": false,
+      "brand": "Eclat Du Teint",
+      "price": 2140000
+    },
+    {
+      "line": "",
+      "name_en": "Mummy Pad",
+      "name_fa": "مامی پد",
+      "sku": "EDT-MUMMY-PAD-200-PCS",
+      "volume": "200 pcs",
+      "category": "professional",
+      "description_fa": "مامی پد برند Eclat Du Teint — حجم 200 pcs.",
+      "featured": false,
+      "brand": "Eclat Du Teint",
+      "price": 1140000
+    },
+    {
+      "line": "",
+      "name_en": "Bowl & Spatula",
+      "name_fa": "پک کاسه و کاردک",
+      "sku": "EDT-BOWL-SPATULA-ITEM",
+      "volume": "",
+      "category": "professional",
+      "description_fa": "پک کاسه و کاردک برند Eclat Du Teint.",
+      "featured": false,
+      "brand": "Eclat Du Teint",
+      "price": 1070000
+    },
+    {
+      "line": "",
+      "name_en": "Foam Maker",
+      "name_fa": "بطری فوم ساز",
+      "sku": "EDT-FOAM-MAKER-ITEM",
+      "volume": "",
+      "category": "professional",
+      "description_fa": "بطری فوم ساز برند Eclat Du Teint.",
+      "featured": false,
+      "brand": "Eclat Du Teint",
+      "price": 700000
+    },
+    {
+      "line": "",
+      "name_en": "Fan Brush",
+      "name_fa": "براش پروانه‌ای",
+      "sku": "EDT-FAN-BRUSH-ITEM",
+      "volume": "",
+      "category": "professional",
+      "description_fa": "براش پروانه‌ای برند Eclat Du Teint.",
+      "featured": false,
+      "brand": "Eclat Du Teint",
+      "price": 530000
+    },
+    {
+      "line": "",
+      "name_en": "Pack Brush",
+      "name_fa": "براش مویی",
+      "sku": "EDT-PACK-BRUSH-ITEM",
+      "volume": "",
+      "category": "professional",
+      "description_fa": "براش مویی برند Eclat Du Teint.",
+      "featured": false,
+      "brand": "Eclat Du Teint",
+      "price": 530000
+    },
+    {
+      "line": "",
+      "name_en": "Brush Short",
+      "name_fa": "براش کوتاه",
+      "sku": "EDT-BRUSH-SHORT-ITEM",
+      "volume": "",
+      "category": "professional",
+      "description_fa": "براش کوتاه برند Eclat Du Teint.",
+      "featured": false,
+      "brand": "Eclat Du Teint",
+      "price": 820000
+    },
+    {
+      "line": "",
+      "name_en": "Brush Long",
+      "name_fa": "براش بلند",
+      "sku": "EDT-BRUSH-LONG-ITEM",
+      "volume": "",
+      "category": "professional",
+      "description_fa": "براش بلند برند Eclat Du Teint.",
+      "featured": false,
+      "brand": "Eclat Du Teint",
+      "price": 820000
+    },
+    {
+      "line": "",
+      "name_en": "Roller Needle",
+      "name_fa": "رولر نیدل",
+      "sku": "EDT-ROLLER-NEEDLE-ITEM",
+      "volume": "",
+      "category": "professional",
+      "description_fa": "رولر نیدل برند Eclat Du Teint.",
+      "featured": false,
+      "brand": "Eclat Du Teint",
+      "price": 5220000
+    },
+    {
+      "line": "",
+      "name_en": "Purifying Cleanser",
+      "name_fa": "کلینزر پیوریفایینگ (شیر پاک کن)",
+      "sku": "ECLADO-PURIFYING-CLEANSER-500-ML",
+      "volume": "500 ml",
+      "category": "cleanser",
+      "description_fa": "کلینزر پیوریفایینگ (شیر پاک کن) برند Eclado — حجم 500 ml.",
+      "featured": false,
+      "brand": "Eclado",
+      "price": 3850000
+    },
+    {
+      "line": "",
+      "name_en": "Enhancer Mild Cleanser",
+      "name_fa": "کلینزر ملایم اینهنسر",
+      "sku": "ECLADO-ENHANCER-MILD-CLEANSER-200-ML",
+      "volume": "200 ml",
+      "category": "cleanser",
+      "description_fa": "کلینزر ملایم اینهنسر برند Eclado — حجم 200 ml.",
+      "featured": false,
+      "brand": "Eclado",
+      "price": 2330000
+    },
+    {
+      "line": "",
+      "name_en": "Enzyme Deep Cleanser Powder",
+      "name_fa": "پودر آنزیم",
+      "sku": "ECLADO-ENZYME-DEEP-CLEANSER-POWDER-50G",
+      "volume": "50g",
+      "category": "cleanser",
+      "description_fa": "پودر آنزیم برند Eclado — حجم 50g.",
+      "featured": false,
+      "brand": "Eclado",
+      "price": 1890000
+    },
+    {
+      "line": "",
+      "name_en": "Enzyme Deep Cleanser Powder",
+      "name_fa": "پودر آنزیم",
+      "sku": "ECLADO-ENZYME-DEEP-CLEANSER-POWDER-100G",
+      "volume": "100g",
+      "category": "cleanser",
+      "description_fa": "پودر آنزیم برند Eclado — حجم 100g.",
+      "featured": false,
+      "brand": "Eclado",
+      "price": 2850000
+    },
+    {
+      "line": "",
+      "name_en": "V.C Massage Cream",
+      "name_fa": "کرم ماساژ V.C",
+      "sku": "ECLADO-V-C-MASSAGE-CREAM-1000G",
+      "volume": "1000g",
+      "category": "cream",
+      "description_fa": "کرم ماساژ V.C برند Eclado — حجم 1000g.",
+      "featured": false,
+      "brand": "Eclado",
+      "price": 4910000
+    },
+    {
+      "line": "",
+      "name_en": "Shining Moisture Massage Cream",
+      "name_fa": "کرم ماساژ رطوبت رسان شاینینگ",
+      "sku": "ECLADO-SHINING-MOISTURE-MASSAGE-CREAM-300-ML",
+      "volume": "300 ml",
+      "category": "cream",
+      "description_fa": "کرم ماساژ رطوبت رسان شاینینگ برند Eclado — حجم 300 ml.",
+      "featured": false,
+      "brand": "Eclado",
+      "price": 3120000
+    },
+    {
+      "line": "",
+      "name_en": "Restoration Caviar Cream",
+      "name_fa": "کرم خاویار",
+      "sku": "ECLADO-RESTORATION-CAVIAR-CREAM-100G",
+      "volume": "100g",
+      "category": "cream",
+      "description_fa": "کرم خاویار برند Eclado — حجم 100g.",
+      "featured": false,
+      "brand": "Eclado",
+      "price": 2600000
+    },
+    {
+      "line": "",
+      "name_en": "Skin Soothing Herbal Mask",
+      "name_fa": "ماسک سوتینگ",
+      "sku": "ECLADO-SKIN-SOOTHING-HERBAL-MASK-100G",
+      "volume": "100g",
+      "category": "mask",
+      "description_fa": "ماسک سوتینگ برند Eclado — حجم 100g.",
+      "featured": false,
+      "brand": "Eclado",
+      "price": 2330000
+    },
+    {
+      "line": "",
+      "name_en": "Skin Soothing Herbal Mask",
+      "name_fa": "ماسک سوتینگ",
+      "sku": "ECLADO-SKIN-SOOTHING-HERBAL-MASK-800G",
+      "volume": "800g",
+      "category": "mask",
+      "description_fa": "ماسک سوتینگ برند Eclado — حجم 800g.",
+      "featured": false,
+      "brand": "Eclado",
+      "price": 6150000
     }
   ],
   "contact": {

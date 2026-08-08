@@ -51,6 +51,7 @@ function sohateb_import_catalog(bool $replace_demo = true): array {
 		'peel'         => 'لایه‌بردار',
 		'kit'          => 'ست محصولات',
 		'professional' => 'حرفه‌ای',
+		'other'        => 'سایر',
 	];
 	foreach ($type_map as $slug => $label) {
 		sohateb_ensure_term($label, 'product_cat', $slug);
@@ -139,23 +140,39 @@ function sohateb_import_catalog(bool $replace_demo = true): array {
 		}
 		update_post_meta($product_id, '_sohateb_brand', $brand);
 		update_post_meta($product_id, '_sohateb_line', $line);
-		update_post_meta($product_id, '_regular_price', '');
-		update_post_meta($product_id, '_price', '');
 		update_post_meta($product_id, '_manage_stock', 'no');
 		update_post_meta($product_id, '_stock_status', 'instock');
 		update_post_meta($product_id, '_virtual', 'no');
 		update_post_meta($product_id, '_sold_individually', 'no');
 		update_post_meta($product_id, '_catalog_visibility', 'visible');
 
-		// Prefer WooCommerce product save so SKU lookup stays consistent.
+		$raw_price = $item['price'] ?? null;
+		$price = '';
+		if ($raw_price !== null && $raw_price !== '' && (int) $raw_price > 0) {
+			$price = (string) (int) $raw_price;
+		}
+
+		// Prefer WooCommerce product save so SKU/price lookup stays consistent.
 		$product_obj = wc_get_product($product_id);
 		if ($product_obj instanceof WC_Product) {
 			if ($sku !== '') {
 				$product_obj->set_sku($sku);
 			}
+			if ($price !== '') {
+				$product_obj->set_regular_price($price);
+				$product_obj->set_price($price);
+				$product_obj->set_sale_price('');
+			} else {
+				$product_obj->set_regular_price('');
+				$product_obj->set_price('');
+				$product_obj->set_sale_price('');
+			}
 			$product_obj->set_catalog_visibility('visible');
 			$product_obj->set_stock_status('instock');
 			$product_obj->save();
+		} else {
+			update_post_meta($product_id, '_regular_price', $price);
+			update_post_meta($product_id, '_price', $price);
 		}
 
 		$term_ids = [];
