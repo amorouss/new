@@ -17,7 +17,7 @@
 <a class="st-skip" href="#main"><?php esc_html_e('رفتن به محتوا', 'sohateb'); ?></a>
 
 <div class="st-announcement" data-reveal>
-	<span><?php esc_html_e('سها طب — ویترین محصولات Isabelle Lancray و DSV-LINE', 'sohateb'); ?></span>
+	<span><?php esc_html_e('سها طب — ویترین Isabelle Lancray، DSV-LINE، V&V و Dr. Rimpler', 'sohateb'); ?></span>
 </div>
 
 <header class="st-header" data-header>

@@ -14,6 +14,8 @@ $cat_url = static function (string $slug) use ($shop_url): string {
 };
 $isabelle_url = $cat_url('isabelle-lancry');
 $dsv_url      = $cat_url('dsv-line');
+$vv_url       = $cat_url('vv');
+$rimpler_url  = $cat_url('dr-rimpler');
 $serum_url    = $cat_url('serum');
 $mask_url     = $cat_url('mask');
 $pro_url      = $cat_url('professional');
@@ -32,7 +34,7 @@ $pro_url      = $cat_url('professional');
 				<?php esc_html_e('نماینده رسمی مراقبت پوست حرفه‌ای', 'sohateb'); ?>
 			</h1>
 			<p class="st-hero__lead" data-reveal data-reveal-delay="140">
-				<?php esc_html_e('ویترین محصولات Isabelle Lancray و DSV-LINE برای کلینیک، سالن و مراقبت در منزل.', 'sohateb'); ?>
+				<?php esc_html_e('ویترین Isabelle Lancray، DSV-LINE، V&V و Dr. Rimpler برای کلینیک، سالن و مراقبت در منزل.', 'sohateb'); ?>
 			</p>
 			<div class="st-hero__cta" data-reveal data-reveal-delay="200">
 				<a class="st-btn st-btn--primary" href="#featured">
@@ -50,7 +52,7 @@ $pro_url      = $cat_url('professional');
 		<div class="st-container">
 			<header class="st-section-head" data-reveal>
 				<h2 id="st-cat-title"><?php esc_html_e('برندها و خطوط', 'sohateb'); ?></h2>
-				<p><?php esc_html_e('دو کاتالوگ اصلی سها طب برای مراقبت پوست حرفه‌ای و خانگی.', 'sohateb'); ?></p>
+				<p><?php esc_html_e('چهار برند تخصصی سها طب برای مراقبت پوست حرفه‌ای و خانگی.', 'sohateb'); ?></p>
 			</header>
 			<div class="st-cat-row st-cat-row--brands">
 				<a class="st-cat st-cat--a" href="<?php echo esc_url($isabelle_url); ?>" data-reveal>
@@ -63,13 +65,23 @@ $pro_url      = $cat_url('professional');
 					<span class="st-cat__label">DSV-LINE</span>
 					<span class="st-cat__meta"><?php esc_html_e('معجزه آبی · معجزه سبز · سرم‌ها', 'sohateb'); ?></span>
 				</a>
-				<a class="st-cat st-cat--c" href="<?php echo esc_url($serum_url); ?>" data-reveal>
+				<a class="st-cat st-cat--c" href="<?php echo esc_url($vv_url); ?>" data-reveal>
+					<span class="st-cat__eyebrow">HERABIOTICS</span>
+					<span class="st-cat__label">V&V</span>
+					<span class="st-cat__meta"><?php esc_html_e('روشن‌کننده · ضدجوش · آبرسان', 'sohateb'); ?></span>
+				</a>
+				<a class="st-cat st-cat--d" href="<?php echo esc_url($rimpler_url); ?>" data-reveal>
+					<span class="st-cat__eyebrow">GERMANY</span>
+					<span class="st-cat__label">Dr. Rimpler</span>
+					<span class="st-cat__meta"><?php esc_html_e('Clear · Hydro · Sensitive · Sun', 'sohateb'); ?></span>
+				</a>
+				<a class="st-cat st-cat--e" href="<?php echo esc_url($serum_url); ?>" data-reveal>
 					<span class="st-cat__label"><?php esc_html_e('سرم‌ها', 'sohateb'); ?></span>
 				</a>
-				<a class="st-cat st-cat--d" href="<?php echo esc_url($mask_url); ?>" data-reveal>
+				<a class="st-cat st-cat--f" href="<?php echo esc_url($mask_url); ?>" data-reveal>
 					<span class="st-cat__label"><?php esc_html_e('ماسک‌ها', 'sohateb'); ?></span>
 				</a>
-				<a class="st-cat st-cat--e" href="<?php echo esc_url($pro_url); ?>" data-reveal>
+				<a class="st-cat st-cat--g" href="<?php echo esc_url($pro_url); ?>" data-reveal>
 					<span class="st-cat__label"><?php esc_html_e('حرفه‌ای', 'sohateb'); ?></span>
 				</a>
 			</div>
@@ -80,7 +92,7 @@ $pro_url      = $cat_url('professional');
 		<div class="st-container">
 			<header class="st-section-head st-section-head--light" data-reveal>
 				<h2 id="st-feat-title"><?php esc_html_e('محصولات منتخب', 'sohateb'); ?></h2>
-				<p><?php esc_html_e('انتخابی از کاتالوگ Isabelle Lancray و DSV-LINE.', 'sohateb'); ?></p>
+				<p><?php esc_html_e('انتخابی از کاتالوگ‌های Isabelle Lancray، DSV-LINE، V&V و Dr. Rimpler.', 'sohateb'); ?></p>
 			</header>
 
 			<div class="st-product-grid">
@@ -141,7 +153,7 @@ $pro_url      = $cat_url('professional');
 			<div class="st-spotlight__copy" data-reveal>
 				<p class="st-kicker">SOHA TEB</p>
 				<h2 id="st-spot-title"><?php esc_html_e('از کلینیک تا مراقبت روزانه', 'sohateb'); ?></h2>
-				<p><?php esc_html_e('سها طب نماینده رسمی Level 7 و ارائه‌دهنده خطوط Isabelle Lancray و DSV-LINE برای درمان حرفه‌ای و روتین خانگی است.', 'sohateb'); ?></p>
+				<p><?php esc_html_e('سها طب نماینده رسمی Level 7 و ارائه‌دهنده خطوط Isabelle Lancray، DSV-LINE، V&V و Dr. Rimpler برای درمان حرفه‌ای و روتین خانگی است.', 'sohateb'); ?></p>
 				<a class="st-btn st-btn--primary" href="#featured">
 					<?php esc_html_e('محصولات منتخب', 'sohateb'); ?>
 				</a>
@@ -153,7 +165,7 @@ $pro_url      = $cat_url('professional');
 		<div class="st-container">
 			<header class="st-section-head" data-reveal>
 				<h2 id="st-about-title"><?php esc_html_e('درباره سها طب', 'sohateb'); ?></h2>
-				<p><?php esc_html_e('توزیع تخصصی محصولات مراقبت پوست — Isabelle Lancray Paris و DSV-LINE.', 'sohateb'); ?></p>
+				<p><?php esc_html_e('توزیع تخصصی محصولات مراقبت پوست — Isabelle Lancray، DSV-LINE، V&V و Dr. Rimpler.', 'sohateb'); ?></p>
 			</header>
 		</div>
 	</section>

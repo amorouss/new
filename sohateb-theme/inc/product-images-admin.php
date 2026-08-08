@@ -135,6 +135,8 @@ function sohateb_render_product_images_page(): void {
 				<option value=""><?php esc_html_e('همه برندها', 'sohateb'); ?></option>
 				<option value="isabelle-lancry" <?php selected($brand, 'isabelle-lancry'); ?>>Isabelle Lancray</option>
 				<option value="dsv-line" <?php selected($brand, 'dsv-line'); ?>>DSV-LINE</option>
+				<option value="vv" <?php selected($brand, 'vv'); ?>>V&amp;V</option>
+				<option value="dr-rimpler" <?php selected($brand, 'dr-rimpler'); ?>>Dr. Rimpler</option>
 			</select>
 			<button class="button button-primary" type="submit"><?php esc_html_e('فیلتر', 'sohateb'); ?></button>
 		</form>

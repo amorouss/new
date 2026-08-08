@@ -16,7 +16,7 @@
 				width="160"
 				height="160"
 			>
-			<p><?php esc_html_e('Official Representative Of Level 7 Company — Isabelle Lancray & DSV-LINE.', 'sohateb'); ?></p>
+			<p><?php esc_html_e('Official Representative Of Level 7 Company — Isabelle Lancray, DSV-LINE, V&V & Dr. Rimpler.', 'sohateb'); ?></p>
 		</div>
 
 		<div>
