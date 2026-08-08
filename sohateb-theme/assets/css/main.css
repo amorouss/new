@@ -628,6 +628,10 @@ a {
   padding-bottom: 2.5rem;
 }
 
+.st-footer__grid--simple {
+  grid-template-columns: 1.6fr 1fr;
+}
+
 .st-footer__brand strong {
   display: block;
   margin: 0.8rem 0 0.5rem;

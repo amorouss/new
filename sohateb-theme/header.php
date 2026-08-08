@@ -17,7 +17,7 @@
 <a class="st-skip" href="#main"><?php esc_html_e('رفتن به محتوا', 'sohateb'); ?></a>
 
 <div class="st-announcement" data-reveal>
-	<span><?php esc_html_e('سها طب — معرفی محصولات و مسیر آموزش زیبایی', 'sohateb'); ?></span>
+	<span><?php esc_html_e('سها طب — ویترین محصولات Isabelle Lancray و DSV-LINE', 'sohateb'); ?></span>
 </div>
 
 <header class="st-header" data-header>
@@ -56,12 +56,6 @@
 			?>
 		</nav>
 
-		<div class="st-header__actions">
-			<?php if (function_exists('wc_get_page_permalink')) : ?>
-				<a class="st-icon-link" href="<?php echo esc_url(wc_get_page_permalink('shop')); ?>">
-					<?php esc_html_e('فروشگاه', 'sohateb'); ?>
-				</a>
-			<?php endif; ?>
-		</div>
+		<div class="st-header__actions" aria-hidden="true"></div>
 	</div>
 </header>

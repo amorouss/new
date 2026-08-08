@@ -35,7 +35,7 @@ $pro_url      = $cat_url('professional');
 				<?php esc_html_e('ویترین محصولات Isabelle Lancray و DSV-LINE برای کلینیک، سالن و مراقبت در منزل.', 'sohateb'); ?>
 			</p>
 			<div class="st-hero__cta" data-reveal data-reveal-delay="200">
-				<a class="st-btn st-btn--primary" href="<?php echo esc_url($shop_url); ?>">
+				<a class="st-btn st-btn--primary" href="#featured">
 					<?php esc_html_e('مشاهده محصولات', 'sohateb'); ?>
 				</a>
 				<a class="st-btn st-btn--ghost" href="#brands">
@@ -118,8 +118,8 @@ $pro_url      = $cat_url('professional');
 			</div>
 
 			<div class="st-section-cta" data-reveal>
-				<a class="st-btn st-btn--light" href="<?php echo esc_url($shop_url); ?>">
-					<?php esc_html_e('همه محصولات', 'sohateb'); ?>
+				<a class="st-btn st-btn--light" href="#brands">
+					<?php esc_html_e('مشاهده برندها', 'sohateb'); ?>
 				</a>
 			</div>
 		</div>
@@ -134,8 +134,8 @@ $pro_url      = $cat_url('professional');
 				<p class="st-kicker">SOHA TEB</p>
 				<h2 id="st-spot-title"><?php esc_html_e('از کلینیک تا مراقبت روزانه', 'sohateb'); ?></h2>
 				<p><?php esc_html_e('سها طب نماینده رسمی Level 7 و ارائه‌دهنده خطوط Isabelle Lancray و DSV-LINE برای درمان حرفه‌ای و روتین خانگی است.', 'sohateb'); ?></p>
-				<a class="st-btn st-btn--primary" href="tel:09154529622">
-					<?php esc_html_e('تماس: ۰۹۱۵۴۵۲۹۶۲۲', 'sohateb'); ?>
+				<a class="st-btn st-btn--primary" href="#featured">
+					<?php esc_html_e('محصولات منتخب', 'sohateb'); ?>
 				</a>
 			</div>
 		</div>
@@ -145,7 +145,7 @@ $pro_url      = $cat_url('professional');
 		<div class="st-container">
 			<header class="st-section-head" data-reveal>
 				<h2 id="st-about-title"><?php esc_html_e('درباره سها طب', 'sohateb'); ?></h2>
-				<p><?php esc_html_e('مدرسه زیبایی و توزیع تخصصی محصولات مراقبت پوست — Isabelle Lancray Paris و DSV-LINE.', 'sohateb'); ?></p>
+				<p><?php esc_html_e('توزیع تخصصی محصولات مراقبت پوست — Isabelle Lancray Paris و DSV-LINE.', 'sohateb'); ?></p>
 			</header>
 		</div>
 	</section>

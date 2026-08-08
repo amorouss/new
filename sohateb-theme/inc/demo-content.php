@@ -143,10 +143,9 @@ function sohateb_seed_demo_content(): void {
 		$menu_id = wp_create_nav_menu($menu_name);
 		$items = [
 			['title' => 'خانه', 'url' => home_url('/')],
-			['title' => 'محصولات', 'url' => function_exists('wc_get_page_permalink') ? wc_get_page_permalink('shop') : home_url('/shop/')],
-			['title' => 'آموزش', 'url' => home_url('/product-category/training/')],
+			['title' => 'برندها', 'url' => home_url('/#brands')],
+			['title' => 'محصولات', 'url' => home_url('/#featured')],
 			['title' => 'درباره ما', 'url' => home_url('/#about')],
-			['title' => 'تماس', 'url' => home_url('/#contact')],
 		];
 		foreach ($items as $item) {
 			wp_update_nav_menu_item($menu_id, 0, [

@@ -6,8 +6,8 @@
  */
 ?>
 
-<footer class="st-footer" id="contact">
-	<div class="st-container st-footer__grid">
+<footer class="st-footer">
+	<div class="st-container st-footer__grid st-footer__grid--simple">
 		<div class="st-footer__brand">
 			<img src="<?php echo esc_url(SOHATEB_URI . '/assets/images/logo-light.svg'); ?>" alt="Soha Teb" width="64" height="64">
 			<strong>SOHA TEB</strong>
@@ -24,15 +24,6 @@
 				'fallback_cb'    => 'sohateb_fallback_menu',
 			]);
 			?>
-		</div>
-
-		<div>
-			<h3><?php esc_html_e('تماس', 'sohateb'); ?></h3>
-			<ul class="st-footer__links">
-				<li><a href="tel:09154529622">09154529622</a></li>
-				<li><a href="https://instagram.com/Soha.teb" target="_blank" rel="noopener">Instagram: Soha.teb</a></li>
-				<li><a href="https://t.me/sohateb1" target="_blank" rel="noopener">Telegram: @sohateb1</a></li>
-			</ul>
 		</div>
 	</div>
 

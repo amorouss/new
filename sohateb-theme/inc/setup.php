@@ -73,14 +73,13 @@ add_filter('body_class', function (array $classes): array {
 });
 
 /**
- * Fallback primary menu.
+ * Fallback primary menu (shop / contact / training deferred for later placement).
  */
 function sohateb_fallback_menu(): void {
-	$shop = function_exists('wc_get_page_permalink') ? wc_get_page_permalink('shop') : home_url('/shop/');
 	echo '<ul class="st-nav__list">';
 	echo '<li><a href="' . esc_url(home_url('/')) . '">' . esc_html__('خانه', 'sohateb') . '</a></li>';
-	echo '<li><a href="' . esc_url($shop) . '">' . esc_html__('محصولات', 'sohateb') . '</a></li>';
+	echo '<li><a href="' . esc_url(home_url('/#brands')) . '">' . esc_html__('برندها', 'sohateb') . '</a></li>';
+	echo '<li><a href="' . esc_url(home_url('/#featured')) . '">' . esc_html__('محصولات', 'sohateb') . '</a></li>';
 	echo '<li><a href="' . esc_url(home_url('/#about')) . '">' . esc_html__('درباره ما', 'sohateb') . '</a></li>';
-	echo '<li><a href="' . esc_url(home_url('/#contact')) . '">' . esc_html__('تماس', 'sohateb') . '</a></li>';
 	echo '</ul>';
 }
