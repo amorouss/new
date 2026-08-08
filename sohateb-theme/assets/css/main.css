@@ -529,6 +529,29 @@ a {
   object-fit: contain;
 }
 
+/* Single product gallery — logo top-left (RTL: inline-end) */
+.woocommerce-product-gallery {
+  position: relative;
+}
+
+.st-product__logo-mark--single {
+  top: 0.75rem;
+  inset-inline-end: 0.75rem;
+  z-index: 6;
+  width: 4.25rem;
+  height: 4.25rem;
+  box-shadow: 0 1px 0 rgba(20, 16, 12, 0.06);
+}
+
+@media (max-width: 640px) {
+  .st-product__logo-mark--single {
+    width: 3.5rem;
+    height: 3.5rem;
+    top: 0.55rem;
+    inset-inline-end: 0.55rem;
+  }
+}
+
 .st-product__media--a { background: linear-gradient(160deg, #f7f1ec, #e8e0d8); }
 .st-product__media--b { background: linear-gradient(160deg, #eef1f8, #dfe5f2); }
 .st-product__media--c { background: linear-gradient(160deg, #f5eef2, #e8dce4); }
