@@ -3349,6 +3349,39 @@
       "description_fa": "ژل ماساژ آلوئه حرفه‌ای برای لغزندگی، تسکین و رطوبت‌رسانی در حین ماساژ.",
       "featured": false,
       "brand": "Eclado"
+    },
+    {
+      "line": "A.C",
+      "name_en": "Acne Toner",
+      "name_fa": "تونر اکنه",
+      "sku": "ECLADO-ACNE-TONER",
+      "volume": "",
+      "category": "toner",
+      "description_fa": "تونر تخصصی کنترل آکنه اکلادو برای پاکسازی منافذ، تعادل چربی و کاهش التهاب پوست مستعد جوش؛ مناسب استفاده روزانه پس از شستشو.",
+      "featured": false,
+      "brand": "Eclado"
+    },
+    {
+      "line": "NK-CX",
+      "name_en": "NK-CX Cream",
+      "name_fa": "کرم NK_CX",
+      "sku": "ECLADO-NK-CX-CREAM",
+      "volume": "",
+      "category": "cream",
+      "description_fa": "کرم مراقبتی NK_CX اکلادو با بافت سبک برای تغذیه، ترمیم و تقویت سد دفاعی پوست؛ مناسب روتین روزانه کلینیک و منزل.",
+      "featured": true,
+      "brand": "Eclado"
+    },
+    {
+      "line": "Advanced",
+      "name_en": "Advanced Cream Mask",
+      "name_fa": "ماسک کرمی ادونس",
+      "sku": "ECLADO-ADVANCED-CREAM-MASK",
+      "volume": "",
+      "category": "mask",
+      "description_fa": "ماسک کرمی ادونس اکلادو برای آبرسانی عمیق، تغذیه و بازسازی پوست خسته؛ بافت کرمی غنی مناسب ماسک حرفه‌ای و مراقبت خانگی.",
+      "featured": true,
+      "brand": "Eclado"
     }
   ],
   "contact": {
