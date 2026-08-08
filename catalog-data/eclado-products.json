@@ -1,0 +1,1015 @@
+{
+  "brand": "Eclado",
+  "products": [
+    {
+      "line": "Exo Clinica",
+      "name_en": "Exo Clinica Toner",
+      "name_fa": "اکسو کلینیکا تونر",
+      "sku": "ECLADO-EXO-TONER",
+      "volume": "",
+      "category": "toner",
+      "description_fa": "تونر تقویت‌کننده سد دفاعی با اگزوزوم گیاهی، سنتلا و پروبیوتیک؛ مناسب پوست حساس و مراقبت پس از درمان.",
+      "featured": true
+    },
+    {
+      "line": "Soothing",
+      "name_en": "Azulene Cure Solution Ampoule",
+      "name_fa": "آزولین کیور سولوشن امپل",
+      "sku": "ECLADO-AZULENE-AMPOULE",
+      "volume": "",
+      "category": "serum",
+      "description_fa": "آمپول تسکین فوری با ۴۰۰۰ ppm گایازولن برای کاهش قرمزی و حرارت پس از درمان.",
+      "featured": true
+    },
+    {
+      "line": "C.P 50",
+      "name_en": "C.P 50 Ampoule",
+      "name_fa": "آمپول C.P 50",
+      "sku": "ECLADO-CP-50-AMPOULE",
+      "volume": "20×2ml",
+      "category": "serum",
+      "description_fa": "آمپول ضدچروک قوی با سلول‌های بنیادی گیاهی، کمپلکس پپتید ۵۰٪، EGF و آدنوزین برای سفت‌سازی و پاک کردن چین‌وچروک‌های ریز.",
+      "featured": true
+    },
+    {
+      "line": "Rescuer",
+      "name_en": "Gold Microbiome Ampoule",
+      "name_fa": "آمپول گلد میکروبیوم",
+      "sku": "ECLADO-GOLD-MICROBIOME-AMPOULE",
+      "volume": "",
+      "category": "serum",
+      "description_fa": "آمپول حرفه‌ای با کمپلکس DermaBiome cx، طلای ۲۴ عیار، گلوتاتیون و عصاره جلبک دریایی برای بازسازی ساختاری، روشن‌سازی و تعادل میکروبیوم پوست.",
+      "featured": true
+    },
+    {
+      "line": "Exo Clinica",
+      "name_en": "Exo Clinica Cream",
+      "name_fa": "اکسو کلینیکا کرم بهبود منافذ",
+      "sku": "ECLADO-EXO-CREAM",
+      "volume": "",
+      "category": "cream",
+      "description_fa": "کرم بهبود منافذ با اگزوزوم سنتلا، AHA/BHA و هیالورونیک اسید چندگانه.",
+      "featured": true
+    },
+    {
+      "line": "Exo Clinica",
+      "name_en": "Exo Clinica Gel",
+      "name_fa": "اکسو کلینیکا ژل",
+      "sku": "ECLADO-EXO-GEL",
+      "volume": "",
+      "category": "cream",
+      "description_fa": "ژل آرام‌بخش کاهش قرمزی و حرارت پوست با اگزوزوم سنتلا و بتاگلوکان.",
+      "featured": true
+    },
+    {
+      "line": "Rescue",
+      "name_en": "Rescuer Cica Balm",
+      "name_fa": "بالم رکیور سیکا",
+      "sku": "ECLADO-RESCUER-CICA",
+      "volume": "",
+      "category": "cream",
+      "description_fa": "بالم ترمیمی سیکا برای تسکین و بازسازی پوست آسیب‌دیده.",
+      "featured": true
+    },
+    {
+      "line": "Exo Clinica",
+      "name_en": "Exo Clinica UV Sun Cream SPF50+",
+      "name_fa": "ضدآفتاب اکسو کلینیکا یووی SPF50+",
+      "sku": "ECLADO-EXO-SUN",
+      "volume": "",
+      "category": "sunscreen",
+      "description_fa": "ضدآفتاب سبک بر پایه اگزوزوم با محافظت ۲۴ ساعته و اثر تسکین‌دهنده.",
+      "featured": true
+    },
+    {
+      "line": "Peeling",
+      "name_en": "AHA 4% Liquid Deep Peel",
+      "name_fa": "لایه‌بردار مایع AHA 4%",
+      "sku": "ECLADO-AHA4-LIQUID",
+      "volume": "100ml",
+      "category": "peel",
+      "description_fa": "لایه‌بردار مایع ۴٪ AHA میوه‌ای برای شفافیت و نرمی پوست بدون تحریک.",
+      "featured": true
+    },
+    {
+      "line": "Peeling",
+      "name_en": "PHA Soft Peel 15",
+      "name_fa": "لایه‌بردار PHA سافت",
+      "sku": "ECLADO-PHA-SOFT15",
+      "volume": "120ml",
+      "category": "peel",
+      "description_fa": "لایه‌بردار ملایم PHA مناسب پوست حساس؛ بدون نیاز به شستشو.",
+      "featured": true
+    },
+    {
+      "line": "Eclado",
+      "name_en": "Vono Prime Peel Premium",
+      "name_fa": "وونوپیل",
+      "sku": "ECLADO-VONO-PRIME-PEEL",
+      "volume": "",
+      "category": "peel",
+      "description_fa": "تراپی لایه‌بردار پیشرفته با ترکیب AHA، BHA و PHA برای درمان آکنه، بهبود بافت و تناژ پوست و پاکسازی منافذ؛ محصول شاخص حرفه‌ای اکلادو.",
+      "featured": true
+    },
+    {
+      "line": "Tinkerbell",
+      "name_en": "Tinkerbell Therapy",
+      "name_fa": "تراپی تینکربل",
+      "sku": "ECLADO-TINKERBELL-THERAPY",
+      "volume": "",
+      "category": "kit",
+      "description_fa": "تراپی روشن‌کننده فوری شامل دو سرم با تکنولوژی Derma-Micro برای روشن‌سازی، شفافیت، رطوبت و سفتی همزمان پوست کدر و خسته.",
+      "featured": true
+    },
+    {
+      "line": "A.C Line",
+      "name_en": "A.C Centella Foam Cleanser",
+      "name_fa": "فوم شوینده سنتلا",
+      "sku": "ECLADO-AC-CENTELLA-FOAM",
+      "volume": "100g",
+      "category": "cleanser",
+      "description_fa": "فوم شوینده سنتلا برای کنترل چربی و التیام پوست چرب و مستعد آکنه.",
+      "featured": false
+    },
+    {
+      "line": "Cleanser",
+      "name_en": "Enhancer Mild Cleanser",
+      "name_fa": "فوم شوینده ملایم اینهنسر",
+      "sku": "ECLADO-ENHANCER-CLEANSER",
+      "volume": "200/500ml",
+      "category": "cleanser",
+      "description_fa": "فوم بسیار ملایم برای انواع پوست حتی حساس؛ بدون بر هم زدن pH و ایجاد سد رطوبتی.",
+      "featured": false
+    },
+    {
+      "line": "Peeling",
+      "name_en": "Enzyme Deep Cleanser Powder",
+      "name_fa": "کلینزر عمقی آنزیم (پودر)",
+      "sku": "ECLADO-ENZYME-POWDER",
+      "volume": "100/500g",
+      "category": "cleanser",
+      "description_fa": "پودر شوینده آنزیمی گیاهی برای پاکسازی عمقی با بتائین و عصاره پاپایا.",
+      "featured": false
+    },
+    {
+      "line": "Cleanser",
+      "name_en": "Flawless Lip & Eye Remover",
+      "name_fa": "میکاپ‌ریموور چشم و لب Flawless",
+      "sku": "ECLADO-FLAWLESS-REMOVER",
+      "volume": "",
+      "category": "cleanser",
+      "description_fa": "ریموور دوفاز فاقد چربی مخصوص چشم و لب.",
+      "featured": false
+    },
+    {
+      "line": "Cleanser",
+      "name_en": "Gentle Foam Cleanser",
+      "name_fa": "شوینده فومی ملایم",
+      "sku": "ECLADO-GENTLE-FOAM",
+      "volume": "150ml",
+      "category": "cleanser",
+      "description_fa": "فوم شوینده ملایم روزانه.",
+      "featured": false
+    },
+    {
+      "line": "Cleanser",
+      "name_en": "Perfect Smoothie Balm",
+      "name_fa": "بالم پاک‌کننده پرفکت اسموتی",
+      "sku": "ECLADO-PERFECT-SMOOTHIE",
+      "volume": "",
+      "category": "cleanser",
+      "description_fa": "بالم پاک‌کننده کامل آرایش با روغن‌های گیاهی و کره کاکائو؛ مناسب حتی پوست چرب.",
+      "featured": false
+    },
+    {
+      "line": "Cleanser",
+      "name_en": "Phyto Protein Cleansing Milk",
+      "name_fa": "شیر پاک‌کن فیتو پروتئین",
+      "sku": "ECLADO-PHYTO-MILK",
+      "volume": "500ml",
+      "category": "cleanser",
+      "description_fa": "شیر پاک‌کن فیتو پروتئین.",
+      "featured": false
+    },
+    {
+      "line": "Cleanser",
+      "name_en": "Purifying Cleanser",
+      "name_fa": "شیرپاک‌کن Purifying",
+      "sku": "ECLADO-PURIFYING-CLEANSER",
+      "volume": "500/1000ml",
+      "category": "cleanser",
+      "description_fa": "شیر پاک‌کن گیاهی برای پاکسازی آرایش و ناخالصی‌ها با آبرسانی عمیق.",
+      "featured": false
+    },
+    {
+      "line": "Skin Fundamental",
+      "name_en": "Rich Bubble Cleanser",
+      "name_fa": "فوم روغن بابل / کلینزر ریچ بابل",
+      "sku": "ECLADO-RICH-BUBBLE-CLEANSER",
+      "volume": "150ml",
+      "category": "cleanser",
+      "description_fa": "پاک‌کننده روزانه با حباب‌های ریز اکسیژن برای پاکسازی عمیق منافذ بدون کشیدگی؛ مرطوب‌کننده و ملایم.",
+      "featured": false
+    },
+    {
+      "line": "A.C",
+      "name_en": "A.C Oil Free Toner",
+      "name_fa": "تونر آکنه اویل فیری A.C",
+      "sku": "ECLADO-AC-OIL-FREE-TONER",
+      "volume": "120ml",
+      "category": "toner",
+      "description_fa": "تونر سبک کنترل‌کننده سبوم با BHA گیاهی و آب لاوندر؛ تعادل چربی و رطوبت و لایه‌برداری ملایم روزانه برای پوست چرب و مستعد آکنه.",
+      "featured": false
+    },
+    {
+      "line": "Toner",
+      "name_en": "Balancing Toner",
+      "name_fa": "تونر متعادل‌کننده",
+      "sku": "ECLADO-BALANCING-TONER",
+      "volume": "200/500ml",
+      "category": "toner",
+      "description_fa": "تونر متعادل‌کننده حرفه‌ای و خانگی.",
+      "featured": false
+    },
+    {
+      "line": "Melaser Whitening",
+      "name_en": "Melaser Whitening Toner",
+      "name_fa": "تونر روشن کننده ی ملیزر",
+      "sku": "ECLADO-MELASER-WHITENING-TONER",
+      "volume": "150ml",
+      "category": "toner",
+      "description_fa": "تونر روشن‌کننده با هیالورونیک اسید، کمپلکس Ell-Y White، نیاسینامید و عصاره سیتروس برای آبرسانی و روشن‌سازی و کمک به کنترل ملانین.",
+      "featured": false
+    },
+    {
+      "line": "Toner",
+      "name_en": "Rebalancing Toner",
+      "name_fa": "تونر ریبلنسینگ",
+      "sku": "ECLADO-REBALANCING-TONER",
+      "volume": "500/1000ml",
+      "category": "toner",
+      "description_fa": "تونر روزانه با چای سبز و کلرلا برای تعادل pH و آبرسانی.",
+      "featured": false
+    },
+    {
+      "line": "Eclado",
+      "name_en": "Refresh Spray Toner",
+      "name_fa": "تونر اسپری ریفرش",
+      "sku": "ECLADO-REFRESH-SPRAY-TONER",
+      "volume": "200ml",
+      "category": "toner",
+      "description_fa": "تونر اسپری آسان‌مصرف با پاپایا برای بازگرداندن pH پوست به ۵.۵ و حفظ نرمی و آبرسانی پوست.",
+      "featured": false
+    },
+    {
+      "line": "Respiration",
+      "name_en": "Respiration Toner",
+      "name_fa": "تونر رسپریشن",
+      "sku": "ECLADO-RESPIRATION-TONER",
+      "volume": "150ml",
+      "category": "toner",
+      "description_fa": "تونر تخمیری و گل رز برای تسکین فوری پوست حساس و آتوپیک.",
+      "featured": false
+    },
+    {
+      "line": "Toner",
+      "name_en": "Royal Milk Protein Toner",
+      "name_fa": "تونر پروتئین شیر رویال",
+      "sku": "ECLADO-ROYAL-MILK-TONER",
+      "volume": "500ml",
+      "category": "toner",
+      "description_fa": "تونر پروتئینی با پروتئین برنج، جو، شیر و رویال ژلی برای تقویت سد دفاعی.",
+      "featured": false
+    },
+    {
+      "line": "A.C",
+      "name_en": "A.C Control Ampoule",
+      "name_fa": "آمپول کنترل آکنه A.C",
+      "sku": "ECLADO-AC-CONTROL-AMPOULE",
+      "volume": "35ml",
+      "category": "serum",
+      "description_fa": "آمپول کنترل آکنه با روغن درخت چای، گوگرد، شیرین‌بیان، پروپولیس، آلوئه‌ورا و BHA طبیعی برای قابض منافذ، پاکسازی سبوم و تسکین پوست چرب.",
+      "featured": false
+    },
+    {
+      "line": "Professional Serum",
+      "name_en": "Azulene Hydrating Serum",
+      "name_fa": "سرم رطوبت رسان آزولین",
+      "sku": "ECLADO-AZULENE-HYDRATING-SERUM",
+      "volume": "",
+      "category": "serum",
+      "description_fa": "سرم آبرسان و تسکین‌دهنده با گایازولن بابونه، سرامید NP و ترکیبات تخمیری لاکتوباسیلوس؛ مناسب پوست دهیدراته، قرمز و تحریک‌شده.",
+      "featured": false
+    },
+    {
+      "line": "Cell Phyto",
+      "name_en": "Cell Phyto Anti Wrinkle Serum",
+      "name_fa": "سرم ضد چروک سل فیتو",
+      "sku": "ECLADO-CELL-PHYTO-ANTI-WRINKLE-SERUM",
+      "volume": "50ml",
+      "category": "serum",
+      "description_fa": "سرم ضدچروک با آدنوزین، EGF و پپتیدها برای بازسازی، سنتز کلاژن و الاستین و ترمیم سد آسیب‌دیده؛ مناسب پوست حساس و مستعد روزاسه.",
+      "featured": false
+    },
+    {
+      "line": "Professional Serum",
+      "name_en": "Collagen 5000 Serum",
+      "name_fa": "سرم کلاژن ۵۰۰۰",
+      "sku": "ECLADO-COLLAGEN-5000-SERUM",
+      "volume": "",
+      "category": "serum",
+      "description_fa": "سرم سفت‌کننده حاوی ۵۰۰۰ppm کلاژن هیدرولیز شده، آدنوزین و پانتنول برای افزایش ارتجاع، ضدچروک و بازسازی سد دفاعی.",
+      "featured": false
+    },
+    {
+      "line": "Serum",
+      "name_en": "Hyaluronic Acid Vial",
+      "name_fa": "ویال هیالورونیک اسید",
+      "sku": "ECLADO-HA-VIAL",
+      "volume": "50ml",
+      "category": "serum",
+      "description_fa": "ویال هیالورونیک اسید برای آبرسانی حرفه‌ای.",
+      "featured": false
+    },
+    {
+      "line": "Serum / Ampoule",
+      "name_en": "Hydrating Brightening Serum",
+      "name_fa": "سرم درخشان‌کننده آبرسان",
+      "sku": "ECLADO-HYDRATING-BRIGHTENING-SERUM",
+      "volume": "50ml",
+      "category": "serum",
+      "description_fa": "سرم آبرسان و درخشان‌کننده برای شفافیت و رطوبت پوست.",
+      "featured": false
+    },
+    {
+      "line": "Serum",
+      "name_en": "Hydro Booster",
+      "name_fa": "هایدرو بوستر",
+      "sku": "ECLADO-HYDRO-BOOSTER",
+      "volume": "7ml × 5",
+      "category": "serum",
+      "description_fa": "بوستر آبرسان حرفه‌ای.",
+      "featured": false
+    },
+    {
+      "line": "Serum",
+      "name_en": "Hydro Queen Gel",
+      "name_fa": "ژل هایدرو کوئین",
+      "sku": "ECLADO-HYDRO-QUEEN",
+      "volume": "500ml",
+      "category": "serum",
+      "description_fa": "ژل آبرسان حرفه‌ای حجم کلینیکی.",
+      "featured": false
+    },
+    {
+      "line": "Melaser Whitening",
+      "name_en": "Melaser Whitening Serum",
+      "name_fa": "سرم روشن کننده ملیزر",
+      "sku": "ECLADO-MELASER-WHITENING-SERUM",
+      "volume": "70ml",
+      "category": "serum",
+      "description_fa": "سرم روشن‌کننده با Ell-7 White، بیسابولول و کمپلکس Aqua Radiance (اسکوآلان، بتاگلوکان، هیالورونیک اسید) برای احیا و محافظت پوست.",
+      "featured": false
+    },
+    {
+      "line": "Serum / Ampoule",
+      "name_en": "Redmerose 3300",
+      "name_fa": "ردی مروس ۳۳۰۰",
+      "sku": "ECLADO-REDMEROSE-3300",
+      "volume": "15ml x 2ea",
+      "category": "serum",
+      "description_fa": "آمپول ردی‌مروس ۳۳۰۰ برای مراقبت تخصصی و احیای پوست.",
+      "featured": false
+    },
+    {
+      "line": "Rescuer",
+      "name_en": "Rescuer Ampoule Cica Pore",
+      "name_fa": "آمپول سیکاپور رسکیور",
+      "sku": "ECLADO-RESCUER-AMPOULE-CICA-PORE",
+      "volume": "",
+      "category": "serum",
+      "description_fa": "آمپول سیکاپور با عصاره سنتلا برای بهبود و کاهش حجم منافذ؛ دارای تاییدیه بالینی موسسه علوم پوست کره.",
+      "featured": false
+    },
+    {
+      "line": "Rescuer",
+      "name_en": "Rescuer Ampoule Filagen",
+      "name_fa": "آمپول رسکیور فیلاژن",
+      "sku": "ECLADO-RESCUER-AMPOULE-FILAGEN",
+      "volume": "",
+      "category": "serum",
+      "description_fa": "آمپول رسکیور با کمپلکس Multi-EX BSASM® و ترکیبات گیاهی برای کنترل التهاب، تسکین خارش، تقویت مقاومت پوست و رطوبت‌رسانی؛ انتخاب ویژه اکلادو.",
+      "featured": false
+    },
+    {
+      "line": "Rescuer",
+      "name_en": "Rescuer Ampoule Hydra Complex",
+      "name_fa": "آمپول هیدرا کمپلکس رسکیور",
+      "sku": "ECLADO-RESCUER-AMPOULE-HYDRA-COMPLEX",
+      "volume": "",
+      "category": "serum",
+      "description_fa": "آمپول رسکیور با کمپلکس عسل و هیالورونیک اسید برای آبرسانی و تغذیه پوست.",
+      "featured": false
+    },
+    {
+      "line": "Rescuer",
+      "name_en": "Rescuer Ampoule Multi Vitamin",
+      "name_fa": "آمپول مولتی ویتامین رسکیور",
+      "sku": "ECLADO-RESCUER-AMPOULE-MULTI-VITAMIN",
+      "volume": "",
+      "category": "serum",
+      "description_fa": "آمپول رسکیور غنی از کمپلکس مولتی‌ویتامین برای تغذیه و شادابی پوست.",
+      "featured": false
+    },
+    {
+      "line": "Respiration",
+      "name_en": "Respiration Ampoule",
+      "name_fa": "آمپول رسپریشن",
+      "sku": "ECLADO-RESPIRATION-AMPOULE",
+      "volume": "30ml",
+      "category": "serum",
+      "description_fa": "آمپول مناسب پوست حساس با ۵ عصاره تخمیری، باکتری لاکتیک، جینسنگ قرمز تخمیری و کلاژن هیدرولیز شده؛ آبرسانی ۱۲ ساعته و تقویت سد دفاعی.",
+      "featured": false
+    },
+    {
+      "line": "Respiration",
+      "name_en": "Respiration Serum",
+      "name_fa": "سرم رسپیریشن (پوست حساس)",
+      "sku": "ECLADO-RESPIRATION-SERUM",
+      "volume": "100ml",
+      "category": "serum",
+      "description_fa": "سرم تسکین‌دهنده و ضدآلرژی با عصاره‌های رزماری، لاوندر، کالاندولا و کلاژن؛ تقویت ایمنی و سد دفاعی پوست حساس و آلرژیک.",
+      "featured": false
+    },
+    {
+      "line": "Eclado",
+      "name_en": "Revitalizing Elastin & Collagen Serum",
+      "name_fa": "سرم کلاژن و الاستین احیا کننده",
+      "sku": "ECLADO-REVITALIZING-ELASTIN-COLLAGEN-SERUM",
+      "volume": "100ml",
+      "category": "serum",
+      "description_fa": "سرم احیاکننده با کلاژن و الاستین هیدرولیز شده و سیستم انتقال لیپوزوم برای آبرسانی عمیق، تغذیه و درخشش طبیعی بدون چسبندگی.",
+      "featured": false
+    },
+    {
+      "line": "Brightening",
+      "name_en": "Shining V-C Serum",
+      "name_fa": "سرم شاینینگ VC",
+      "sku": "ECLADO-SHINING-VC",
+      "volume": "100ml",
+      "category": "serum",
+      "description_fa": "سرم ویتامین C پایدار در لیپوزوم برای درخشش فوری و بهبود کشسانی پوست.",
+      "featured": false
+    },
+    {
+      "line": "V-Filine",
+      "name_en": "V-Filine Youth Serum",
+      "name_fa": "سرم جوانساز وی فیلین",
+      "sku": "ECLADO-V-FILINE-YOUTH-SERUM",
+      "volume": "80ml",
+      "category": "serum",
+      "description_fa": "سرم جوانساز با کمپلکس Wrinkle Zero 7، Volufiline و عصاره نونی برای کاهش عمق چروک، افزایش حجم و پیشگیری از شلی پوست.",
+      "featured": false
+    },
+    {
+      "line": "Professional Serum",
+      "name_en": "Vita Whitening Serum",
+      "name_fa": "سرم ویتامین روشن کننده",
+      "sku": "ECLADO-VITA-WHITENING-SERUM",
+      "volume": "",
+      "category": "serum",
+      "description_fa": "سرم روشن‌کننده با گلوتاتیون، نیاسینامید، اسید اسکوربیک و Ell-V White برای روشن‌سازی پوست کدر و یکدست‌سازی تناژ.",
+      "featured": false
+    },
+    {
+      "line": "Deep Hydration",
+      "name_en": "Activation Cream",
+      "name_fa": "کرم اکتیویشن",
+      "sku": "ECLADO-ACTIVATION-CREAM",
+      "volume": "240g",
+      "category": "cream",
+      "description_fa": "کرم-ژل سبک روزانه با ۷ نوع هیالورونیک اسید؛ جذب سریع و بدون سنگینی، ایده‌آل برای پوست چرب و آقایان.",
+      "featured": false
+    },
+    {
+      "line": "Eclado",
+      "name_en": "Aloe Gel",
+      "name_fa": "ژل آلوئه ورا",
+      "sku": "ECLADO-ALOE-GEL",
+      "volume": "500g",
+      "category": "cream",
+      "description_fa": "ژل حاوی عصاره برگ آلوئه‌ورا برای تسکین و رطوبت‌رسانی پوست خشک، حساس و آسیب‌دیده؛ قابل استفاده به‌عنوان ماسک خواب یا لایه آبرسان.",
+      "featured": false
+    },
+    {
+      "line": "Moisturizer",
+      "name_en": "Aqua Cream",
+      "name_fa": "کرم آکوا",
+      "sku": "ECLADO-AQUA-CREAM",
+      "volume": "50ml",
+      "category": "cream",
+      "description_fa": "کرم آبرسان سبک آکوا برای رطوبت‌رسانی روزانه.",
+      "featured": false
+    },
+    {
+      "line": "Deep Hydration",
+      "name_en": "Azulene Moist Cream",
+      "name_fa": "کرم رطوبت رسان آزولین",
+      "sku": "ECLADO-AZULENE-MOIST-CREAM",
+      "volume": "",
+      "category": "cream",
+      "description_fa": "کرم آبرسان عمیق با ۷ نوع هیالورونیک اسید، ۵۰۰۰ppm گایازولن و اسکوالن برای رطوبت‌رسانی طولانی و تسکین قرمزی پوست تحریک‌شده.",
+      "featured": false
+    },
+    {
+      "line": "Moisturizer",
+      "name_en": "Bright Cream",
+      "name_fa": "کرم برایت",
+      "sku": "ECLADO-BRIGHT-CREAM",
+      "volume": "70ml",
+      "category": "cream",
+      "description_fa": "کرم روشن‌کننده برای یکنواختی رنگ پوست.",
+      "featured": false
+    },
+    {
+      "line": "Eclado",
+      "name_en": "Cell Memory Cream",
+      "name_fa": "کرم سل مموری",
+      "sku": "ECLADO-CELL-MEMORY-CREAM",
+      "volume": "50g",
+      "category": "cream",
+      "description_fa": "کرم مغذی با بافت پودینگی حاوی EGF و آدنوزین برای ضدچروک و بازسازی سلولی؛ مناسب ترمیم پس از میکرونیدلینگ و لیزر.",
+      "featured": false
+    },
+    {
+      "line": "Moisturizer",
+      "name_en": "Elastic Tone Up Cream",
+      "name_fa": "تن آپ الاستیک اکلا دو",
+      "sku": "ECLADO-ELASTIC-TONE-UP",
+      "volume": "50ml",
+      "category": "cream",
+      "description_fa": "کرم تن‌آپ الاستیک برای بهبود قوام و یکدست‌سازی ظاهر پوست.",
+      "featured": false
+    },
+    {
+      "line": "Moisturizer",
+      "name_en": "Glow Cream",
+      "name_fa": "کرم گلو",
+      "sku": "ECLADO-GLOW-CREAM",
+      "volume": "50ml",
+      "category": "cream",
+      "description_fa": "کرم درخشان‌کننده روزانه.",
+      "featured": false
+    },
+    {
+      "line": "Moisturizer",
+      "name_en": "Hydro Care Cream",
+      "name_fa": "کرم هیدرو کر",
+      "sku": "ECLADO-HYDRO-CARE",
+      "volume": "40ml",
+      "category": "cream",
+      "description_fa": "کرم پرفروش ترمیمی و مرطوب‌کننده با EGF و سنتلا برای قبل و بعد درمان.",
+      "featured": false
+    },
+    {
+      "line": "Moisturizer",
+      "name_en": "Phyto Gel Cream",
+      "name_fa": "ژل کرم فیتو",
+      "sku": "ECLADO-PHYTO-GEL-CREAM",
+      "volume": "40ml",
+      "category": "cream",
+      "description_fa": "ژل‌کرم سبک فیتو برای رطوبت‌رسانی و مراقبت روزانه پوست.",
+      "featured": false
+    },
+    {
+      "line": "Moisturizer",
+      "name_en": "Radiant Cream",
+      "name_fa": "کرم رادیانت",
+      "sku": "ECLADO-RADIANT-CREAM",
+      "volume": "50ml",
+      "category": "cream",
+      "description_fa": "کرم روشن‌کننده رادیانت برای درخشش و شادابی پوست.",
+      "featured": false
+    },
+    {
+      "line": "Restoration",
+      "name_en": "Restoration Caviar Cream",
+      "name_fa": "کرم خاویار",
+      "sku": "ECLADO-RESTORATION-CAVIAR-CREAM",
+      "volume": "100/240g",
+      "category": "cream",
+      "description_fa": "کرم غنی با عصاره خاویار، پروتئین گیاهی و استیل هگزاپپتید-۸ برای تغذیه و شادابی بدون حس چربی؛ مناسب مرطوب‌کننده روز و شب.",
+      "featured": false
+    },
+    {
+      "line": "Eclado",
+      "name_en": "Shining Moisture Massage Cream",
+      "name_fa": "کرم ماساژ رطوبت‌رسان و روشن‌کننده",
+      "sku": "ECLADO-SHINING-MOISTURE-MASSAGE-CREAM",
+      "volume": "300/800g",
+      "category": "cream",
+      "description_fa": "کرم ماساژ غیرچرب برای پوست حساس و مستعد آکنه با چای سبز، هیالورونیک اسید و بابونه؛ مرطوب‌کننده و روشن‌کننده بدون تحریک.",
+      "featured": false
+    },
+    {
+      "line": "Eclado",
+      "name_en": "Silky Moisturizing Cream",
+      "name_fa": "کرم رطوبت‌رسان سیلکی",
+      "sku": "ECLADO-SILKY-MOISTURIZING-CREAM",
+      "volume": "280g",
+      "category": "cream",
+      "description_fa": "کرم مغذی آبی‌رنگ با هفت مجموعه رطوبت‌رسان و کمپلکس ELL-6-perfect؛ حاوی اسکوالان، روغن ماکادمیا، پاپایا، لسیتین و بتاگلوکان.",
+      "featured": false
+    },
+    {
+      "line": "Snail",
+      "name_en": "Snail Lifting Cream",
+      "name_fa": "کرم لیفتینگ حلزون",
+      "sku": "ECLADO-SNAIL-LIFTING-CREAM",
+      "volume": "50g",
+      "category": "cream",
+      "description_fa": "کرم با ۲۰٪ موسین حلزون و آدنوزین برای احیا، افزایش کلاژن و تقویت الاستیسیته؛ مناسب پوست خشک و دارای چین‌وچروک.",
+      "featured": false
+    },
+    {
+      "line": "Moisturizer",
+      "name_en": "Ultra Fitting Cream",
+      "name_fa": "کرم اولترا فیتینگ",
+      "sku": "ECLADO-ULTRA-FITTING",
+      "volume": "50ml",
+      "category": "cream",
+      "description_fa": "کرم سفت‌کننده و تغذیه عمیق پوست.",
+      "featured": false
+    },
+    {
+      "line": "Cell Phyto",
+      "name_en": "Cell Phyto Anti Wrinkle Eye Cream",
+      "name_fa": "کرم دور چشم ضد چروک سل فیتو",
+      "sku": "ECLADO-CELL-PHYTO-ANTI-WRINKLE-EYE-CREAM",
+      "volume": "30g",
+      "category": "eye",
+      "description_fa": "کرم سبک دور چشم و اطراف دهان با EGF، سلول‌های بنیادی گیاهی، پپتید و روغن ماکادمیا برای افزایش کلاژن و کاهش چروک و التهاب.",
+      "featured": false
+    },
+    {
+      "line": "Eye",
+      "name_en": "Eye Cream",
+      "name_fa": "کرم دور چشم",
+      "sku": "ECLADO-EYE-CREAM",
+      "volume": "40ml",
+      "category": "eye",
+      "description_fa": "کرم تخصصی مراقبت دور چشم.",
+      "featured": false
+    },
+    {
+      "line": "Rescuer",
+      "name_en": "Resceur Firming Eye Cream",
+      "name_fa": "کرم دور چشم سفت‌کننده و ضدچروک",
+      "sku": "ECLADO-RESCEUR-FIRMING-EYE-CREAM",
+      "volume": "30g",
+      "category": "eye",
+      "description_fa": "کرم دور چشم با ۷ لایه هیالورونیک اسید و پپتید برای آبرسانی عمیق و کاهش چروک؛ تست حساسیت موفق، بدون ایجاد میلیا.",
+      "featured": false
+    },
+    {
+      "line": "Snail",
+      "name_en": "Snail Lifting Eye Patch",
+      "name_fa": "پچ چشم لیفتینگ حلزون",
+      "sku": "ECLADO-SNAIL-LIFTING-EYE-PATCH",
+      "volume": "60 pcs",
+      "category": "eye",
+      "description_fa": "پچ چشمی با موسین حلزون، آدنوزین، اپلیت و آلانتوئین برای رطوبت، ارتجاع و روشن‌سازی پوست کدر دور چشم.",
+      "featured": false
+    },
+    {
+      "line": "Eclado",
+      "name_en": "Wrinkly Eye Emulsion",
+      "name_fa": "کرم دور چشمی رینکی",
+      "sku": "ECLADO-WRINKLY-EYE-EMULSION",
+      "volume": "70g",
+      "category": "eye",
+      "description_fa": "امولسیون سبک دور چشم با نیاسینامید برای روشن‌سازی و رطوبت‌رسانی دور چشم‌های خسته؛ جذب بالا و مناسب استفاده با دستگاه سونیک.",
+      "featured": false
+    },
+    {
+      "line": "Sunscreen",
+      "name_en": "Aqua S Sunscreen",
+      "name_fa": "ضدآفتاب آکوا اس",
+      "sku": "ECLADO-AQUA-SUN",
+      "volume": "50ml",
+      "category": "sunscreen",
+      "description_fa": "ضدآفتاب سبک آکوا برای استفاده روزانه.",
+      "featured": false
+    },
+    {
+      "line": "Sunscreen",
+      "name_en": "BB Cream Sunscreen",
+      "name_fa": "ضد آفتاب بی بی کرم",
+      "sku": "ECLADO-BB-CREAM-SUNSCREEN",
+      "volume": "50ml",
+      "category": "sunscreen",
+      "description_fa": "ضدآفتاب بی‌بی کرم برای محافظت و پوشش سبک یکدست‌کننده.",
+      "featured": false
+    },
+    {
+      "line": "Sunscreen",
+      "name_en": "Herbal Sunscreen",
+      "name_fa": "ضدآفتاب گیاهی",
+      "sku": "ECLADO-HERBAL-SUN",
+      "volume": "70ml",
+      "category": "sunscreen",
+      "description_fa": "ضدآفتاب گیاهی.",
+      "featured": false
+    },
+    {
+      "line": "Peeling",
+      "name_en": "AHA Exfoliate Deep Peel",
+      "name_fa": "لایه‌بردار کرمی AHA اکسفولینیت",
+      "sku": "ECLADO-AHA-EXFOLIATE",
+      "volume": "100g",
+      "category": "peel",
+      "description_fa": "اسکراب کرمی با دانه گردو و ۴٪ AHA برای حذف سلول‌های مرده.",
+      "featured": false
+    },
+    {
+      "line": "Peeling",
+      "name_en": "Dewy Gommage Deep Cleanser",
+      "name_fa": "پاک‌کننده عمقی گماژ",
+      "sku": "ECLADO-DEWY-GOMMAGE",
+      "volume": "100g",
+      "category": "peel",
+      "description_fa": "گماژ ژلی بدون دانه برای لایه‌برداری کامل و درخشش پوست.",
+      "featured": false
+    },
+    {
+      "line": "Peeling",
+      "name_en": "Enzyme Peeling",
+      "name_fa": "آنزیم پیلینگ",
+      "sku": "ECLADO-ENZYME-PEEL",
+      "volume": "100ml",
+      "category": "peel",
+      "description_fa": "پیلینگ آنزیمی حرفه‌ای.",
+      "featured": false
+    },
+    {
+      "line": "Eclado",
+      "name_en": "Gold Essential Mask",
+      "name_fa": "ماسک ژلی گلد اسشنال",
+      "sku": "ECLADO-GOLD-ESSENTIAL-MASK",
+      "volume": "",
+      "category": "mask",
+      "description_fa": "ماسک ژلی با طلای ۲۴ عیار، آدنوزین و ترکیب Greenol برای روشن‌سازی، احیا و تسکین؛ توصیه‌شده پس از میکرونیدلینگ.",
+      "featured": false
+    },
+    {
+      "line": "Mask",
+      "name_en": "Gold Silk Mask",
+      "name_fa": "ماسک سیلک گلد",
+      "sku": "ECLADO-GOLD-SILK",
+      "volume": "10 sheets",
+      "category": "mask",
+      "description_fa": "شیت ماسک سیلک طلایی.",
+      "featured": false
+    },
+    {
+      "line": "Modeling Mask",
+      "name_en": "Modeling Mask Chamomile",
+      "name_fa": "مادلینگ ماسک بابونه",
+      "sku": "ECLADO-MODELING-MASK-CHAMOMILE",
+      "volume": "1000g",
+      "category": "mask",
+      "description_fa": "ماسک گچی بابونه تسکین‌دهنده پوست حساس با خواص ضدالتهاب و آنتی‌باکتریال؛ کمک به درمان اگزما، پسوریازیس و آکنه.",
+      "featured": false
+    },
+    {
+      "line": "Modeling Mask",
+      "name_en": "Modeling Mask Lavender",
+      "name_fa": "مادلینگ ماسک لوندر",
+      "sku": "ECLADO-MODELING-MASK-LAVENDER",
+      "volume": "1000g",
+      "category": "mask",
+      "description_fa": "ماسک گچی لوندر برای کنترل چربی، سم‌زدایی و تسکین پوست حساس؛ کمک به درمان آکنه، اگزما و خشکی.",
+      "featured": false
+    },
+    {
+      "line": "Modeling Mask",
+      "name_en": "Modeling Mask Rose",
+      "name_fa": "مادلینگ ماسک رز",
+      "sku": "ECLADO-MODELING-MASK-ROSE",
+      "volume": "1000g",
+      "category": "mask",
+      "description_fa": "ماسک گچی تغذیه‌رسان رز برای کمک به درمان آکنه و تیرگی، کنترل چربی و احیای پوست خسته.",
+      "featured": false
+    },
+    {
+      "line": "Modeling Mask",
+      "name_en": "Modeling Mask Rosemary",
+      "name_fa": "مادلینگ ماسک رزماری",
+      "sku": "ECLADO-MODELING-MASK-ROSEMARY",
+      "volume": "1000g",
+      "category": "mask",
+      "description_fa": "ماسک گچی رزماری برای پیشگیری از پیری زودرس، تحریک گردش خون و کاهش التهاب پوست.",
+      "featured": false
+    },
+    {
+      "line": "Eclado",
+      "name_en": "Pearl Ultra Velvet Mask",
+      "name_fa": "ماسک اولترا ولت مروارید",
+      "sku": "ECLADO-PEARL-ULTRA-VELVET-MASK",
+      "volume": "",
+      "category": "mask",
+      "description_fa": "ماسک حرفه‌ای دو مرحله‌ای با بافت ژلی و پودر مروارید برای روشن‌سازی و تسکین آنی؛ مخصوص کلینیک پس از لایه‌برداری، لیزر و میکرونیدلینگ.",
+      "featured": false
+    },
+    {
+      "line": "Mask",
+      "name_en": "Phyto P Sheet Mask",
+      "name_fa": "شیت ماسک فیتو پی",
+      "sku": "ECLADO-PHYTO-SHEET",
+      "volume": "5 sheets",
+      "category": "mask",
+      "description_fa": "شیت ماسک گیاهی فیتو.",
+      "featured": false
+    },
+    {
+      "line": "REPAIR",
+      "name_en": "Repair Nutrient Mask",
+      "name_fa": "ماسک مغذی احیا کننده",
+      "sku": "ECLADO-REPAIR-NUTRIENT-MASK",
+      "volume": "500g",
+      "category": "mask",
+      "description_fa": "ماسک کرمی حرفه‌ای برای افزایش ارتجاع پوست خشک و سالخورده؛ مناسب پایه قبل از ماسک گچی با روغن‌های گیاهی و عصاره‌های تخمیری.",
+      "featured": false
+    },
+    {
+      "line": "Mask",
+      "name_en": "Skin Soothing Herbal Mask",
+      "name_fa": "اسکین سوتینگ ماسک (ماسک گیاهی)",
+      "sku": "ECLADO-SKIN-SOOTHING-MASK",
+      "volume": "200ml",
+      "category": "mask",
+      "description_fa": "ماسک گیاهی تسکین‌دهنده برای آرام‌سازی پوست تحریک‌شده.",
+      "featured": false
+    },
+    {
+      "line": "Mask",
+      "name_en": "Spirulina Mask",
+      "name_fa": "ماسک اسپیرولینا",
+      "sku": "ECLADO-SPIRULINA-MASK",
+      "volume": "400ml",
+      "category": "mask",
+      "description_fa": "ماسک اسپیرولینا حرفه‌ای برای پاکسازی، تغذیه و شادابی پوست.",
+      "featured": false
+    },
+    {
+      "line": "Mask",
+      "name_en": "Sponge Mask Pack",
+      "name_fa": "ماسک اسفنجی پک",
+      "sku": "ECLADO-SPONGE-MASK",
+      "volume": "400ml",
+      "category": "mask",
+      "description_fa": "ماسک اسفنجی حرفه‌ای برای پاکسازی و روشن‌سازی.",
+      "featured": false
+    },
+    {
+      "line": "Peeling",
+      "name_en": "Envital Peel Kit",
+      "name_fa": "انویتال",
+      "sku": "ECLADO-ENVITAL",
+      "volume": "Booster + Powder",
+      "category": "kit",
+      "description_fa": "کیت پیلینگ انویتال حرفه‌ای.",
+      "featured": false
+    },
+    {
+      "line": "Vital Lift",
+      "name_en": "Vital Lift Pack Gold",
+      "name_fa": "پک ویتال لیفت گلد",
+      "sku": "ECLADO-VITAL-LIFT-PACK-GOLD",
+      "volume": "",
+      "category": "kit",
+      "description_fa": "پک حرفه‌ای لیفتینگ با ۵ پپتید آنتی‌اکسیدان، کلاژن هیدرولیز شده، پلی‌گلوتامیک اسید و آلانتوئین برای سفت‌سازی، کاهش چروک و رطوبت عمیق.",
+      "featured": false
+    },
+    {
+      "line": "Eclado",
+      "name_en": "Fracsono",
+      "name_fa": "دستگاه فراکسونو",
+      "sku": "ECLADO-FRACSONO",
+      "volume": "",
+      "category": "professional",
+      "description_fa": "دستگاه حرفه‌ای اکلادو با عملکردهای Ultrasonic و Fractional RF برای درمان‌های کلینیکی پوست.",
+      "featured": false
+    },
+    {
+      "line": "Professional",
+      "name_en": "Hydro Luvin Gel",
+      "name_fa": "ژل هایدرو لوین",
+      "sku": "ECLADO-HYDRO-LUVIN-GEL",
+      "volume": "500ml",
+      "category": "professional",
+      "description_fa": "ژل همه‌منظوره تقویت‌کننده سد دفاعی؛ پایه ماسک مامی و ترکیب با پاک‌کننده، ضدآفتاب و کرم‌ها.",
+      "featured": false
+    },
+    {
+      "line": "Eclado",
+      "name_en": "Micro Needling Pen",
+      "name_fa": "دستگاه میکرونیدلینگ",
+      "sku": "ECLADO-MICRO-NEEDLING-PEN",
+      "volume": "",
+      "category": "professional",
+      "description_fa": "دستگاه حرفه‌ای میکرونیدلینگ برای جوانسازی و درمان‌های پوستی کلینیکی.",
+      "featured": false
+    },
+    {
+      "line": "Eclado",
+      "name_en": "Sandalwood Guasha",
+      "name_fa": "گواشا",
+      "sku": "ECLADO-SANDALWOOD-GUASHA",
+      "volume": "",
+      "category": "professional",
+      "description_fa": "ابزار گواشا چوب صندل اکلادو برای ماساژ پوست و اسکالپ در مراقبت حرفه‌ای.",
+      "featured": false
+    },
+    {
+      "line": "Eclado",
+      "name_en": "Silicon Brush",
+      "name_fa": "براش سیلیکونی",
+      "sku": "ECLADO-SILICON-BRUSH",
+      "volume": "",
+      "category": "professional",
+      "description_fa": "براش سیلیکونی برند اکلادو برای اعمال محصولات در درمان‌های حرفه‌ای پوست.",
+      "featured": false
+    },
+    {
+      "line": "Serum / Ampoule",
+      "name_en": "Hyaluronic Acid 97% Ampoule",
+      "name_fa": "هیالورونیک اسید ۹۷٪",
+      "sku": "ECLADO-HA-97-AMPOULE",
+      "volume": "5ml x 5ea",
+      "category": "serum",
+      "description_fa": "آمپول هیالورونیک اسید با غلظت بالا برای آبرسانی عمیق حرفه‌ای.",
+      "featured": false
+    },
+    {
+      "line": "Serum / Ampoule",
+      "name_en": "Vitamin C Booster",
+      "name_fa": "بوستر ویتامین سی",
+      "sku": "ECLADO-VITAMIN-C-BOOSTER",
+      "volume": "100ml",
+      "category": "serum",
+      "description_fa": "بوستر روشن‌کننده ویتامین C برای بهبود تیرگی و درخشش پوست.",
+      "featured": false
+    },
+    {
+      "line": "Moisturizer",
+      "name_en": "Caviar Elastic Cream",
+      "name_fa": "کرم خاویار الاستیک",
+      "sku": "ECLADO-CAVIAR-ELASTIC-CREAM",
+      "volume": "50ml",
+      "category": "cream",
+      "description_fa": "کرم خاویار الاستیک برای تغذیه، ارتجاع و مراقبت ضدپیری پوست.",
+      "featured": false
+    },
+    {
+      "line": "Moisturizer",
+      "name_en": "Ultra Lifting Cream",
+      "name_fa": "کرم اولترا لیفتینگ",
+      "sku": "ECLADO-ULTRA-LIFTING-CREAM",
+      "volume": "50ml",
+      "category": "cream",
+      "description_fa": "کرم اولترا لیفتینگ برای سفت‌سازی و بهبود ظاهر چین‌وچروک.",
+      "featured": false
+    },
+    {
+      "line": "Sunscreen",
+      "name_en": "Extra Sunscreen",
+      "name_fa": "ضد آفتاب اکسترا",
+      "sku": "ECLADO-EXTRA-SUNSCREEN",
+      "volume": "70ml",
+      "category": "sunscreen",
+      "description_fa": "ضدآفتاب اکسترا برای محافظت روزانه در برابر اشعه UV.",
+      "featured": false
+    },
+    {
+      "line": "Mask",
+      "name_en": "Silk Collagen Mask",
+      "name_fa": "ماسک سیلک کلاژن",
+      "sku": "ECLADO-SILK-COLLAGEN-MASK",
+      "volume": "25ml x 10ea",
+      "category": "mask",
+      "description_fa": "ماسک سیلک کلاژن برای تغذیه، آبرسانی و بهبود کشسانی پوست.",
+      "featured": false
+    },
+    {
+      "line": "Professional",
+      "name_en": "Aloe Massage Gel",
+      "name_fa": "ژل ماساژ آلوئه",
+      "sku": "ECLADO-ALOE-MASSAGE-GEL",
+      "volume": "500ml",
+      "category": "professional",
+      "description_fa": "ژل ماساژ آلوئه حرفه‌ای برای لغزندگی، تسکین و رطوبت‌رسانی در حین ماساژ.",
+      "featured": false
+    }
+  ]
+}
