@@ -12,6 +12,8 @@ $cat_url = static function (string $slug) use ($shop_url): string {
 	$link = get_term_link($slug, 'product_cat');
 	return is_wp_error($link) ? $shop_url : $link;
 };
+$eclado_url   = $cat_url('eclado');
+$eclat_url    = $cat_url('eclat-du-teint');
 $isabelle_url = $cat_url('isabelle-lancry');
 $dsv_url      = $cat_url('dsv-line');
 $vv_url       = $cat_url('vv');
@@ -34,7 +36,7 @@ $pro_url      = $cat_url('professional');
 				<?php esc_html_e('نماینده رسمی مراقبت پوست حرفه‌ای', 'sohateb'); ?>
 			</h1>
 			<p class="st-hero__lead" data-reveal data-reveal-delay="140">
-				<?php esc_html_e('ویترین Isabelle Lancray، DSV-LINE، V&V و Dr. Rimpler برای کلینیک، سالن و مراقبت در منزل.', 'sohateb'); ?>
+				<?php esc_html_e('ویترین Eclado و Eclat Du Teint در کنار Isabelle Lancray، DSV-LINE، V&V و Dr. Rimpler.', 'sohateb'); ?>
 			</p>
 			<div class="st-hero__cta" data-reveal data-reveal-delay="200">
 				<a class="st-btn st-btn--primary" href="#featured">
@@ -52,36 +54,46 @@ $pro_url      = $cat_url('professional');
 		<div class="st-container">
 			<header class="st-section-head" data-reveal>
 				<h2 id="st-cat-title"><?php esc_html_e('برندها و خطوط', 'sohateb'); ?></h2>
-				<p><?php esc_html_e('چهار برند تخصصی سها طب برای مراقبت پوست حرفه‌ای و خانگی.', 'sohateb'); ?></p>
+				<p><?php esc_html_e('Eclado و Eclat Du Teint برندهای نخست ویترین سها طب هستند.', 'sohateb'); ?></p>
 			</header>
 			<div class="st-cat-row st-cat-row--brands">
-				<a class="st-cat st-cat--a" href="<?php echo esc_url($isabelle_url); ?>" data-reveal>
+				<a class="st-cat st-cat--a" href="<?php echo esc_url($eclado_url); ?>" data-reveal>
+					<span class="st-cat__eyebrow">KOREA</span>
+					<span class="st-cat__label">Eclado</span>
+					<span class="st-cat__meta"><?php esc_html_e('Laboratory · Exo Clinica · Professional', 'sohateb'); ?></span>
+				</a>
+				<a class="st-cat st-cat--b" href="<?php echo esc_url($eclat_url); ?>" data-reveal>
+					<span class="st-cat__eyebrow">DERMACOSMETIC</span>
+					<span class="st-cat__label">Eclat Du Teint</span>
+					<span class="st-cat__meta"><?php esc_html_e('Post-Treatment · Regeneration · Barrier', 'sohateb'); ?></span>
+				</a>
+				<a class="st-cat st-cat--c" href="<?php echo esc_url($isabelle_url); ?>" data-reveal>
 					<span class="st-cat__eyebrow">PARIS</span>
 					<span class="st-cat__label">Isabelle Lancray</span>
 					<span class="st-cat__meta"><?php esc_html_e('EGOSTYLE · ILSA-PRO · ZENSIBIA', 'sohateb'); ?></span>
 				</a>
-				<a class="st-cat st-cat--b" href="<?php echo esc_url($dsv_url); ?>" data-reveal>
+				<a class="st-cat st-cat--d" href="<?php echo esc_url($dsv_url); ?>" data-reveal>
 					<span class="st-cat__eyebrow">LEVEL 7</span>
 					<span class="st-cat__label">DSV-LINE</span>
 					<span class="st-cat__meta"><?php esc_html_e('معجزه آبی · معجزه سبز · سرم‌ها', 'sohateb'); ?></span>
 				</a>
-				<a class="st-cat st-cat--c" href="<?php echo esc_url($vv_url); ?>" data-reveal>
+				<a class="st-cat st-cat--e" href="<?php echo esc_url($vv_url); ?>" data-reveal>
 					<span class="st-cat__eyebrow">HERABIOTICS</span>
 					<span class="st-cat__label">V&V</span>
 					<span class="st-cat__meta"><?php esc_html_e('روشن‌کننده · ضدجوش · آبرسان', 'sohateb'); ?></span>
 				</a>
-				<a class="st-cat st-cat--d" href="<?php echo esc_url($rimpler_url); ?>" data-reveal>
+				<a class="st-cat st-cat--f" href="<?php echo esc_url($rimpler_url); ?>" data-reveal>
 					<span class="st-cat__eyebrow">GERMANY</span>
 					<span class="st-cat__label">Dr. Rimpler</span>
 					<span class="st-cat__meta"><?php esc_html_e('Clear · Hydro · Sensitive · Sun', 'sohateb'); ?></span>
 				</a>
-				<a class="st-cat st-cat--e" href="<?php echo esc_url($serum_url); ?>" data-reveal>
+				<a class="st-cat st-cat--g" href="<?php echo esc_url($serum_url); ?>" data-reveal>
 					<span class="st-cat__label"><?php esc_html_e('سرم‌ها', 'sohateb'); ?></span>
 				</a>
-				<a class="st-cat st-cat--f" href="<?php echo esc_url($mask_url); ?>" data-reveal>
+				<a class="st-cat st-cat--h" href="<?php echo esc_url($mask_url); ?>" data-reveal>
 					<span class="st-cat__label"><?php esc_html_e('ماسک‌ها', 'sohateb'); ?></span>
 				</a>
-				<a class="st-cat st-cat--g" href="<?php echo esc_url($pro_url); ?>" data-reveal>
+				<a class="st-cat st-cat--i" href="<?php echo esc_url($pro_url); ?>" data-reveal>
 					<span class="st-cat__label"><?php esc_html_e('حرفه‌ای', 'sohateb'); ?></span>
 				</a>
 			</div>
@@ -92,20 +104,60 @@ $pro_url      = $cat_url('professional');
 		<div class="st-container">
 			<header class="st-section-head st-section-head--light" data-reveal>
 				<h2 id="st-feat-title"><?php esc_html_e('محصولات منتخب', 'sohateb'); ?></h2>
-				<p><?php esc_html_e('انتخابی از کاتالوگ‌های Isabelle Lancray، DSV-LINE، V&V و Dr. Rimpler.', 'sohateb'); ?></p>
+				<p><?php esc_html_e('اولویت با محصولات Eclado و Eclat Du Teint.', 'sohateb'); ?></p>
 			</header>
 
 			<div class="st-product-grid">
 				<?php
 				if (class_exists('WooCommerce')) {
-					$q = new WP_Query([
-						'post_type'      => 'product',
-						'posts_per_page' => 8,
-						'post_status'    => 'publish',
-						'meta_key'       => '_featured',
-						'meta_value'     => 'yes',
-					]);
-					if (!$q->have_posts()) {
+					$priority_ids = [];
+					foreach (['Eclado', 'Eclat Du Teint'] as $priority_brand) {
+						$pq = new WP_Query([
+							'post_type'      => 'product',
+							'posts_per_page' => 4,
+							'post_status'    => 'publish',
+							'fields'         => 'ids',
+							'meta_query'     => [
+								[
+									'key'   => '_featured',
+									'value' => 'yes',
+								],
+								[
+									'key'   => '_sohateb_brand',
+									'value' => $priority_brand,
+								],
+							],
+						]);
+						$priority_ids = array_merge($priority_ids, array_map('intval', $pq->posts));
+						wp_reset_postdata();
+					}
+					$priority_ids = array_values(array_unique($priority_ids));
+
+					if (count($priority_ids) < 8) {
+						$fill = new WP_Query([
+							'post_type'      => 'product',
+							'posts_per_page' => 8 - count($priority_ids),
+							'post_status'    => 'publish',
+							'fields'         => 'ids',
+							'post__not_in'   => $priority_ids ?: [0],
+							'meta_key'       => '_featured',
+							'meta_value'     => 'yes',
+						]);
+						$priority_ids = array_merge($priority_ids, array_map('intval', $fill->posts));
+						wp_reset_postdata();
+					}
+
+					$q = null;
+					if ($priority_ids) {
+						$q = new WP_Query([
+							'post_type'      => 'product',
+							'post__in'       => $priority_ids,
+							'orderby'        => 'post__in',
+							'posts_per_page' => 8,
+							'post_status'    => 'publish',
+						]);
+					}
+					if (!$q || !$q->have_posts()) {
 						$q = new WP_Query([
 							'post_type'      => 'product',
 							'posts_per_page' => 8,
@@ -153,7 +205,7 @@ $pro_url      = $cat_url('professional');
 			<div class="st-spotlight__copy" data-reveal>
 				<p class="st-kicker">SOHA TEB</p>
 				<h2 id="st-spot-title"><?php esc_html_e('از کلینیک تا مراقبت روزانه', 'sohateb'); ?></h2>
-				<p><?php esc_html_e('سها طب نماینده رسمی Level 7 و ارائه‌دهنده خطوط Isabelle Lancray، DSV-LINE، V&V و Dr. Rimpler برای درمان حرفه‌ای و روتین خانگی است.', 'sohateb'); ?></p>
+				<p><?php esc_html_e('سها طب نماینده رسمی Level 7 و ارائه‌دهنده Eclado، Eclat Du Teint و خطوط تخصصی مراقبت پوست برای کلینیک و روتین خانگی است.', 'sohateb'); ?></p>
 				<a class="st-btn st-btn--primary" href="#featured">
 					<?php esc_html_e('محصولات منتخب', 'sohateb'); ?>
 				</a>
@@ -165,7 +217,7 @@ $pro_url      = $cat_url('professional');
 		<div class="st-container">
 			<header class="st-section-head" data-reveal>
 				<h2 id="st-about-title"><?php esc_html_e('درباره سها طب', 'sohateb'); ?></h2>
-				<p><?php esc_html_e('توزیع تخصصی محصولات مراقبت پوست — Isabelle Lancray، DSV-LINE، V&V و Dr. Rimpler.', 'sohateb'); ?></p>
+				<p><?php esc_html_e('توزیع تخصصی محصولات مراقبت پوست — Eclado، Eclat Du Teint و برندهای مکمل سها طب.', 'sohateb'); ?></p>
 			</header>
 		</div>
 	</section>

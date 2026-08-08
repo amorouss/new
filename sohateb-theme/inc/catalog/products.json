@@ -1,11 +1,698 @@
 {
   "brands": [
+    "Eclado",
+    "Eclat Du Teint",
     "Isabelle Lancry",
     "DSV-LINE",
     "V&V",
     "Dr. Rimpler"
   ],
   "products": [
+    {
+      "brand": "Eclado",
+      "line": "Exo Clinica",
+      "name_en": "Exo Clinica Toner",
+      "name_fa": "اکسو کلینیکا تونر",
+      "sku": "ECLADO-EXO-TONER",
+      "category": "toner",
+      "description_fa": "تونر تقویت‌کننده سد دفاعی با اگزوزوم گیاهی، سنتلا و پروبیوتیک؛ مناسب پوست حساس و مراقبت پس از درمان.",
+      "featured": true
+    },
+    {
+      "brand": "Eclado",
+      "line": "Exo Clinica",
+      "name_en": "Exo Clinica Gel",
+      "name_fa": "اکسو کلینیکا ژل",
+      "sku": "ECLADO-EXO-GEL",
+      "category": "cream",
+      "description_fa": "ژل آرام‌بخش کاهش قرمزی و حرارت پوست با اگزوزوم سنتلا و بتاگلوکان.",
+      "featured": true
+    },
+    {
+      "brand": "Eclado",
+      "line": "Exo Clinica",
+      "name_en": "Exo Clinica UV Sun Cream SPF50+",
+      "name_fa": "ضدآفتاب اکسو کلینیکا یووی SPF50+",
+      "sku": "ECLADO-EXO-SUN",
+      "category": "sunscreen",
+      "description_fa": "ضدآفتاب سبک بر پایه اگزوزوم با محافظت ۲۴ ساعته و اثر تسکین‌دهنده.",
+      "featured": true
+    },
+    {
+      "brand": "Eclado",
+      "line": "Exo Clinica",
+      "name_en": "Exo Clinica Cream",
+      "name_fa": "اکسو کلینیکا کرم بهبود منافذ",
+      "sku": "ECLADO-EXO-CREAM",
+      "category": "cream",
+      "description_fa": "کرم بهبود منافذ با اگزوزوم سنتلا، AHA/BHA و هیالورونیک اسید چندگانه.",
+      "featured": true
+    },
+    {
+      "brand": "Eclado",
+      "line": "Soothing",
+      "name_en": "Azulene Cure Solution Ampoule",
+      "name_fa": "آزولین کیور سولوشن امپل",
+      "sku": "ECLADO-AZULENE-AMPOULE",
+      "category": "serum",
+      "description_fa": "آمپول تسکین فوری با ۴۰۰۰ ppm گایازولن برای کاهش قرمزی و حرارت پس از درمان.",
+      "featured": true
+    },
+    {
+      "brand": "Eclado",
+      "line": "A.C Line",
+      "name_en": "A.C Centella Foam Cleanser",
+      "name_fa": "فوم شوینده سنتلا",
+      "sku": "ECLADO-AC-CENTELLA-FOAM",
+      "volume": "100g",
+      "category": "cleanser",
+      "description_fa": "فوم شوینده سنتلا برای کنترل چربی و التیام پوست چرب و مستعد آکنه.",
+      "featured": true
+    },
+    {
+      "brand": "Eclado",
+      "line": "Cleanser",
+      "name_en": "Enhancer Mild Cleanser",
+      "name_fa": "فوم شوینده ملایم اینهنسر",
+      "sku": "ECLADO-ENHANCER-CLEANSER",
+      "volume": "200/500ml",
+      "category": "cleanser",
+      "description_fa": "فوم بسیار ملایم برای انواع پوست حتی حساس؛ بدون بر هم زدن pH و ایجاد سد رطوبتی.",
+      "featured": true
+    },
+    {
+      "brand": "Eclado",
+      "line": "Cleanser",
+      "name_en": "Purifying Cleanser",
+      "name_fa": "شیرپاک‌کن Purifying",
+      "sku": "ECLADO-PURIFYING-CLEANSER",
+      "volume": "500/1000ml",
+      "category": "cleanser",
+      "description_fa": "شیر پاک‌کن گیاهی برای پاکسازی آرایش و ناخالصی‌ها با آبرسانی عمیق.",
+      "featured": false
+    },
+    {
+      "brand": "Eclado",
+      "line": "Cleanser",
+      "name_en": "Perfect Smoothie Balm",
+      "name_fa": "بالم پاک‌کننده پرفکت اسموتی",
+      "sku": "ECLADO-PERFECT-SMOOTHIE",
+      "category": "cleanser",
+      "description_fa": "بالم پاک‌کننده کامل آرایش با روغن‌های گیاهی و کره کاکائو؛ مناسب حتی پوست چرب.",
+      "featured": true
+    },
+    {
+      "brand": "Eclado",
+      "line": "Cleanser",
+      "name_en": "Flawless Lip & Eye Remover",
+      "name_fa": "میکاپ‌ریموور چشم و لب Flawless",
+      "sku": "ECLADO-FLAWLESS-REMOVER",
+      "category": "cleanser",
+      "description_fa": "ریموور دوفاز فاقد چربی مخصوص چشم و لب.",
+      "featured": false
+    },
+    {
+      "brand": "Eclado",
+      "line": "Peeling",
+      "name_en": "AHA 4% Liquid Deep Peel",
+      "name_fa": "لایه‌بردار مایع AHA 4%",
+      "sku": "ECLADO-AHA4-LIQUID",
+      "volume": "100ml",
+      "category": "peel",
+      "description_fa": "لایه‌بردار مایع ۴٪ AHA میوه‌ای برای شفافیت و نرمی پوست بدون تحریک.",
+      "featured": true
+    },
+    {
+      "brand": "Eclado",
+      "line": "Peeling",
+      "name_en": "AHA Exfoliate Deep Peel",
+      "name_fa": "لایه‌بردار کرمی AHA اکسفولینیت",
+      "sku": "ECLADO-AHA-EXFOLIATE",
+      "volume": "100g",
+      "category": "peel",
+      "description_fa": "اسکراب کرمی با دانه گردو و ۴٪ AHA برای حذف سلول‌های مرده.",
+      "featured": false
+    },
+    {
+      "brand": "Eclado",
+      "line": "Peeling",
+      "name_en": "Dewy Gommage Deep Cleanser",
+      "name_fa": "پاک‌کننده عمقی گماژ",
+      "sku": "ECLADO-DEWY-GOMMAGE",
+      "volume": "100g",
+      "category": "peel",
+      "description_fa": "گماژ ژلی بدون دانه برای لایه‌برداری کامل و درخشش پوست.",
+      "featured": false
+    },
+    {
+      "brand": "Eclado",
+      "line": "Peeling",
+      "name_en": "Enzyme Deep Cleanser Powder",
+      "name_fa": "کلینزر عمقی آنزیم (پودر)",
+      "sku": "ECLADO-ENZYME-POWDER",
+      "volume": "100/500g",
+      "category": "cleanser",
+      "description_fa": "پودر شوینده آنزیمی گیاهی برای پاکسازی عمقی با بتائین و عصاره پاپایا.",
+      "featured": true
+    },
+    {
+      "brand": "Eclado",
+      "line": "Peeling",
+      "name_en": "PHA Soft Peel 15",
+      "name_fa": "لایه‌بردار PHA سافت",
+      "sku": "ECLADO-PHA-SOFT15",
+      "volume": "120ml",
+      "category": "peel",
+      "description_fa": "لایه‌بردار ملایم PHA مناسب پوست حساس؛ بدون نیاز به شستشو.",
+      "featured": true
+    },
+    {
+      "brand": "Eclado",
+      "line": "Toner",
+      "name_en": "Rebalancing Toner",
+      "name_fa": "تونر ریبلنسینگ",
+      "sku": "ECLADO-REBALANCING-TONER",
+      "volume": "500/1000ml",
+      "category": "toner",
+      "description_fa": "تونر روزانه با چای سبز و کلرلا برای تعادل pH و آبرسانی.",
+      "featured": false
+    },
+    {
+      "brand": "Eclado",
+      "line": "Toner",
+      "name_en": "Royal Milk Protein Toner",
+      "name_fa": "تونر پروتئین شیر رویال",
+      "sku": "ECLADO-ROYAL-MILK-TONER",
+      "volume": "500ml",
+      "category": "toner",
+      "description_fa": "تونر پروتئینی با پروتئین برنج، جو، شیر و رویال ژلی برای تقویت سد دفاعی.",
+      "featured": true
+    },
+    {
+      "brand": "Eclado",
+      "line": "Respiration",
+      "name_en": "Respiration Toner",
+      "name_fa": "تونر رسپریشن",
+      "sku": "ECLADO-RESPIRATION-TONER",
+      "volume": "150ml",
+      "category": "toner",
+      "description_fa": "تونر تخمیری و گل رز برای تسکین فوری پوست حساس و آتوپیک.",
+      "featured": true
+    },
+    {
+      "brand": "Eclado",
+      "line": "Brightening",
+      "name_en": "Shining V-C Serum",
+      "name_fa": "سرم شاینینگ VC",
+      "sku": "ECLADO-SHINING-VC",
+      "volume": "100ml",
+      "category": "serum",
+      "description_fa": "سرم ویتامین C پایدار در لیپوزوم برای درخشش فوری و بهبود کشسانی پوست.",
+      "featured": true
+    },
+    {
+      "brand": "Eclado",
+      "line": "Rescue",
+      "name_en": "Rescuer Cica Balm",
+      "name_fa": "بالم رکیور سیکا",
+      "sku": "ECLADO-RESCUER-CICA",
+      "category": "cream",
+      "description_fa": "بالم ترمیمی سیکا برای تسکین و بازسازی پوست آسیب‌دیده.",
+      "featured": true
+    },
+    {
+      "brand": "Eclado",
+      "line": "Moisturizer",
+      "name_en": "Hydro Care Cream",
+      "name_fa": "کرم هیدرو کر",
+      "sku": "ECLADO-HYDRO-CARE",
+      "volume": "40ml",
+      "category": "cream",
+      "description_fa": "کرم پرفروش ترمیمی و مرطوب‌کننده با EGF و سنتلا برای قبل و بعد درمان.",
+      "featured": true
+    },
+    {
+      "brand": "Eclado",
+      "line": "Moisturizer",
+      "name_en": "Ultra Fitting Cream",
+      "name_fa": "کرم اولترا فیتینگ",
+      "sku": "ECLADO-ULTRA-FITTING",
+      "volume": "50ml",
+      "category": "cream",
+      "description_fa": "کرم سفت‌کننده و تغذیه عمیق پوست.",
+      "featured": false
+    },
+    {
+      "brand": "Eclado",
+      "line": "Moisturizer",
+      "name_en": "Bright Cream",
+      "name_fa": "کرم برایت",
+      "sku": "ECLADO-BRIGHT-CREAM",
+      "volume": "70ml",
+      "category": "cream",
+      "description_fa": "کرم روشن‌کننده برای یکنواختی رنگ پوست.",
+      "featured": false
+    },
+    {
+      "brand": "Eclado",
+      "line": "Moisturizer",
+      "name_en": "Glow Cream",
+      "name_fa": "کرم گلو",
+      "sku": "ECLADO-GLOW-CREAM",
+      "volume": "50ml",
+      "category": "cream",
+      "description_fa": "کرم درخشان‌کننده روزانه.",
+      "featured": false
+    },
+    {
+      "brand": "Eclado",
+      "line": "Eye",
+      "name_en": "Eye Cream",
+      "name_fa": "کرم دور چشم",
+      "sku": "ECLADO-EYE-CREAM",
+      "volume": "40ml",
+      "category": "eye",
+      "description_fa": "کرم تخصصی مراقبت دور چشم.",
+      "featured": false
+    },
+    {
+      "brand": "Eclado",
+      "line": "Serum",
+      "name_en": "Hydro Booster",
+      "name_fa": "هایدرو بوستر",
+      "sku": "ECLADO-HYDRO-BOOSTER",
+      "volume": "7ml × 5",
+      "category": "serum",
+      "description_fa": "بوستر آبرسان حرفه‌ای.",
+      "featured": false
+    },
+    {
+      "brand": "Eclado",
+      "line": "Serum",
+      "name_en": "Hyaluronic Acid Vial",
+      "name_fa": "ویال هیالورونیک اسید",
+      "sku": "ECLADO-HA-VIAL",
+      "volume": "50ml",
+      "category": "serum",
+      "description_fa": "ویال هیالورونیک اسید برای آبرسانی حرفه‌ای.",
+      "featured": false
+    },
+    {
+      "brand": "Eclado",
+      "line": "Serum",
+      "name_en": "Hydro Queen Gel",
+      "name_fa": "ژل هایدرو کوئین",
+      "sku": "ECLADO-HYDRO-QUEEN",
+      "volume": "500ml",
+      "category": "serum",
+      "description_fa": "ژل آبرسان حرفه‌ای حجم کلینیکی.",
+      "featured": false
+    },
+    {
+      "brand": "Eclado",
+      "line": "Mask",
+      "name_en": "Sponge Mask Pack",
+      "name_fa": "ماسک اسفنجی پک",
+      "sku": "ECLADO-SPONGE-MASK",
+      "volume": "400ml",
+      "category": "mask",
+      "description_fa": "ماسک اسفنجی حرفه‌ای برای پاکسازی و روشن‌سازی.",
+      "featured": false
+    },
+    {
+      "brand": "Eclado",
+      "line": "Mask",
+      "name_en": "Gold Silk Mask",
+      "name_fa": "ماسک سیلک گلد",
+      "sku": "ECLADO-GOLD-SILK",
+      "volume": "10 sheets",
+      "category": "mask",
+      "description_fa": "شیت ماسک سیلک طلایی.",
+      "featured": false
+    },
+    {
+      "brand": "Eclado",
+      "line": "Mask",
+      "name_en": "Phyto P Sheet Mask",
+      "name_fa": "شیت ماسک فیتو پی",
+      "sku": "ECLADO-PHYTO-SHEET",
+      "volume": "5 sheets",
+      "category": "mask",
+      "description_fa": "شیت ماسک گیاهی فیتو.",
+      "featured": false
+    },
+    {
+      "brand": "Eclado",
+      "line": "Sunscreen",
+      "name_en": "Aqua S Sunscreen",
+      "name_fa": "ضدآفتاب آکوا اس",
+      "sku": "ECLADO-AQUA-SUN",
+      "volume": "50ml",
+      "category": "sunscreen",
+      "description_fa": "ضدآفتاب سبک آکوا برای استفاده روزانه.",
+      "featured": false
+    },
+    {
+      "brand": "Eclado",
+      "line": "Sunscreen",
+      "name_en": "Herbal Sunscreen",
+      "name_fa": "ضدآفتاب گیاهی",
+      "sku": "ECLADO-HERBAL-SUN",
+      "volume": "70ml",
+      "category": "sunscreen",
+      "description_fa": "ضدآفتاب گیاهی.",
+      "featured": false
+    },
+    {
+      "brand": "Eclado",
+      "line": "Toner",
+      "name_en": "Balancing Toner",
+      "name_fa": "تونر متعادل‌کننده",
+      "sku": "ECLADO-BALANCING-TONER",
+      "volume": "200/500ml",
+      "category": "toner",
+      "description_fa": "تونر متعادل‌کننده حرفه‌ای و خانگی.",
+      "featured": false
+    },
+    {
+      "brand": "Eclado",
+      "line": "Cleanser",
+      "name_en": "Gentle Foam Cleanser",
+      "name_fa": "شوینده فومی ملایم",
+      "sku": "ECLADO-GENTLE-FOAM",
+      "volume": "150ml",
+      "category": "cleanser",
+      "description_fa": "فوم شوینده ملایم روزانه.",
+      "featured": false
+    },
+    {
+      "brand": "Eclado",
+      "line": "Cleanser",
+      "name_en": "Phyto Protein Cleansing Milk",
+      "name_fa": "شیر پاک‌کن فیتو پروتئین",
+      "sku": "ECLADO-PHYTO-MILK",
+      "volume": "500ml",
+      "category": "cleanser",
+      "description_fa": "شیر پاک‌کن فیتو پروتئین.",
+      "featured": false
+    },
+    {
+      "brand": "Eclado",
+      "line": "Peeling",
+      "name_en": "Enzyme Peeling",
+      "name_fa": "آنزیم پیلینگ",
+      "sku": "ECLADO-ENZYME-PEEL",
+      "volume": "100ml",
+      "category": "peel",
+      "description_fa": "پیلینگ آنزیمی حرفه‌ای.",
+      "featured": false
+    },
+    {
+      "brand": "Eclado",
+      "line": "Peeling",
+      "name_en": "Envital Peel Kit",
+      "name_fa": "انویتال",
+      "sku": "ECLADO-ENVITAL",
+      "volume": "Booster + Powder",
+      "category": "kit",
+      "description_fa": "کیت پیلینگ انویتال حرفه‌ای.",
+      "featured": false
+    },
+    {
+      "brand": "Eclat Du Teint",
+      "line": "Skin Regeneration",
+      "name_en": "PDRN Hydro Booster",
+      "name_fa": "هیدرو بوستر PDRN",
+      "sku": "EDT-01-PDRN",
+      "volume": "3ml × 5",
+      "category": "serum",
+      "description_fa": "بوستر بازسازی با PDRN با غلظت بالا برای جوانسازی و مراقبت پس از درمان‌های تهاجمی.",
+      "featured": true
+    },
+    {
+      "brand": "Eclat Du Teint",
+      "line": "Skin Regeneration",
+      "name_en": "Hydro Care Cream",
+      "name_fa": "کرم هیدرو کر",
+      "sku": "EDT-02-HYDROCARE",
+      "volume": "40ml",
+      "category": "cream",
+      "description_fa": "کرم ترمیمی و مرطوب‌کننده با EGF و سنتلا؛ مناسب قبل و بعد از درمان پوست.",
+      "featured": true
+    },
+    {
+      "brand": "Eclat Du Teint",
+      "line": "Skin Regeneration",
+      "name_en": "Lifting Active Action Cream",
+      "name_fa": "کرم لیفتینگ اکتیو اکشن",
+      "sku": "EDT-03-LIFTING",
+      "volume": "50ml",
+      "category": "cream",
+      "description_fa": "کرم لیفتینگ با کمپلکس پپتاید و آدنوزین برای بهبود منافذ، کشسانی و چین‌وچروک.",
+      "featured": true
+    },
+    {
+      "brand": "Eclat Du Teint",
+      "line": "Skin Regeneration",
+      "name_en": "Ultra Firming Cream",
+      "name_fa": "کرم اولترا فرمینگ",
+      "sku": "EDT-04-ULTRAFIRM",
+      "volume": "50ml",
+      "category": "cream",
+      "description_fa": "کرم سفت‌کننده نوآورانه با ویتامین E و آدنوزین برای تغذیه و بهبود کشسانی پوست.",
+      "featured": false
+    },
+    {
+      "brand": "Eclat Du Teint",
+      "line": "Skin Regeneration",
+      "name_en": "Dewy Intensive Cream",
+      "name_fa": "کرم دووی اینتنسیو",
+      "sku": "EDT-05-DEWY",
+      "volume": "50ml",
+      "category": "cream",
+      "description_fa": "کرم آبرسان عمیق با اوره و هیالورونات سدیم؛ جذب رطوبت مانند آهنربا.",
+      "featured": true
+    },
+    {
+      "brand": "Eclat Du Teint",
+      "line": "Skin Regeneration",
+      "name_en": "Cica Clean Mask",
+      "name_fa": "ماسک سیکا کلن",
+      "sku": "EDT-06-CICACLEAN",
+      "volume": "5 sheets × 30g",
+      "category": "mask",
+      "description_fa": "شیت ماسک سیکا و PDRN برای تسکین، آبرسانی و بازسازی همزمان.",
+      "featured": true
+    },
+    {
+      "brand": "Eclat Du Teint",
+      "line": "Skin Regeneration",
+      "name_en": "Step Modeling Mask Real Care",
+      "name_fa": "استپ مدلینگ ماسک ریال کر",
+      "sku": "EDT-07-MODELING",
+      "volume": "5 sets",
+      "category": "mask",
+      "description_fa": "ماسک مدلینگ حرفه‌ای کلینیکی با سیکا؛ حفظ رطوبت تا ۷۲ ساعت.",
+      "featured": true
+    },
+    {
+      "brand": "Eclat Du Teint",
+      "line": "Skin Regeneration",
+      "name_en": "Ultra Sunblock SPF50+",
+      "name_fa": "ضدآفتاب اولترا SPF50+",
+      "sku": "EDT-08-ULTRASUN",
+      "volume": "50ml",
+      "category": "sunscreen",
+      "description_fa": "ضدآفتاب ترمیمی بدون حس سوزش و رد سفیدی؛ مناسب پس از درمان‌های پیگمانتاسیون.",
+      "featured": true
+    },
+    {
+      "brand": "Eclat Du Teint",
+      "line": "Skin Regeneration",
+      "name_en": "Post Care Sunblock SPF50+",
+      "name_fa": "ضدآفتاب پست کر SPF50+",
+      "sku": "EDT-09-POSTSUN",
+      "volume": "50ml",
+      "category": "sunscreen",
+      "description_fa": "ضدآفتاب فاقد چربی برای مراقبت پس از درمان با کنترل سبوم و درخشش.",
+      "featured": true
+    },
+    {
+      "brand": "Eclat Du Teint",
+      "line": "Acne & Trouble Care",
+      "name_en": "Remedy Solution P421",
+      "name_fa": "رمدی سلوشن P421",
+      "sku": "EDT-P421-REMEDY",
+      "volume": "5ml × 5",
+      "category": "serum",
+      "description_fa": "محلول تسکین سریع پوست مشکل‌دار با ترکیبات گیاهی و پپتاید ۴۰۱.",
+      "featured": true
+    },
+    {
+      "brand": "Eclat Du Teint",
+      "line": "Acne & Trouble Care",
+      "name_en": "Special Calamine Cream",
+      "name_fa": "کرم ویژه کالامین",
+      "sku": "EDT-CALAMINE-CREAM",
+      "volume": "50ml",
+      "category": "cream",
+      "description_fa": "کرم ویژه با ۲۰٬۰۰۰ ppm کالامین برای پوست آسیب‌دیده و ملتهب ناشی از آکنه.",
+      "featured": true
+    },
+    {
+      "brand": "Eclat Du Teint",
+      "line": "Acne & Trouble Care",
+      "name_en": "Relief Toner",
+      "name_fa": "ریلیف تونر",
+      "sku": "EDT-RELIEF-TONER",
+      "volume": "200ml",
+      "category": "toner",
+      "description_fa": "تونر صورتی کالامین با ۳۰٬۰۰۰ ppm برای تسکین فوری آکنه، پوست حساس و کنترل چربی.",
+      "featured": true
+    },
+    {
+      "brand": "Eclat Du Teint",
+      "line": "Whitening & Pigmentation",
+      "name_en": "Blanc Sponge Mask",
+      "name_fa": "ماسک اسفنج بلانک",
+      "sku": "EDT-BLANC-SPONGE",
+      "volume": "100ml",
+      "category": "mask",
+      "description_fa": "ماسک اسفنجی روشن‌کننده با مونتموریلونیت برای پاکسازی منافذ و درخشش فوری.",
+      "featured": true
+    },
+    {
+      "brand": "Eclat Du Teint",
+      "line": "Whitening & Pigmentation",
+      "name_en": "Vitamin C Booster",
+      "name_fa": "بوستر ویتامین سی",
+      "sku": "EDT-VITC-BOOSTER",
+      "volume": "15ml",
+      "category": "serum",
+      "description_fa": "بوستر روشن‌کننده قوی با مولتی‌ویتامین ۹۲٪ و pH بهینه برای پوست حساس.",
+      "featured": true
+    },
+    {
+      "brand": "Eclat Du Teint",
+      "line": "Whitening & Pigmentation",
+      "name_en": "Vofona Tropical Water Drop",
+      "name_fa": "وفونا تراپیکال واتر دراپ",
+      "sku": "EDT-VOFONA",
+      "volume": "50ml",
+      "category": "serum",
+      "description_fa": "آمپول آبرسان برای بهبود پیگمانتاسیون و مهار تولید ملانین.",
+      "featured": false
+    },
+    {
+      "brand": "Eclat Du Teint",
+      "line": "Whitening & Pigmentation",
+      "name_en": "Amino Cream",
+      "name_fa": "کرم آمینو",
+      "sku": "EDT-AMINO-CREAM",
+      "volume": "50ml",
+      "category": "cream",
+      "description_fa": "کرم پروتئینی با ۵۰٬۰۰۰ ppm آمینواسید برای تقویت سد رطوبتی و چرخه سلولی.",
+      "featured": false
+    },
+    {
+      "brand": "Eclat Du Teint",
+      "line": "Skin Fundamentals",
+      "name_en": "Anti-Pollution Cleansing Milk",
+      "name_fa": "شیر پاک‌کن آنتی‌پولوشن",
+      "sku": "EDT-ANTIPOLLUTION-MILK",
+      "volume": "500ml",
+      "category": "cleanser",
+      "description_fa": "شیر پاک‌کن ملایم قدرتمند برای حذف آلودگی و ناخالصی‌های عمیق منافذ.",
+      "featured": false
+    },
+    {
+      "brand": "Eclat Du Teint",
+      "line": "Skin Fundamentals",
+      "name_en": "Reveal Cleanser",
+      "name_fa": "کلینزر ریویل",
+      "sku": "EDT-REVEAL-CLEANSER",
+      "volume": "50ml",
+      "category": "cleanser",
+      "description_fa": "پاک‌کننده روزانه عمیق با AHA و گلیکولیک اسید.",
+      "featured": false
+    },
+    {
+      "brand": "Eclat Du Teint",
+      "line": "Skin Fundamentals",
+      "name_en": "Hydrating Toner Essence",
+      "name_fa": "تونر/اسنس هیدراتینگ",
+      "sku": "EDT-HYDRATING-TONER",
+      "volume": "500ml",
+      "category": "toner",
+      "description_fa": "تونر-اسنس آبرسان با CELLDETOX و هیالورونیک اسید برای ترمیم و بازسازی.",
+      "featured": true
+    },
+    {
+      "brand": "Eclat Du Teint",
+      "line": "Skin Fundamentals",
+      "name_en": "White Lupin Gel",
+      "name_fa": "ژل سفید لوپین",
+      "sku": "EDT-WHITELUPIN-GEL",
+      "volume": "500ml",
+      "category": "cream",
+      "description_fa": "ژل تخصصی ترمیم سریع سد دفاعی پوست قرمز، حساس یا آسیب‌دیده با Structureine.",
+      "featured": true
+    },
+    {
+      "brand": "Eclat Du Teint",
+      "line": "Peeling",
+      "name_en": "Biome Black Sugar Gommage Peeling Gel",
+      "name_fa": "بایوم بلک شوگر گماژ پیلینگ ژل",
+      "sku": "EDT-BLACKSUGAR-GOMMAGE",
+      "volume": "",
+      "category": "peel",
+      "description_fa": "ژل پیلینگ گماژ ملایم با شکر سیاه، سلولز و آنزیم پاپائین برای پوست حساس.",
+      "featured": false
+    },
+    {
+      "brand": "Eclat Du Teint",
+      "line": "Peeling",
+      "name_en": "Pure Herb Pack",
+      "name_fa": "پیور هرب پک",
+      "sku": "EDT-PUREHERB-PACK",
+      "volume": "100g",
+      "category": "mask",
+      "description_fa": "ماسک چای سبز و اسپیکول برای جمع‌کردن منافذ، کنترل سبوم و بافت شیشه‌ای پوست.",
+      "featured": true
+    },
+    {
+      "brand": "Eclat Du Teint",
+      "line": "Peeling",
+      "name_en": "Green Peeling",
+      "name_fa": "گرین پیلینگ",
+      "sku": "EDT-GREEN-PEELING",
+      "volume": "100ml",
+      "category": "peel",
+      "description_fa": "پیلینگ حرفه‌ای با ترکیب AHA، BHA و PHA و عصاره‌های گیاهی دریایی.",
+      "featured": true
+    },
+    {
+      "brand": "Eclat Du Teint",
+      "line": "Peeling",
+      "name_en": "Spiruline Kit",
+      "name_fa": "اسپیرولین",
+      "sku": "EDT-SPIRULINE-KIT",
+      "volume": "Booster 10ml×6 + Powder 2g×6",
+      "category": "kit",
+      "description_fa": "کیت میکرونیدلینگ طبیعی اسپیرولینا برای تحریک کلاژن و الاستین.",
+      "featured": false
+    },
+    {
+      "brand": "Eclat Du Teint",
+      "line": "Skin Fundamentals",
+      "name_en": "Gel Hydro Lyrine",
+      "name_fa": "ژل هیدرو لورین",
+      "sku": "EDT-HYDRO-LYRINE",
+      "volume": "",
+      "category": "mask",
+      "description_fa": "ژل همه‌کاره تقویت سد دفاعی؛ قابل استفاده به‌عنوان ماسک یا پایه ترکیب درمانی.",
+      "featured": true
+    },
     {
       "brand": "Isabelle Lancry",
       "line": "EGOSTYLE",
@@ -15,7 +702,7 @@
       "sku_pro": "5.97005",
       "description_fa": "ژل کرم سبک‌وزن با SPF و محافظ ضد آلودگی سه‌گانه که پوست را در برابر آلودگی و اشعه UV محافظت کرده و سد دفاعی پوست را تقویت می‌کند.",
       "category": "cream",
-      "featured": true
+      "featured": false
     },
     {
       "brand": "Isabelle Lancry",
@@ -26,7 +713,7 @@
       "sku_pro": "5.97010",
       "description_fa": "کرم غنی و مرطوب‌کننده ۲۴ ساعته با سپر محافظ ضد آلودگی برای مراقبت روزانه پوست.",
       "category": "cream",
-      "featured": true
+      "featured": false
     },
     {
       "brand": "Isabelle Lancry",
@@ -37,7 +724,7 @@
       "sku_pro": "5.97020",
       "description_fa": "کنسانتره هیالورونیک برای آبرسانی عمیق، سفتی بیشتر و ظاهری جوان‌تر.",
       "category": "serum",
-      "featured": true
+      "featured": false
     },
     {
       "brand": "Isabelle Lancry",
@@ -59,7 +746,7 @@
       "sku_pro": "5.97050",
       "description_fa": "ماسک کرم-ژل آبرسان با اثر ترمیمی و محافظت در برابر آلاینده‌ها.",
       "category": "mask",
-      "featured": true
+      "featured": false
     },
     {
       "brand": "Isabelle Lancry",
@@ -70,7 +757,7 @@
       "sku_pro": "5.97060",
       "description_fa": "ژل مرطوب‌کننده و سفت‌کننده برای ناحیه ظریف چشم با اثر سم‌زدایی.",
       "category": "eye",
-      "featured": true
+      "featured": false
     },
     {
       "brand": "Isabelle Lancry",
@@ -92,7 +779,7 @@
       "sku_pro": "",
       "description_fa": "کنسانتره حجم‌دهنده برای نواحی نیازمند بازگرداندن حجم از‌دست‌رفته پوست.",
       "category": "serum",
-      "featured": true
+      "featured": false
     },
     {
       "brand": "Isabelle Lancry",
@@ -114,7 +801,7 @@
       "sku_pro": "4.19010",
       "description_fa": "مرطوب‌کننده ملایم روز برای پوست تحریک‌شده و حساس با اثر متعادل‌کننده قرمزی.",
       "category": "cream",
-      "featured": true
+      "featured": false
     },
     {
       "brand": "Isabelle Lancry",
@@ -157,7 +844,7 @@
       "sku": "DSV-COL-THREAD",
       "description_fa": "با نفوذ عمیق خطوط و چین‌وچروک را صاف می‌کند و به ترمیم و سم‌زدایی پوست کمک می‌کند.",
       "category": "professional",
-      "featured": true,
+      "featured": false,
       "volume": "۲۵ بسته × ۱۲ نخ"
     },
     {
@@ -168,7 +855,7 @@
       "sku": "DSV-COL-SERUM",
       "description_fa": "کمک به کاهش چین‌وچروک و خطوط ریز؛ مناسب انواع پوست.",
       "category": "serum",
-      "featured": true,
+      "featured": false,
       "volume": "50ml"
     },
     {
@@ -179,7 +866,7 @@
       "sku": "DSV-HYA-THREAD",
       "description_fa": "حجم‌دهی و ترمیم چین‌وچروک‌های عمیق با هیالورونیک اسید، سنتلا و کلاژن.",
       "category": "professional",
-      "featured": true,
+      "featured": false,
       "volume": "7 × 14g"
     },
     {
@@ -190,7 +877,7 @@
       "sku": "DSV-HYA-AMP",
       "description_fa": "آبرسانی عمیق با ۷ شکل اسید هیالورونیک و پشتیبانی از تولید کلاژن.",
       "category": "serum",
-      "featured": true,
+      "featured": false,
       "volume": "7 × 7ml"
     },
     {
@@ -234,7 +921,7 @@
       "sku": "DS.10",
       "description_fa": "سرم مزو با عصاره‌های گیاهی، هیالورونیک اسید، کلاژن و پپتیدها برای جوان‌سازی و درخشش.",
       "category": "serum",
-      "featured": true,
+      "featured": false,
       "volume": "10 × 5ml"
     },
     {
@@ -245,7 +932,7 @@
       "sku": "DS.11",
       "description_fa": "سرم مزو با پپتیدها و سنتلا برای تحریک کلاژن‌سازی و بهبود لک و خطوط ریز.",
       "category": "serum",
-      "featured": true,
+      "featured": false,
       "volume": "10 × 5ml"
     },
     {
@@ -256,7 +943,7 @@
       "sku": "MINTT-MASK100",
       "description_fa": "ماسک تار عنکبوت برای لیفت، سفت‌شدن و احیای پوست بدون سوزن.",
       "category": "mask",
-      "featured": true,
+      "featured": false,
       "volume": ""
     },
     {
@@ -267,7 +954,7 @@
       "sku": "DSV-BLUE-CLEANSE",
       "description_fa": "فوم پاک‌کننده با pH متعادل برای پوست نرمال و خشک؛ پاکسازی ملایم و آبرسانی.",
       "category": "cleanser",
-      "featured": true,
+      "featured": false,
       "volume": "500ml"
     },
     {
@@ -289,7 +976,7 @@
       "sku": "DSV-BLUE-CREAM",
       "description_fa": "کرم مرطوب‌کننده با جذب سریع و خواص آنتی‌اکسیدانی برای پوست نرمال و خشک.",
       "category": "cream",
-      "featured": true,
+      "featured": false,
       "volume": "200ml"
     },
     {
@@ -300,7 +987,7 @@
       "sku": "DSV-BLUE-SET",
       "description_fa": "ست روتین روزانه تعادل pH شامل کلینزر، تونر و مرطوب‌کننده برای پوست نرمال و خشک.",
       "category": "kit",
-      "featured": true,
+      "featured": false,
       "volume": ""
     },
     {
@@ -311,7 +998,7 @@
       "sku": "DSV-GREEN-CLEANSE",
       "description_fa": "فوم پاک‌کننده با pH متعادل برای پوست مختلط، چرب و جوش‌دار.",
       "category": "cleanser",
-      "featured": true,
+      "featured": false,
       "volume": "500ml"
     },
     {
@@ -333,7 +1020,7 @@
       "sku": "DSV-GREEN-CREAM",
       "description_fa": "مرطوب‌کننده سبک با جذب سریع بدون ظاهر چرب برای پوست مختلط و جوش‌دار.",
       "category": "cream",
-      "featured": true,
+      "featured": false,
       "volume": "200ml"
     },
     {
@@ -344,7 +1031,7 @@
       "sku": "DSV-GREEN-SET",
       "description_fa": "ست روتین روزانه تعادل pH برای پوست‌های چرب و جوش‌دار.",
       "category": "kit",
-      "featured": true,
+      "featured": false,
       "volume": ""
     },
     {
@@ -355,7 +1042,7 @@
       "sku": "DSV-V-LIFT",
       "description_fa": "کرم غلتکی برای ماساژ خط V و گونه‌ها؛ کمک به لیفت و روشن‌کردن پوست.",
       "category": "cream",
-      "featured": true,
+      "featured": false,
       "volume": "120ml"
     },
     {
@@ -366,7 +1053,7 @@
       "sku": "DSV-EYE-RES",
       "description_fa": "کرم دور چشم آنتی‌اکسیدان با رسوراترول، هیالورونیک اسید و پپتیدها.",
       "category": "eye",
-      "featured": true,
+      "featured": false,
       "volume": "15ml"
     },
     {
@@ -377,7 +1064,7 @@
       "sku": "DSV-PEARL-SPF",
       "description_fa": "ضدآفتاب چندمنظوره با SPF 50+ برای محافظت در برابر UV، آلودگی و چین‌وچروک.",
       "category": "sunscreen",
-      "featured": true,
+      "featured": false,
       "volume": "60ml"
     },
     {
@@ -454,7 +1141,7 @@
       "sku": "No.40",
       "description_fa": "سرم لایه‌بردار با ۱۰٪ AHA و ۲٪ BHA برای صاف و درخشان کردن بافت پوست.",
       "category": "serum",
-      "featured": true,
+      "featured": false,
       "volume": "30ml"
     },
     {
@@ -465,7 +1152,7 @@
       "sku": "No.41",
       "description_fa": "سرم ترمیم شبانه با باکوچیول، سرامید و هیالورونیک اسید برای دور چشم و پوست.",
       "category": "serum",
-      "featured": true,
+      "featured": false,
       "volume": "30ml"
     },
     {
@@ -476,7 +1163,7 @@
       "sku": "No.42",
       "description_fa": "سرم خشک‌کننده جوش با سالیسیلیک اسید، گوگرد و اکسید روی.",
       "category": "serum",
-      "featured": true,
+      "featured": false,
       "volume": "30ml"
     },
     {
@@ -487,7 +1174,7 @@
       "sku": "No.43",
       "description_fa": "سرم هیالورونیک ۳D برای آبرسانی در لایه‌های مختلف پوست.",
       "category": "serum",
-      "featured": true,
+      "featured": false,
       "volume": "30ml"
     },
     {
@@ -498,7 +1185,7 @@
       "sku": "No.44",
       "description_fa": "فوق‌سرم رتینول برای احیای شبانه، لیفت و تحریک کلاژن.",
       "category": "serum",
-      "featured": true,
+      "featured": false,
       "volume": "30ml"
     },
     {
@@ -509,7 +1196,7 @@
       "sku": "No.45",
       "description_fa": "سرم نیاسینامید و گلیکولیک اسید برای لک، چین‌وچروک و تنظیم سبوم.",
       "category": "serum",
-      "featured": true,
+      "featured": false,
       "volume": "30ml"
     },
     {
@@ -520,7 +1207,7 @@
       "sku": "No.46",
       "description_fa": "محلول آنتی‌اکسیدانی سفت‌کننده با کلاژن دریایی و ویتامین C.",
       "category": "serum",
-      "featured": true,
+      "featured": false,
       "volume": "30ml"
     },
     {
@@ -531,7 +1218,7 @@
       "sku": "No.47",
       "description_fa": "سرم روشن‌کننده با ویتامین C تثبیت‌شده برای یکنواختی و درخشش پوست.",
       "category": "serum",
-      "featured": true,
+      "featured": false,
       "volume": "30ml"
     },
     {
@@ -542,7 +1229,7 @@
       "sku": "DSV-SERUM-SET",
       "description_fa": "مجموعه کامل سرم‌های تخصصی No.40 تا No.47 برای مراقبت هدفمند پوست.",
       "category": "kit",
-      "featured": true,
+      "featured": false,
       "volume": "۸ × ۳۰ml"
     },
     {
@@ -553,7 +1240,7 @@
       "sku": "VV-BRIGHTFOAM",
       "description_fa": "فوم پاک‌کننده و روشن‌کننده با نیاسینامید، آلفا آربوتین و عصاره شیرین بیان؛ مناسب انواع پوست حتی حساس.",
       "category": "cleanser",
-      "featured": true
+      "featured": false
     },
     {
       "brand": "V&V",
@@ -563,7 +1250,7 @@
       "sku": "VV-LUMIDAY",
       "description_fa": "سرم روز روشن‌کننده با نیاسینامید، ویتامین C و آلفا آربوتین برای یکنواختی و درخشش پوست.",
       "category": "serum",
-      "featured": true
+      "featured": false
     },
     {
       "brand": "V&V",
@@ -584,7 +1271,7 @@
       "sku": "VV-GLOWNIGHT",
       "description_fa": "کرم شب ضد لک با نیاسینامید، آلفا آربوتین، ویتامین C و رتینیل پالمیتات برای بازسازی شبانه.",
       "category": "cream",
-      "featured": true
+      "featured": false
     },
     {
       "brand": "V&V",
@@ -594,7 +1281,7 @@
       "sku": "VV-ACNEZONE",
       "description_fa": "ژل کرم ضدجوش با سالیسیلیک اسید، زینک PCA و عصاره درخت چای برای پوست چرب و مستعد آکنه.",
       "category": "cream",
-      "featured": true
+      "featured": false
     },
     {
       "brand": "V&V",
@@ -604,7 +1291,7 @@
       "sku": "VV-ACNESHOT",
       "description_fa": "سرم موضعی ضدجوش فوری با سالیسیلیک اسید، سولفور و عصاره درخت چای.",
       "category": "serum",
-      "featured": true
+      "featured": false
     },
     {
       "brand": "V&V",
@@ -634,7 +1321,7 @@
       "sku": "VV-HYDRAGEL",
       "description_fa": "ژل‌کرم آبرسان سبک و بدون چربی با هیالورونیک اسید برای پوست چرب تا مختلط.",
       "category": "cream",
-      "featured": true
+      "featured": false
     },
     {
       "brand": "V&V",
@@ -686,7 +1373,7 @@
       "sku": "VV-KERAVITAL",
       "description_fa": "شامپو فاقد سولفات با کراتین هیدرولیزشده برای موهای آسیب‌دیده و شکننده.",
       "category": "cleanser",
-      "featured": true,
+      "featured": false,
       "volume": "250ml"
     },
     {
@@ -697,7 +1384,7 @@
       "sku": "VV-FLUSUN50",
       "description_fa": "ضدآفتاب فلوئید ضدلک با فیلترهای فیزیکی و آنتی‌اکسیدان؛ مناسب پوست حساس و مستعد لک.",
       "category": "sunscreen",
-      "featured": true,
+      "featured": false,
       "volume": "40ml"
     },
     {
@@ -718,7 +1405,7 @@
       "sku": "VV-MULTIACTION-EYE",
       "description_fa": "سرم دور چشم چندکاره برای کاهش پف، تیرگی و خطوط ریز با کافئین و هیالورونیک اسید.",
       "category": "eye",
-      "featured": true
+      "featured": false
     },
     {
       "brand": "Dr. Rimpler",
@@ -729,7 +1416,7 @@
       "sku_pro": "670.1",
       "description_fa": "ژل پاک‌کننده کنترل چربی پروبیوتیک برای پوست چرب و مستعد التهاب.",
       "category": "cleanser",
-      "featured": true,
+      "featured": false,
       "volume": "200ml"
     },
     {
@@ -741,7 +1428,7 @@
       "sku_pro": "675.1",
       "description_fa": "تونیک طراوت‌بخش کنترل چربی برای پاکسازی نهایی پوست مشکل‌دار.",
       "category": "toner",
-      "featured": true,
+      "featured": false,
       "volume": "200ml"
     },
     {
@@ -753,7 +1440,7 @@
       "sku_pro": "",
       "description_fa": "کنسانتره تنظیم‌کننده گیاهی برای جلوگیری از لک‌های ملتهب.",
       "category": "serum",
-      "featured": true,
+      "featured": false,
       "volume": "50ml"
     },
     {
@@ -777,7 +1464,7 @@
       "sku_pro": "690.1",
       "description_fa": "کرم روز و شب مات‌کننده و محافظ برای پوست چرب.",
       "category": "cream",
-      "featured": true,
+      "featured": false,
       "volume": "50ml"
     },
     {
@@ -825,7 +1512,7 @@
       "sku_pro": "700.1",
       "description_fa": "تونیک آبرسان برای طراوت و آماده‌سازی پوست.",
       "category": "toner",
-      "featured": true,
+      "featured": false,
       "volume": "200ml"
     },
     {
@@ -837,7 +1524,7 @@
       "sku_pro": "710.1",
       "description_fa": "پاک‌کننده امولسیونی آبرسان برای پاکسازی ملایم.",
       "category": "cleanser",
-      "featured": true,
+      "featured": false,
       "volume": "200ml"
     },
     {
@@ -849,7 +1536,7 @@
       "sku_pro": "720.2",
       "description_fa": "کرم روز آبرسان برای رطوبت‌رسانی روزانه.",
       "category": "cream",
-      "featured": true,
+      "featured": false,
       "volume": "50ml"
     },
     {
@@ -885,7 +1572,7 @@
       "sku_pro": "",
       "description_fa": "ژل کانتور دور چشم آبرسان.",
       "category": "eye",
-      "featured": true,
+      "featured": false,
       "volume": "20ml"
     },
     {
@@ -897,7 +1584,7 @@
       "sku_pro": "750.2",
       "description_fa": "بوستر سه‌گانه آبرسانی (سرم، ژل، ماسک).",
       "category": "serum",
-      "featured": true,
+      "featured": false,
       "volume": "50ml"
     },
     {
@@ -933,7 +1620,7 @@
       "sku_pro": "",
       "description_fa": "بالم روز رنگی CC برای پوشش سبک و مراقبت روزانه.",
       "category": "cream",
-      "featured": true,
+      "featured": false,
       "volume": "50ml"
     },
     {
@@ -945,7 +1632,7 @@
       "sku_pro": "801.1",
       "description_fa": "شیر پاک‌کننده روشن‌کننده با اسید میوه.",
       "category": "cleanser",
-      "featured": true,
+      "featured": false,
       "volume": "200ml"
     },
     {
@@ -957,7 +1644,7 @@
       "sku_pro": "811.1",
       "description_fa": "تونیک روشن‌کننده با اسید میوه و پانتنول.",
       "category": "toner",
-      "featured": true,
+      "featured": false,
       "volume": "200ml"
     },
     {
@@ -969,7 +1656,7 @@
       "sku_pro": "821.1",
       "description_fa": "کرم ۲۴ ساعته روشن‌کننده و ضدلک قوی.",
       "category": "cream",
-      "featured": true,
+      "featured": false,
       "volume": "50ml"
     },
     {
@@ -981,7 +1668,7 @@
       "sku_pro": "",
       "description_fa": "سرم ضدلک قوی حرفه‌ای/خانگی.",
       "category": "serum",
-      "featured": true
+      "featured": false
     },
     {
       "brand": "Dr. Rimpler",
@@ -1004,7 +1691,7 @@
       "sku_pro": "459.1",
       "description_fa": "تونیک آبرسان ضدچروک با مواد معدنی.",
       "category": "toner",
-      "featured": true,
+      "featured": false,
       "volume": "200ml"
     },
     {
@@ -1016,7 +1703,7 @@
       "sku_pro": "476.1",
       "description_fa": "کرم آبرسان انرژی‌بخش ۲۴ ساعته با هیالورونیک اسید.",
       "category": "cream",
-      "featured": true
+      "featured": false
     },
     {
       "brand": "Dr. Rimpler",
@@ -1038,7 +1725,7 @@
       "sku_pro": "461.1",
       "description_fa": "کرم کامل کانتور دور چشم آبرسان.",
       "category": "eye",
-      "featured": true
+      "featured": false
     },
     {
       "brand": "Dr. Rimpler",
@@ -1060,7 +1747,7 @@
       "sku_pro": "",
       "description_fa": "موس آرایشی کامل ۴ در ۱.",
       "category": "cream",
-      "featured": true
+      "featured": false
     },
     {
       "brand": "Dr. Rimpler",
@@ -1104,7 +1791,7 @@
       "sku_pro": "",
       "description_fa": "سرم پرو ویتامین.",
       "category": "serum",
-      "featured": true
+      "featured": false
     },
     {
       "brand": "Dr. Rimpler",
@@ -1115,7 +1802,7 @@
       "sku_pro": "",
       "description_fa": "کرم پرو ویتامین.",
       "category": "cream",
-      "featured": true
+      "featured": false
     },
     {
       "brand": "Dr. Rimpler",
@@ -1137,7 +1824,7 @@
       "sku_pro": "",
       "description_fa": "سرم لیفتینگ جادویی.",
       "category": "serum",
-      "featured": true
+      "featured": false
     },
     {
       "brand": "Dr. Rimpler",
@@ -1148,7 +1835,7 @@
       "sku_pro": "715.1",
       "description_fa": "ژل پاک‌کننده آرام‌بخش پوست حساس.",
       "category": "cleanser",
-      "featured": true
+      "featured": false
     },
     {
       "brand": "Dr. Rimpler",
@@ -1159,7 +1846,7 @@
       "sku_pro": "716.1",
       "description_fa": "تونیک آرام‌بخش پوست حساس.",
       "category": "toner",
-      "featured": true
+      "featured": false
     },
     {
       "brand": "Dr. Rimpler",
@@ -1170,7 +1857,7 @@
       "sku_pro": "",
       "description_fa": "لوسیون اورژانسی ضدحساسیت و قرمزی.",
       "category": "toner",
-      "featured": true
+      "featured": false
     },
     {
       "brand": "Dr. Rimpler",
@@ -1181,7 +1868,7 @@
       "sku_pro": "467.2",
       "description_fa": "کرم ترمیم‌کننده میکرونقره مناسب اگزما.",
       "category": "cream",
-      "featured": true
+      "featured": false
     },
     {
       "brand": "Dr. Rimpler",
@@ -1203,7 +1890,7 @@
       "sku_pro": "471.1",
       "description_fa": "کرم آبرسان پوست حساس و آسیب‌دیده.",
       "category": "cream",
-      "featured": true
+      "featured": false
     },
     {
       "brand": "Dr. Rimpler",
@@ -1247,7 +1934,7 @@
       "sku_pro": "496.1",
       "description_fa": "کرم ضدقرمزی پوست‌های حساس.",
       "category": "cream",
-      "featured": true
+      "featured": false
     },
     {
       "brand": "Dr. Rimpler",
@@ -1280,7 +1967,7 @@
       "sku_pro": "120.2",
       "description_fa": "کرم ویتالیتی Q10.",
       "category": "cream",
-      "featured": true
+      "featured": false
     },
     {
       "brand": "Dr. Rimpler",
@@ -1291,7 +1978,7 @@
       "sku_pro": "130.2",
       "description_fa": "کرم ضدچروک تایملس Q10.",
       "category": "cream",
-      "featured": true
+      "featured": false
     },
     {
       "brand": "Dr. Rimpler",
@@ -1302,7 +1989,7 @@
       "sku_pro": "",
       "description_fa": "انرژی‌دهنده پوست با Q10.",
       "category": "serum",
-      "featured": true
+      "featured": false
     },
     {
       "brand": "Dr. Rimpler",
@@ -1313,7 +2000,7 @@
       "sku_pro": "",
       "description_fa": "کرم دورچشم لیفت قوی Q10.",
       "category": "eye",
-      "featured": true
+      "featured": false
     },
     {
       "brand": "Dr. Rimpler",
@@ -1335,7 +2022,7 @@
       "sku_pro": "",
       "description_fa": "فوم شستشوی عمیق صورت آقایان.",
       "category": "cleanser",
-      "featured": true
+      "featured": false
     },
     {
       "brand": "Dr. Rimpler",
@@ -1346,7 +2033,7 @@
       "sku_pro": "",
       "description_fa": "بالم ۳ در ۱ آقایان (بالم-کرم-سرم).",
       "category": "cream",
-      "featured": true
+      "featured": false
     },
     {
       "brand": "Dr. Rimpler",
@@ -1699,7 +2386,7 @@
       "sku_pro": "",
       "description_fa": "ماسک آبرسان آلوئه‌ورا.",
       "category": "mask",
-      "featured": true
+      "featured": false
     },
     {
       "brand": "Dr. Rimpler",
@@ -1710,7 +2397,7 @@
       "sku_pro": "",
       "description_fa": "ماسک پروبیوتیک آبرسان و کنترل چربی.",
       "category": "mask",
-      "featured": true
+      "featured": false
     },
     {
       "brand": "Dr. Rimpler",
@@ -1721,7 +2408,7 @@
       "sku_pro": "431.1",
       "description_fa": "ماسک لیفتینگ Q10.",
       "category": "mask",
-      "featured": true
+      "featured": false
     },
     {
       "brand": "Dr. Rimpler",
@@ -1743,7 +2430,7 @@
       "sku_pro": "",
       "description_fa": "ماسک پیل‌آف لایه‌بردار AHA.",
       "category": "peel",
-      "featured": true
+      "featured": false
     },
     {
       "brand": "Dr. Rimpler",
@@ -1765,7 +2452,7 @@
       "sku_pro": "",
       "description_fa": "کرم ضدآفتاب صورت SPF30.",
       "category": "sunscreen",
-      "featured": true
+      "featured": false
     },
     {
       "brand": "Dr. Rimpler",
@@ -1787,7 +2474,7 @@
       "sku_pro": "",
       "description_fa": "محافظت و ترمیم ضدآفتاب SPF50+ صورت.",
       "category": "sunscreen",
-      "featured": true
+      "featured": false
     },
     {
       "brand": "Dr. Rimpler",
@@ -1809,7 +2496,7 @@
       "sku_pro": "",
       "description_fa": "لوسیون ضدآفتاب بدن SPF50+.",
       "category": "sunscreen",
-      "featured": true
+      "featured": false
     },
     {
       "brand": "Dr. Rimpler",
@@ -1854,7 +2541,7 @@
       "sku_pro": "",
       "description_fa": "کرم دست میکرونقره.",
       "category": "cream",
-      "featured": true
+      "featured": false
     },
     {
       "brand": "Dr. Rimpler",
@@ -1899,7 +2586,7 @@
       "sku_pro": "",
       "description_fa": "آمپول کنسانتره فعال برای پوست آسیب‌دیده و تحت استرس.",
       "category": "serum",
-      "featured": true,
+      "featured": false,
       "volume": "2ml"
     },
     {
@@ -1923,7 +2610,7 @@
       "sku_pro": "",
       "description_fa": "آمپول آبرسان قوی.",
       "category": "serum",
-      "featured": true,
+      "featured": false,
       "volume": "2ml"
     },
     {
@@ -1959,7 +2646,7 @@
       "sku_pro": "",
       "description_fa": "آمپول ترمیم‌کننده قوی.",
       "category": "serum",
-      "featured": true,
+      "featured": false,
       "volume": "2ml"
     }
   ],

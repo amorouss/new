@@ -133,6 +133,8 @@ function sohateb_render_product_images_page(): void {
 			<input type="search" name="s" value="<?php echo esc_attr($search); ?>" placeholder="<?php esc_attr_e('جستجوی محصول…', 'sohateb'); ?>">
 			<select name="brand">
 				<option value=""><?php esc_html_e('همه برندها', 'sohateb'); ?></option>
+				<option value="eclado" <?php selected($brand, 'eclado'); ?>>Eclado</option>
+				<option value="eclat-du-teint" <?php selected($brand, 'eclat-du-teint'); ?>>Eclat Du Teint</option>
 				<option value="isabelle-lancry" <?php selected($brand, 'isabelle-lancry'); ?>>Isabelle Lancray</option>
 				<option value="dsv-line" <?php selected($brand, 'dsv-line'); ?>>DSV-LINE</option>
 				<option value="vv" <?php selected($brand, 'vv'); ?>>V&amp;V</option>

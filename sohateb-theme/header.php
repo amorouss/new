@@ -17,7 +17,7 @@
 <a class="st-skip" href="#main"><?php esc_html_e('رفتن به محتوا', 'sohateb'); ?></a>
 
 <div class="st-announcement" data-reveal>
-	<span><?php esc_html_e('سها طب — ویترین Isabelle Lancray، DSV-LINE، V&V و Dr. Rimpler', 'sohateb'); ?></span>
+	<span><?php esc_html_e('سها طب — ویترین Eclado، Eclat Du Teint و برندهای تخصصی مراقبت پوست', 'sohateb'); ?></span>
 </div>
 
 <header class="st-header" data-header>
