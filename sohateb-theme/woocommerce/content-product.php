@@ -17,6 +17,9 @@ if (empty($product) || !$product->is_visible()) {
 	<a href="<?php the_permalink(); ?>" class="st-product__link">
 		<div class="st-product__media">
 			<?php sohateb_product_badge(); ?>
+			<span class="st-product__logo-mark" aria-hidden="true">
+				<img src="<?php echo esc_url(SOHATEB_URI . '/assets/images/brand-logo-white.png'); ?>" alt="" width="72" height="72">
+			</span>
 			<?php echo $product->get_image('sohateb-product', ['class' => 'st-product__img']); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>
 		</div>
 		<div class="st-product__body">

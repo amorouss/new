@@ -497,10 +497,28 @@ a {
 
 .st-product__media {
   position: relative;
-  aspect-ratio: 4 / 5;
+  aspect-ratio: 1 / 1;
   overflow: hidden;
-  background:
-    linear-gradient(160deg, #f4f5f9, #e6e8f1);
+  background: #fff;
+  border-bottom: 1px solid var(--st-line);
+}
+
+.st-product__logo-mark {
+  position: absolute;
+  top: 0.55rem;
+  inset-inline-end: 0.55rem;
+  z-index: 2;
+  width: 3.4rem;
+  height: 3.4rem;
+  background: #fff;
+  padding: 0.15rem;
+  pointer-events: none;
+}
+
+.st-product__logo-mark img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
 
 .st-product__media--a { background: linear-gradient(160deg, #f7f1ec, #e8e0d8); }
