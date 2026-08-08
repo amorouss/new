@@ -272,4 +272,20 @@ function sohateb_trash_demo_products(): void {
 		}
 		wp_reset_postdata();
 	}
+
+	// Purge numbered placeholder products like «محصول تستی 1».
+	$q = new WP_Query([
+		'post_type'      => 'product',
+		'posts_per_page' => -1,
+		'post_status'    => ['publish', 'draft', 'private', 'pending'],
+		'fields'         => 'ids',
+		's'              => 'محصول تستی',
+	]);
+	foreach ($q->posts as $id) {
+		$title = (string) get_the_title((int) $id);
+		if (mb_stripos($title, 'تستی') !== false || mb_stripos($title, 'تست') !== false) {
+			wp_trash_post((int) $id);
+		}
+	}
+	wp_reset_postdata();
 }

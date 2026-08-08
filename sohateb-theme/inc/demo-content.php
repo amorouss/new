@@ -21,7 +21,7 @@ function sohateb_seed_demo_content(): void {
 		return;
 	}
 
-	if (get_option('sohateb_demo_seeded')) {
+	if (get_option('sohateb_demo_seeded') || get_option('sohateb_catalog_imported')) {
 		return;
 	}
 
