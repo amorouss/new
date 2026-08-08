@@ -536,7 +536,7 @@ a {
 
 .st-product__logo-mark--single {
   top: 0.75rem;
-  /* Opposite corner from magnifier so both stay visible */
+  /* Right side on RTL so the left corner stays free for the magnifier */
   inset-inline-end: auto;
   inset-inline-start: 0.75rem;
   z-index: 6;
