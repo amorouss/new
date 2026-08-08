@@ -127,25 +127,9 @@ function sohateb_import_catalog(bool $replace_demo = true): array {
 
 		wp_set_object_terms($product_id, 'simple', 'product_type');
 
-		$term_ids = [];
 		$brand = (string) ($item['brand'] ?? '');
-		if ($brand !== '' && !empty($brand_terms[$brand])) {
-			$term_ids[] = $brand_terms[$brand];
-		}
-
-		$line = trim((string) ($item['line'] ?? ''));
-		if ($line !== '') {
-			$term_ids[] = sohateb_ensure_term($line, 'product_cat', sanitize_title($brand . '-' . $line));
-		}
-
-		$cat = (string) ($item['category'] ?? '');
-		if ($cat !== '' && isset($type_map[$cat])) {
-			$term_ids[] = sohateb_ensure_term($type_map[$cat], 'product_cat', $cat);
-		}
-
-		if ($term_ids) {
-			wp_set_object_terms($product_id, array_values(array_unique(array_map('intval', $term_ids))), 'product_cat');
-		}
+		$line  = trim((string) ($item['line'] ?? ''));
+		$cat   = (string) ($item['category'] ?? '');
 
 		if ($sku !== '') {
 			update_post_meta($product_id, '_sku', $sku);
@@ -162,6 +146,45 @@ function sohateb_import_catalog(bool $replace_demo = true): array {
 		update_post_meta($product_id, '_virtual', 'no');
 		update_post_meta($product_id, '_sold_individually', 'no');
 		update_post_meta($product_id, '_catalog_visibility', 'visible');
+
+		// Prefer WooCommerce product save so SKU lookup stays consistent.
+		$product_obj = wc_get_product($product_id);
+		if ($product_obj instanceof WC_Product) {
+			if ($sku !== '') {
+				$product_obj->set_sku($sku);
+			}
+			$product_obj->set_catalog_visibility('visible');
+			$product_obj->set_stock_status('instock');
+			$product_obj->save();
+		}
+
+		$term_ids = [];
+		if ($brand !== '') {
+			$brand_id = !empty($brand_terms[$brand])
+				? (int) $brand_terms[$brand]
+				: sohateb_ensure_term($brand, 'product_cat', sanitize_title($brand));
+			if ($brand_id > 0) {
+				$term_ids[] = $brand_id;
+				$brand_terms[$brand] = $brand_id;
+			}
+		}
+		if ($line !== '') {
+			$line_id = sohateb_ensure_term($line, 'product_cat', sanitize_title($brand . '-' . $line));
+			if ($line_id > 0) {
+				$term_ids[] = $line_id;
+			}
+		}
+		if ($cat !== '' && isset($type_map[$cat])) {
+			$type_id = sohateb_ensure_term($type_map[$cat], 'product_cat', $cat);
+			if ($type_id > 0) {
+				$term_ids[] = $type_id;
+			}
+		}
+
+		$term_ids = array_values(array_unique(array_filter($term_ids)));
+		if ($term_ids) {
+			wp_set_object_terms($product_id, $term_ids, 'product_cat', false);
+		}
 
 		if (!empty($item['featured'])) {
 			update_post_meta($product_id, '_featured', 'yes');
