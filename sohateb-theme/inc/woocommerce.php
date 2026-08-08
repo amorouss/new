@@ -42,9 +42,27 @@ function sohateb_product_badge(): void {
 	if (!$product instanceof WC_Product) {
 		return;
 	}
+	$brand = (string) get_post_meta($product->get_id(), '_sohateb_brand', true);
+	if ($brand !== '') {
+		echo '<span class="st-badge st-badge--brand">' . esc_html($brand) . '</span>';
+		return;
+	}
 	if ($product->is_on_sale()) {
 		echo '<span class="st-badge st-badge--sale">' . esc_html__('تخفیف', 'sohateb') . '</span>';
 	} elseif ($product->is_featured()) {
 		echo '<span class="st-badge st-badge--featured">' . esc_html__('ویژه', 'sohateb') . '</span>';
 	}
 }
+
+/**
+ * Show inquiry CTA when price is empty (catalog mode).
+ */
+add_filter('woocommerce_get_price_html', function ($price, $product) {
+	if (!$product instanceof WC_Product) {
+		return $price;
+	}
+	if ($product->get_price() === '' || $product->get_price() === null) {
+		return '<span class="st-price-inquiry">' . esc_html__('برای قیمت تماس بگیرید', 'sohateb') . '</span>';
+	}
+	return $price;
+}, 20, 2);

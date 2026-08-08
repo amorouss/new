@@ -8,6 +8,15 @@
 get_header();
 
 $shop_url = function_exists('wc_get_page_permalink') ? wc_get_page_permalink('shop') : home_url('/shop/');
+$cat_url = static function (string $slug) use ($shop_url): string {
+	$link = get_term_link($slug, 'product_cat');
+	return is_wp_error($link) ? $shop_url : $link;
+};
+$isabelle_url = $cat_url('isabelle-lancry');
+$dsv_url      = $cat_url('dsv-line');
+$serum_url    = $cat_url('serum');
+$mask_url     = $cat_url('mask');
+$pro_url      = $cat_url('professional');
 ?>
 
 <main id="main" class="st-main">
@@ -20,48 +29,49 @@ $shop_url = function_exists('wc_get_page_permalink') ? wc_get_page_permalink('sh
 		<div class="st-container st-hero__content">
 			<p class="st-hero__brand" data-reveal>SOHA TEB</p>
 			<h1 class="st-hero__title" data-reveal data-reveal-delay="80">
-				<?php esc_html_e('زیبایی با استاندارد آموزش حرفه‌ای', 'sohateb'); ?>
+				<?php esc_html_e('نماینده رسمی مراقبت پوست حرفه‌ای', 'sohateb'); ?>
 			</h1>
 			<p class="st-hero__lead" data-reveal data-reveal-delay="140">
-				<?php esc_html_e('ویترین محصولات سها طب برای معرفی خطوط مراقبت پوست، آرایش و ابزار آموزشی.', 'sohateb'); ?>
+				<?php esc_html_e('ویترین محصولات Isabelle Lancray و DSV-LINE برای کلینیک، سالن و مراقبت در منزل.', 'sohateb'); ?>
 			</p>
 			<div class="st-hero__cta" data-reveal data-reveal-delay="200">
 				<a class="st-btn st-btn--primary" href="<?php echo esc_url($shop_url); ?>">
 					<?php esc_html_e('مشاهده محصولات', 'sohateb'); ?>
 				</a>
-				<a class="st-btn st-btn--ghost" href="#featured">
-					<?php esc_html_e('محصولات ویژه', 'sohateb'); ?>
+				<a class="st-btn st-btn--ghost" href="#brands">
+					<?php esc_html_e('برندها', 'sohateb'); ?>
 				</a>
 			</div>
 		</div>
 		<div class="st-hero__scroll" aria-hidden="true" data-reveal data-reveal-delay="280"></div>
 	</section>
 
-	<section class="st-categories" aria-labelledby="st-cat-title">
+	<section class="st-categories" id="brands" aria-labelledby="st-cat-title">
 		<div class="st-container">
 			<header class="st-section-head" data-reveal>
-				<h2 id="st-cat-title"><?php esc_html_e('دسته‌بندی‌ها', 'sohateb'); ?></h2>
-				<p><?php esc_html_e('مسیر سریع به خطوط اصلی محصولات.', 'sohateb'); ?></p>
+				<h2 id="st-cat-title"><?php esc_html_e('برندها و خطوط', 'sohateb'); ?></h2>
+				<p><?php esc_html_e('دو کاتالوگ اصلی سها طب برای مراقبت پوست حرفه‌ای و خانگی.', 'sohateb'); ?></p>
 			</header>
-			<div class="st-cat-row">
-				<?php
-				$cats = [
-					['slug' => 'skin', 'label' => 'پوست', 'tone' => 'a'],
-					['slug' => 'makeup', 'label' => 'آرایش', 'tone' => 'b'],
-					['slug' => 'hair', 'label' => 'مو', 'tone' => 'c'],
-					['slug' => 'tools', 'label' => 'ابزار', 'tone' => 'd'],
-					['slug' => 'training', 'label' => 'آموزش', 'tone' => 'e'],
-				];
-				foreach ($cats as $cat) :
-					$url = get_term_link($cat['slug'], 'product_cat');
-					if (is_wp_error($url)) {
-						$url = $shop_url;
-					}
-					?>
-					<a class="st-cat st-cat--<?php echo esc_attr($cat['tone']); ?>" href="<?php echo esc_url($url); ?>" data-reveal>
-						<span class="st-cat__label"><?php echo esc_html($cat['label']); ?></span>
-					</a>
-				<?php endforeach; ?>
+			<div class="st-cat-row st-cat-row--brands">
+				<a class="st-cat st-cat--a" href="<?php echo esc_url($isabelle_url); ?>" data-reveal>
+					<span class="st-cat__eyebrow">PARIS</span>
+					<span class="st-cat__label">Isabelle Lancray</span>
+					<span class="st-cat__meta"><?php esc_html_e('EGOSTYLE · ILSA-PRO · ZENSIBIA', 'sohateb'); ?></span>
+				</a>
+				<a class="st-cat st-cat--b" href="<?php echo esc_url($dsv_url); ?>" data-reveal>
+					<span class="st-cat__eyebrow">LEVEL 7</span>
+					<span class="st-cat__label">DSV-LINE</span>
+					<span class="st-cat__meta"><?php esc_html_e('معجزه آبی · معجزه سبز · سرم‌ها', 'sohateb'); ?></span>
+				</a>
+				<a class="st-cat st-cat--c" href="<?php echo esc_url($serum_url); ?>" data-reveal>
+					<span class="st-cat__label"><?php esc_html_e('سرم‌ها', 'sohateb'); ?></span>
+				</a>
+				<a class="st-cat st-cat--d" href="<?php echo esc_url($mask_url); ?>" data-reveal>
+					<span class="st-cat__label"><?php esc_html_e('ماسک‌ها', 'sohateb'); ?></span>
+				</a>
+				<a class="st-cat st-cat--e" href="<?php echo esc_url($pro_url); ?>" data-reveal>
+					<span class="st-cat__label"><?php esc_html_e('حرفه‌ای', 'sohateb'); ?></span>
+				</a>
 			</div>
 		</div>
 	</section>
@@ -70,7 +80,7 @@ $shop_url = function_exists('wc_get_page_permalink') ? wc_get_page_permalink('sh
 		<div class="st-container">
 			<header class="st-section-head st-section-head--light" data-reveal>
 				<h2 id="st-feat-title"><?php esc_html_e('محصولات منتخب', 'sohateb'); ?></h2>
-				<p><?php esc_html_e('نمونه‌های ویترین — در مرحله بعد با محصولات واقعی جایگزین می‌شوند.', 'sohateb'); ?></p>
+				<p><?php esc_html_e('انتخابی از کاتالوگ Isabelle Lancray و DSV-LINE.', 'sohateb'); ?></p>
 			</header>
 
 			<div class="st-product-grid">
@@ -80,7 +90,16 @@ $shop_url = function_exists('wc_get_page_permalink') ? wc_get_page_permalink('sh
 						'post_type'      => 'product',
 						'posts_per_page' => 8,
 						'post_status'    => 'publish',
+						'meta_key'       => '_featured',
+						'meta_value'     => 'yes',
 					]);
+					if (!$q->have_posts()) {
+						$q = new WP_Query([
+							'post_type'      => 'product',
+							'posts_per_page' => 8,
+							'post_status'    => 'publish',
+						]);
+					}
 					if ($q->have_posts()) {
 						woocommerce_product_loop_start();
 						while ($q->have_posts()) {
@@ -113,10 +132,10 @@ $shop_url = function_exists('wc_get_page_permalink') ? wc_get_page_permalink('sh
 			</figure>
 			<div class="st-spotlight__copy" data-reveal>
 				<p class="st-kicker">SOHA TEB</p>
-				<h2 id="st-spot-title"><?php esc_html_e('از آموزش تا انتخاب محصول', 'sohateb'); ?></h2>
-				<p><?php esc_html_e('سها طب فضای معرفی محصولات را با زبان مدرسه زیبایی می‌سازد؛ ساده، دقیق و آماده برای کاتالوگ کامل شما.', 'sohateb'); ?></p>
-				<a class="st-btn st-btn--primary" href="<?php echo esc_url($shop_url); ?>">
-					<?php esc_html_e('ورود به فروشگاه', 'sohateb'); ?>
+				<h2 id="st-spot-title"><?php esc_html_e('از کلینیک تا مراقبت روزانه', 'sohateb'); ?></h2>
+				<p><?php esc_html_e('سها طب نماینده رسمی Level 7 و ارائه‌دهنده خطوط Isabelle Lancray و DSV-LINE برای درمان حرفه‌ای و روتین خانگی است.', 'sohateb'); ?></p>
+				<a class="st-btn st-btn--primary" href="tel:09154529622">
+					<?php esc_html_e('تماس: ۰۹۱۵۴۵۲۹۶۲۲', 'sohateb'); ?>
 				</a>
 			</div>
 		</div>
@@ -126,7 +145,7 @@ $shop_url = function_exists('wc_get_page_permalink') ? wc_get_page_permalink('sh
 		<div class="st-container">
 			<header class="st-section-head" data-reveal>
 				<h2 id="st-about-title"><?php esc_html_e('درباره سها طب', 'sohateb'); ?></h2>
-				<p><?php esc_html_e('برند آموزشی زیبایی با تمرکز روی کیفیت محصول و تجربه هنرجو.', 'sohateb'); ?></p>
+				<p><?php esc_html_e('مدرسه زیبایی و توزیع تخصصی محصولات مراقبت پوست — Isabelle Lancray Paris و DSV-LINE.', 'sohateb'); ?></p>
 			</header>
 		</div>
 	</section>

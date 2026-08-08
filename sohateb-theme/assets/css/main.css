@@ -409,6 +409,47 @@ a {
   font-size: 1.05rem;
 }
 
+.st-cat__eyebrow {
+  display: block;
+  font-family: var(--st-display);
+  letter-spacing: 0.18em;
+  font-size: 0.78rem;
+  color: var(--st-muted);
+  margin-bottom: 0.35rem;
+}
+
+.st-cat__meta {
+  display: block;
+  margin-top: 0.35rem;
+  font-size: 0.78rem;
+  color: var(--st-muted);
+}
+
+.st-cat-row--brands .st-cat:nth-child(1),
+.st-cat-row--brands .st-cat:nth-child(2) {
+  min-height: 150px;
+}
+
+.st-product__line {
+  display: block;
+  font-size: 0.78rem;
+  color: var(--st-champagne);
+  margin-bottom: 0.25rem;
+}
+
+.st-badge--brand {
+  background: rgba(28, 33, 82, 0.92);
+  max-width: calc(100% - 1.2rem);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.st-price-inquiry {
+  color: var(--st-muted);
+  font-size: 0.9rem;
+}
+
 /* Featured band — modiage-like color field, brand navy */
 .st-featured {
   padding: clamp(3.8rem, 8vw, 6rem) 0;

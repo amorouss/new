@@ -11,7 +11,7 @@
 		<div class="st-footer__brand">
 			<img src="<?php echo esc_url(SOHATEB_URI . '/assets/images/logo-light.svg'); ?>" alt="Soha Teb" width="64" height="64">
 			<strong>SOHA TEB</strong>
-			<p><?php esc_html_e('مدرسه زیبایی سها طب — معرفی محصولات و مسیر آموزش حرفه‌ای.', 'sohateb'); ?></p>
+			<p><?php esc_html_e('Official Representative Of Level 7 Company — Isabelle Lancray & DSV-LINE.', 'sohateb'); ?></p>
 		</div>
 
 		<div>
@@ -29,8 +29,9 @@
 		<div>
 			<h3><?php esc_html_e('تماس', 'sohateb'); ?></h3>
 			<ul class="st-footer__links">
-				<li><a href="mailto:info@soha-teb.ir">info@soha-teb.ir</a></li>
-				<li><span><?php esc_html_e('ایران', 'sohateb'); ?></span></li>
+				<li><a href="tel:09154529622">09154529622</a></li>
+				<li><a href="https://instagram.com/Soha.teb" target="_blank" rel="noopener">Instagram: Soha.teb</a></li>
+				<li><a href="https://t.me/sohateb1" target="_blank" rel="noopener">Telegram: @sohateb1</a></li>
 			</ul>
 		</div>
 	</div>
