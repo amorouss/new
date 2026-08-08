@@ -62,7 +62,7 @@ add_filter('woocommerce_get_price_html', function ($price, $product) {
 		return $price;
 	}
 	if ($product->get_price() === '' || $product->get_price() === null) {
-		return '<span class="st-price-inquiry">' . esc_html__('برای قیمت تماس بگیرید', 'sohateb') . '</span>';
+		return '<span class="st-price-inquiry">' . esc_html__('قیمت به‌زودی', 'sohateb') . '</span>';
 	}
 	return $price;
 }, 20, 2);
