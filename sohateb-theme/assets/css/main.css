@@ -195,20 +195,22 @@ a {
 
 .st-nav-toggle {
   display: none;
-  width: 42px;
-  height: 42px;
-  border: 0;
-  background: transparent;
+  width: 44px;
+  height: 44px;
+  border: 1px solid var(--st-line);
+  background: rgba(255, 255, 255, 0.7);
   padding: 0;
   flex-direction: column;
   justify-content: center;
-  gap: 7px;
+  align-items: center;
+  gap: 6px;
+  z-index: 60;
 }
 
 .st-nav-toggle span:not(.screen-reader-text) {
   display: block;
   height: 1.5px;
-  width: 22px;
+  width: 18px;
   background: var(--st-navy);
   transition: transform 0.3s ease;
 }
@@ -371,7 +373,7 @@ a {
 }
 
 .st-categories {
-  padding: clamp(3.5rem, 7vw, 5.5rem) 0;
+  padding: clamp(2.4rem, 5vw, 3.8rem) 0;
 }
 
 .st-cat-row {
@@ -381,10 +383,10 @@ a {
 }
 
 .st-cat {
-  min-height: 140px;
+  min-height: 110px;
   display: grid;
   place-items: end start;
-  padding: 1.1rem;
+  padding: 1rem;
   color: var(--st-navy);
   border: 1px solid var(--st-line);
   background: linear-gradient(160deg, rgba(255, 255, 255, 0.9), rgba(232, 234, 243, 0.75));
