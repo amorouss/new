@@ -1240,7 +1240,7 @@
       "category": "toner",
       "description_fa": "تونر صورتی کالامین با ۳۰٬۰۰۰ ppm برای تسکین فوری آکنه، پوست حساس و کنترل چربی.",
       "featured": true,
-      "price": 3460000
+      "price": 3150000
     },
     {
       "brand": "Eclat Du Teint",
@@ -3433,7 +3433,8 @@
       "category": "toner",
       "description_fa": "تونر تخصصی کنترل آکنه اکلادو برای پاکسازی منافذ، تعادل چربی و کاهش التهاب پوست مستعد جوش؛ مناسب استفاده روزانه پس از شستشو.",
       "featured": false,
-      "brand": "Eclado"
+      "brand": "Eclado",
+      "price": 2760000
     },
     {
       "line": "NK-CX",
