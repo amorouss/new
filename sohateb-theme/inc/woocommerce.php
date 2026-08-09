@@ -30,6 +30,34 @@ add_action('woocommerce_after_main_content', function (): void {
 add_filter('loop_shop_columns', fn (): int => 4);
 add_filter('loop_shop_per_page', fn (): int => 12);
 
+/**
+ * Flag WooCommerce catalog queries so products with images sort first.
+ */
+add_action('woocommerce_product_query', function (WP_Query $q): void {
+	$q->set('sohateb_prefer_images', true);
+});
+
+/**
+ * Products with a featured image appear before products without one.
+ */
+add_filter('posts_clauses', function (array $clauses, WP_Query $query): array {
+	if (is_admin() || !$query->get('sohateb_prefer_images')) {
+		return $clauses;
+	}
+
+	global $wpdb;
+	$alias = 'st_thumb_img';
+	if (strpos((string) $clauses['join'], $alias) === false) {
+		$clauses['join'] .= " LEFT JOIN {$wpdb->postmeta} AS {$alias} ON ({$wpdb->posts}.ID = {$alias}.post_id AND {$alias}.meta_key = '_thumbnail_id') ";
+	}
+
+	$prefer = "(CASE WHEN {$alias}.meta_value IS NULL OR {$alias}.meta_value = '' OR {$alias}.meta_value = '0' THEN 1 ELSE 0 END) ASC";
+	$orderby = trim((string) $clauses['orderby']);
+	$clauses['orderby'] = $orderby !== '' ? $prefer . ', ' . $orderby : $prefer;
+
+	return $clauses;
+}, 20, 2);
+
 add_filter('woocommerce_product_get_image', function (string $image, $product, string $size, array $attr, bool $placeholder, string $image_html): string {
 	return $image_html;
 }, 10, 6);

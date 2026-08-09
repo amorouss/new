@@ -130,11 +130,12 @@ $pro_url      = $cat_url('professional');
 					$priority_ids = [];
 					foreach (['Eclado', 'Eclat Du Teint'] as $priority_brand) {
 						$pq = new WP_Query([
-							'post_type'      => 'product',
-							'posts_per_page' => 4,
-							'post_status'    => 'publish',
-							'fields'         => 'ids',
-							'meta_query'     => [
+							'post_type'             => 'product',
+							'posts_per_page'        => 4,
+							'post_status'           => 'publish',
+							'fields'                => 'ids',
+							'sohateb_prefer_images' => true,
+							'meta_query'            => [
 								[
 									'key'   => '_featured',
 									'value' => 'yes',
@@ -152,13 +153,14 @@ $pro_url      = $cat_url('professional');
 
 					if (count($priority_ids) < 8) {
 						$fill = new WP_Query([
-							'post_type'      => 'product',
-							'posts_per_page' => 8 - count($priority_ids),
-							'post_status'    => 'publish',
-							'fields'         => 'ids',
-							'post__not_in'   => $priority_ids ?: [0],
-							'meta_key'       => '_featured',
-							'meta_value'     => 'yes',
+							'post_type'             => 'product',
+							'posts_per_page'        => 8 - count($priority_ids),
+							'post_status'           => 'publish',
+							'fields'                => 'ids',
+							'post__not_in'          => $priority_ids ?: [0],
+							'meta_key'              => '_featured',
+							'meta_value'            => 'yes',
+							'sohateb_prefer_images' => true,
 						]);
 						$priority_ids = array_merge($priority_ids, array_map('intval', $fill->posts));
 						wp_reset_postdata();
@@ -176,9 +178,10 @@ $pro_url      = $cat_url('professional');
 					}
 					if (!$q || !$q->have_posts()) {
 						$q = new WP_Query([
-							'post_type'      => 'product',
-							'posts_per_page' => 8,
-							'post_status'    => 'publish',
+							'post_type'             => 'product',
+							'posts_per_page'        => 8,
+							'post_status'           => 'publish',
+							'sohateb_prefer_images' => true,
 						]);
 					}
 					if ($q->have_posts()) {
