@@ -11,12 +11,12 @@ if (!defined('ABSPATH')) {
 	exit;
 }
 
-define('SOHATEB_VERSION', '1.5.6');
+define('SOHATEB_VERSION', '1.5.7');
 define('SOHATEB_DIR', get_template_directory());
 define('SOHATEB_URI', get_template_directory_uri());
 
 /** Temporary public maintenance screen. Set to false to restore the site. */
-define('SOHATEB_MAINTENANCE', true);
+define('SOHATEB_MAINTENANCE', false);
 
 require_once SOHATEB_DIR . '/inc/setup.php';
 require_once SOHATEB_DIR . '/inc/assets.php';
