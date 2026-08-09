@@ -67,11 +67,12 @@ add_action('template_redirect', function (): void {
 	<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Vazirmatn:wght@300;400;500;600&display=swap" rel="stylesheet">
 	<style>
 		:root {
-			--st-navy: #1c2152;
-			--st-navy-deep: #12163a;
-			--st-champagne: #b7a07a;
-			--st-blush: #d8b8b4;
-			--st-paper: #f3f4f8;
+			--st-navy: #0f2747;
+			--st-navy-deep: #0a1b31;
+			--st-champagne: #c8a96a;
+			--st-accent: #2cb7c9;
+			--st-blush: #d8c4a0;
+			--st-paper: #f5f7fa;
 		}
 		* { box-sizing: border-box; }
 		html, body { margin: 0; min-height: 100%; }

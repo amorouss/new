@@ -118,7 +118,7 @@ $pro_url      = $cat_url('professional');
 
 	<section class="st-featured" id="featured" aria-labelledby="st-feat-title">
 		<div class="st-container">
-			<header class="st-section-head st-section-head--light" data-reveal>
+			<header class="st-section-head" data-reveal>
 				<h2 id="st-feat-title"><?php esc_html_e('محصولات منتخب', 'sohateb'); ?></h2>
 				<p><?php esc_html_e('اولویت با محصولات Eclado و Eclat Du Teint.', 'sohateb'); ?></p>
 			</header>
