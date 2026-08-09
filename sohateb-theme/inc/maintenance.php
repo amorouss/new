@@ -84,9 +84,9 @@ add_action('template_redirect', function (): void {
 			color: #f7f8fc;
 			font-family: "Vazirmatn", Tahoma, sans-serif;
 			background:
-				radial-gradient(900px 500px at 90% 10%, rgba(216, 184, 180, 0.22), transparent 55%),
-				radial-gradient(700px 420px at 10% 80%, rgba(183, 160, 122, 0.18), transparent 50%),
-				linear-gradient(160deg, var(--st-navy-deep) 0%, var(--st-navy) 55%, #1a2048 100%);
+				radial-gradient(900px 500px at 90% 10%, rgba(44, 183, 201, 0.18), transparent 55%),
+				radial-gradient(700px 420px at 10% 80%, rgba(200, 169, 106, 0.18), transparent 50%),
+				linear-gradient(160deg, var(--st-navy-deep) 0%, var(--st-navy) 55%, #163557 100%);
 			text-align: center;
 		}
 		.st-maint {
