@@ -17,7 +17,42 @@ add_action('after_setup_theme', function (): void {
 	remove_action('woocommerce_sidebar', 'woocommerce_get_sidebar', 10);
 	remove_action('woocommerce_before_shop_loop', 'woocommerce_result_count', 20);
 	remove_action('woocommerce_before_shop_loop', 'woocommerce_catalog_ordering', 30);
+
+	// Catalog-only for now: hide add-to-cart and reviews UI.
+	remove_action('woocommerce_after_shop_loop_item', 'woocommerce_template_loop_add_to_cart', 10);
+	remove_action('woocommerce_single_product_summary', 'woocommerce_template_single_add_to_cart', 30);
+	remove_action('woocommerce_after_shop_loop_item_title', 'woocommerce_template_loop_rating', 5);
+	remove_action('woocommerce_single_product_summary', 'woocommerce_template_single_rating', 10);
 });
+
+/**
+ * Temporarily disable product reviews / comments on the storefront.
+ */
+add_filter('woocommerce_product_tabs', function (array $tabs): array {
+	unset($tabs['reviews']);
+	return $tabs;
+}, 50);
+
+add_filter('woocommerce_product_review_list_args', function (array $args): array {
+	$args['per_page'] = 0;
+	return $args;
+});
+
+add_filter('comments_open', function (bool $open, int $post_id): bool {
+	if (get_post_type($post_id) === 'product') {
+		return false;
+	}
+	return $open;
+}, 20, 2);
+
+add_filter('woocommerce_product_get_reviews_allowed', '__return_false');
+add_filter('woocommerce_product_variation_get_reviews_allowed', '__return_false');
+
+/**
+ * Keep storefront non-purchasable in the UI while catalog browsing stays intact.
+ */
+add_filter('woocommerce_is_purchasable', '__return_false');
+add_filter('woocommerce_variation_is_purchasable', '__return_false');
 
 add_action('woocommerce_before_main_content', function (): void {
 	echo '<main class="st-main st-shop"><div class="st-container">';

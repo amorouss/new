@@ -1043,3 +1043,20 @@ body.sohateb-theme .woocommerce-store-notice,
 body.sohateb-theme .demo_store {
   display: none !important;
 }
+
+/* Temporarily hide add-to-cart + reviews on the storefront */
+body.sohateb-theme .single-product form.cart,
+body.sohateb-theme .single-product .cart,
+body.sohateb-theme .single-product .single_add_to_cart_button,
+body.sohateb-theme .products .button.add_to_cart_button,
+body.sohateb-theme .products .ajax_add_to_cart,
+body.sohateb-theme .woocommerce-product-rating,
+body.sohateb-theme .star-rating,
+body.sohateb-theme #reviews,
+body.sohateb-theme .woocommerce-Reviews,
+body.sohateb-theme .woocommerce-tabs .reviews_tab,
+body.sohateb-theme .comment-respond,
+body.sohateb-theme #review_form_wrapper,
+body.sohateb-theme .related .button.add_to_cart_button {
+  display: none !important;
+}
