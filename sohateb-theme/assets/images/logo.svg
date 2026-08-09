@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Soha Teb">
+  <rect x="28" y="28" width="144" height="144" fill="none" stroke="#1C2152" stroke-width="3"/>
+  <path d="M58 128c18-42 34-70 52-70 10 0 16 8 16 20 0 26-20 54-48 78" fill="none" stroke="#1C2152" stroke-width="7" stroke-linecap="round"/>
+  <path d="M96 54v92" fill="none" stroke="#1C2152" stroke-width="7" stroke-linecap="round"/>
+  <path d="M74 96h78" fill="none" stroke="#1C2152" stroke-width="6" stroke-linecap="round" transform="rotate(-18 113 96)"/>
+</svg>
