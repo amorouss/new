@@ -1,0 +1,41 @@
+/* ============================================
+   🎨 استایل‌های کامپوننت App
+   ============================================ */
+
+/* لوگو */
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+/* انیمیشن چرخش لوگو (در صورت استفاده) */
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+/* هدر اصلی */
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+/* لینک‌ها */
+.App-link {
+  color: hsl(150, 70%, 20%); /* رنگ Pine Green */
+}
+
+/* انیمیشن چرخش */
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

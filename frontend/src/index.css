@@ -1,0 +1,181 @@
+/* ============================================
+   🎨 ایمپورت فونت وزیرمتن
+   ============================================ */
+@import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;600;700;800;900&display=swap');
+
+/* ============================================
+   📦 Tailwind
+   ============================================ */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ============================================
+   🔧 تنظیمات عمومی
+   ============================================ */
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Vazirmatn', system-ui, -apple-system, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* ============================================
+   🎨 رنگ‌های Pine Green (اصلاح شده)
+   ============================================ */
+@layer base {
+    :root {
+        /* حالت روشن - Pine Green & Warm Gray */
+        --background: 160, 12%, 97%;      /* ✅ اصلاح: اضافه شدن کاما */
+        --foreground: 160, 20%, 12%;
+        --card: 0, 0%, 100%;
+        --card-foreground: 160, 20%, 12%;
+        --popover: 0, 0%, 100%;
+        --popover-foreground: 160, 20%, 12%;
+        --primary: 150, 70%, 20%;         /* ✅ اصلاح: Pine Green واقعی */
+        --primary-foreground: 160, 15%, 97%;
+        --secondary: 160, 8%, 92%;
+        --secondary-foreground: 160, 20%, 15%;
+        --muted: 160, 8%, 93%;
+        --muted-foreground: 160, 8%, 40%;
+        --accent: 150, 40%, 88%;
+        --accent-foreground: 155, 55%, 20%;
+        --destructive: 0, 72%, 45%;       /* ✅ اصلاح: اضافه شدن کاما */
+        --destructive-foreground: 0, 0%, 98%;
+        --border: 160, 10%, 87%;
+        --input: 160, 10%, 88%;
+        --ring: 150, 70%, 30%;            /* ✅ اصلاح: هماهنگ با primary */
+        --radius: 0.75rem;
+    }
+    
+    .dark {
+        /* حالت تاریک - Pine Green عمیق‌تر */
+        --background: 160, 18%, 8%;
+        --foreground: 160, 10%, 95%;
+        --card: 160, 18%, 11%;
+        --card-foreground: 160, 10%, 95%;
+        --popover: 160, 18%, 11%;
+        --popover-foreground: 160, 10%, 95%;
+        --primary: 150, 60%, 40%;         /* ✅ اصلاح: تضاد بهتر در دارک */
+        --primary-foreground: 160, 20%, 8%;
+        --secondary: 160, 15%, 16%;
+        --secondary-foreground: 160, 10%, 95%;
+        --muted: 160, 15%, 15%;
+        --muted-foreground: 160, 8%, 65%;
+        --accent: 155, 30%, 22%;
+        --accent-foreground: 150, 55%, 80%;
+        --destructive: 0, 62%, 42%;
+        --destructive-foreground: 0, 0%, 98%;
+        --border: 160, 15%, 20%;
+        --input: 160, 15%, 20%;
+        --ring: 150, 55%, 50%;
+    }
+}
+
+/* ============================================
+   🔧 استایل‌های پایه
+   ============================================ */
+@layer base {
+    * {
+        @apply border-border;
+    }
+    
+    body {
+        @apply bg-background text-foreground;
+        font-feature-settings: "ss01", "kern";
+    }
+}
+
+/* ============================================
+   🎨 افکت‌های بصری (بهینه شده)
+   ============================================ */
+
+/* ✅ اصلاح: گرین overlay با performance بهتر */
+.grain::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    pointer-events: none;
+    z-index: 0;  /* ✅ اصلاح: z-index پایین‌تر برای عدم تداخل */
+    opacity: 0.035;
+    background-image: url("data:image/svg+xml;utf8,<svg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3' stitchTiles='stitch'/></filter><rect width='100%25' height='100%25' filter='url(%23n)'/></svg>");
+}
+
+/* ✅ اصلاح: ماسک هیرو با syntax استاندارد */
+.hero-mask {
+    background: 
+        linear-gradient(to top, hsl(var(--background)) 4%, transparent 60%),
+        linear-gradient(to left, hsl(var(--background) / 0.6), transparent 55%);
+}
+
+/* ============================================
+   📝 استایل‌های فرم‌ها
+   ============================================ */
+input, 
+textarea,
+select {
+    font-family: 'Vazirmatn', sans-serif;
+}
+
+/* ============================================
+   🛠 استایل‌های دیباگ (با !important)
+   ============================================ */
+@layer base {
+    [data-debug-wrapper="true"] { 
+        display: contents !important;  /* ✅ اصلاح: !important اضافه شد */
+    }
+}
+
+/* ============================================
+   📱 ریسپانسیو بهبودها
+   ============================================ */
+@media (max-width: 640px) {
+    :root {
+        --radius: 0.5rem;  /* گوشه‌های کوچیک‌تر در موبایل */
+    }
+}
+
+/* ============================================
+   🎯 انیمیشن‌های سفارشی
+   ============================================ */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.animate-fade-in {
+    animation: fadeIn 0.5s ease-out forwards;
+}
+
+@keyframes pulse-slow {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.5;
+    }
+}
+
+.animate-pulse-slow {
+    animation: pulse-slow 2s ease-in-out infinite;
+}
+
+/* ============================================
+   🖨️ پرینت استایل
+   ============================================ */
+@media print {
+    .grain::before {
+        display: none;
+    }
+    
+    .no-print {
+        display: none !important;
+    }
+}
